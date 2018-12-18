@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import WOW from 'wow.js';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 class App extends Component {
   componentDidMount() {
