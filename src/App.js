@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import WOW from 'wow.js';
 
 class App extends Component {
+  componentDidMount() {
+    const wow = new WOW();
+    wow.init();
+  }
+
   render() {
     return (
       <div className="App">
@@ -20,6 +26,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        <div className="wow test bounceIn">
+          <h1>Stuff to move</h1>
+        </div>
       </div>
     );
   }

@@ -6,9 +6,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 300vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.test {
+  opacity: 0;
+  transform: rotate(0deg);
+}
+
+.bounceIn {
+  animation: bounce 1000ms ease-in 1 forwards;
+}
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(86deg);
+  }
 }
