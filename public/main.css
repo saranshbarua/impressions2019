@@ -36,6 +36,10 @@ body {
     animation: anim-effect 1.7s cubic-bezier(0.550, 0.055, 0.675, 0.190) forwards;
 }
 
+.appear {
+  animation: appear 3s ease-in forwards;
+}
+
 @keyframes anim-effect{
 	0% {
 		transform: translate3d(-100%, 0, 0);
@@ -67,7 +71,7 @@ body {
     }
     
     100% {
-      opacity: 0.4;
+      opacity: 1;
     }
   }
 
