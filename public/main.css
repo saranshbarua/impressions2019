@@ -101,3 +101,9 @@ body {
       }
     }
   }
+
+  @media (min-width: 800px) {
+    .logo {
+      font-size: 40px;
+    }
+  }
