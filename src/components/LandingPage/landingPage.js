@@ -2,8 +2,10 @@ import React from 'react'
 
 const landingPage = () => {
   return (
-    <div className="">
-        
+    <div className="lp-container">
+        <div className="lp-main">
+
+        </div>
     </div>
   )
 }
