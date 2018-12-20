@@ -38,6 +38,7 @@ body {
 
 .appear {
   animation: appear 3s ease-in forwards;
+  animation-delay: 1s;
 }
 
 @keyframes anim-effect{
@@ -59,7 +60,7 @@ body {
     background-color: #131424;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: white;
     font-size: 100px;
@@ -73,6 +74,10 @@ body {
     100% {
       opacity: 1;
     }
+  }
+
+  .logo {
+    font-size: 25px;
   }
 
   /* Media Queries */
