@@ -3,8 +3,8 @@ import React from 'react'
 const landingPage = () => {
   return (
     <div className="lp-container">
-        <div className="lp-main">
-            Impressions
+        <div className="lp-main pf-400">
+            Feel the wanderlust
         </div>
     </div>
   )

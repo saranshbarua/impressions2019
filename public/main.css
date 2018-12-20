@@ -1,20 +1,28 @@
 body {
     margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 /* Fonts */
 .pf-400 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
 }
 
 .pf-700 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 700;
 }
 
-.lato {
+.lato-300 {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.lato-400 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .main {
@@ -23,7 +31,7 @@ body {
 
 .lp-container {
     min-height: 100vh;
-    background-color: #021b39;
+    background-color: white;
     transform: translate3d(-100%, 0, 0); 
     animation: anim-effect 1.7s cubic-bezier(0.550, 0.055, 0.675, 0.190) forwards;
 }
@@ -44,14 +52,13 @@ body {
 
 .lp-main {
     height: 100vh;
-    background-image: url(https://moat.gg/forums/uploads/monthly_2018_04/underwater-wallpaper-4.jpeg.6f9a9db935cc72adfa4bf1f17aa17bcc.jpeg);
-    opacity: 0;
-    background-size: cover;
-    animation: appear 700ms cubic-bezier(0.550, 0.055, 0.675, 0.190) forwards;
-    animation-delay: 2s;
+    background-color: #131424;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 100px;
 }
 
 @keyframes appear {
