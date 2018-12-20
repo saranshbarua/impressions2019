@@ -18,9 +18,9 @@ const landingPage = () => {
                 </span>
               </div>
               <div className="lp-link-boxes lp-link-box-two">
-                <span className="lato-400 small-lato">WHEN IS IT</span>
+                <span className="lato-400 small-lato">WHAT IS IT</span>
                 <span className="pf-400 date">
-                  24th Feb 2019
+                  About Impressions
                 </span>
               </div>
             </div>
