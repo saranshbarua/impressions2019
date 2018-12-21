@@ -1,12 +1,13 @@
 import React from 'react'
 import Slide from 'react-reveal'
+import Fade from 'react-reveal/Fade'; 
 
 const AboutSection = () => {
   return (
     <div className="about-section" id="aboutSection">
       <div className="about-content">
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>01</span> IMPRESSIONS</span>
-        <span className="pf-400 section-heading">All you need to know</span>
+        <Fade duration={500} top cascade><span className="pf-400 section-heading">All you need to know</span></Fade>
         <Slide bottom>
           <p className="lato-400 about">
           Impressions, the annual techno-cultural festival of Jaypee Institute of Information Technology, Sector 62, Noida, is a two day pulsating festival with an array of events, 
