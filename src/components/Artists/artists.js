@@ -19,8 +19,8 @@ const Artists = () => {
             The fest has also seen international artists like Rave Radio, Candice Redding and Club Banditz.
             </p>
           </Slide>
+          <ArtistCarousel />
       </div>
-      <ArtistCarousel />
     </div>
   )
 }

@@ -5,17 +5,16 @@ export default class ArtistCarousel extends Component {
   render() {
     const settings = {
       className: "center",
-      centerMode: true,
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 3,
       speed: 500,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 800,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             infinite: true,
             dots: true
           }
@@ -27,13 +26,6 @@ export default class ArtistCarousel extends Component {
             slidesToScroll: 2,
             initialSlide: 2
           }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
         }
       ]
     };
@@ -42,7 +34,7 @@ export default class ArtistCarousel extends Component {
         <Slider {...settings}>
           <div>
             <div className="artist-card">
-            
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
             </div>
           </div>
           <div>
