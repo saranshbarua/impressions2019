@@ -1,7 +1,7 @@
 body {
     margin: 0px;
-    /* -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
 }
 
@@ -158,6 +158,13 @@ body {
 	margin-bottom: 5px;
 }
 
+/* About Section */
+
+.about-section {
+	min-height : 100vh;
+	background-color: #131424;
+}
+
 /* Media Queries */
 
 @media (min-width: 600px) {
@@ -264,5 +271,10 @@ body {
 	
 	.lp-link-box-two:hover .lp-link-box-one {
 		border-right: 0px;
+	}
+
+	.about-section {
+		transform: scaleX(0.98) scaleY(0.965);
+		margin-top: -12px;
 	}
 }

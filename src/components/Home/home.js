@@ -4,6 +4,7 @@ import WOW from 'wow.js'
 //Sections
 
 import LandingPage from '../LandingPage/landingPage'
+import AboutSection from '../AboutSection/aboutSection'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -15,6 +16,7 @@ export default class Home extends Component {
     return (
       <div className="main">
         <LandingPage />
+        <AboutSection />
       </div>
     )
   }
