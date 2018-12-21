@@ -10,7 +10,7 @@ const Artists = () => {
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>02</span> PREVIOUS ARTISTS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Superstars</span></Fade>
         <Slide bottom>
-            <p className="lato-400 about" style={{marginTop: '40px', textAlign: 'center', padding: '0px 15px'}}>
+            <p className="lato-400 about artist">
             Over the years, Impressions has witnessed the presence of celebrities like Nikhil D’souza with Band, SUNBURN Campus, Vh1 Supersonic 101 with prominent artists performing there. 
             Nikhil Chinapa, who is a VJ, RJ and actor as well as a host of reality shows such as MTV Splitsvilla 
             and India’s Got Talent has graced the stage at Impressions. Extremely well known Punjabi artists like Yo Yo Honey Singh and Musical Doctorz Sukh E with mass fan following have also performed here as well as Kailash Kher, 

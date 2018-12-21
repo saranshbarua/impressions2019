@@ -225,6 +225,12 @@ body {
 	padding-bottom: 50px;
 }
 
+.artist {
+	margin-top: 40px;
+	text-align: center;
+	padding: 0px 15px;
+}
+
 .artist-card {
 	height: 300px;
 	border: 1px solid white;
@@ -265,6 +271,14 @@ body {
 	
 	.lp-link-box-two:hover .lp-link-box-one {
 		border-right: 0px;
+	}
+
+	.artist-container {
+		padding-top: 50px;
+	}
+
+	.artist {
+		padding: 10px 40px;
 	}
 }
 
@@ -371,5 +385,10 @@ body {
 
 	.about-image > img {
 		width: 100%;
+	}
+
+	.artist {
+		padding: 30px 140px 0px 140px;
+		text-align: center;
 	}
 }
