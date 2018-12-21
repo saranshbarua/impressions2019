@@ -5,6 +5,7 @@ import WOW from 'wow.js'
 
 import LandingPage from '../LandingPage/landingPage'
 import AboutSection from '../AboutSection/aboutSection'
+import SimpleSlider from '../Carousel/carousel'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -17,6 +18,7 @@ export default class Home extends Component {
       <div className="main">
         <LandingPage />
         <AboutSection />
+        <SimpleSlider />
       </div>
     )
   }
