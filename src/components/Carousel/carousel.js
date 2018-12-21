@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class SimpleSlider extends Component {
+export default class ArtistCarousel extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
     };
     return (
-      <div>
-        <h2> Single Item</h2>
+      <div className="caro">
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+          <div style={{border: '1px solid red'}}>
+            
           </div>
           <div>
             <h3>2</h3>

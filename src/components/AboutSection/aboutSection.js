@@ -1,6 +1,6 @@
 import React from 'react'
 import Slide from 'react-reveal'
-import Fade from 'react-reveal/Fade'; 
+import Fade from 'react-reveal/Fade'
 
 const AboutSection = () => {
   return (
