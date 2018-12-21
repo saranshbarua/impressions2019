@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const landingPage = () => {
   return (
@@ -11,18 +12,18 @@ const landingPage = () => {
               </span>
             </div>
             <div className="lp-link-box">
-              <div className="lp-link-boxes lp-link-box-one">
+              <AnchorLink className="lp-link-boxes lp-link-box-one">
                 <span className="lato-400 small-lato">WHEN IS IT</span>
                 <span className="pf-400 date">
                   24th Feb 2019
                 </span>
-              </div>
-              <div className="lp-link-boxes lp-link-box-two">
+              </AnchorLink>
+              <AnchorLink href="#aboutSection" className="lp-link-boxes lp-link-box-two">
                 <span className="lato-400 small-lato">WHAT IS IT</span>
                 <span className="pf-400 date">
                   About Impressions
                 </span>
-              </div>
+              </AnchorLink>
             </div>
         </div>
     </div>

@@ -7806,6 +7806,11 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-anchor-link-smooth-scroll@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/react-anchor-link-smooth-scroll/-/react-anchor-link-smooth-scroll-1.0.11.tgz#e53f55b89382df0d85470ebd20e6b349d62eb19d"
+  integrity sha512-PaAFtqs00eXbbYPTaiG7sEL2EkVfs+PiarzMnMN66JQWamORiNOzyhumW2tImKeKFUZeFdifqz9iJy/2e4RLnw==
+
 react-app-polyfill@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-0.1.3.tgz#e57bb50f3751dac0e6b3ac27673812c68c679a1d"

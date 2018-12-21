@@ -121,6 +121,8 @@ body {
 .lp-link-box-two {
 	border: 0.5px solid rgba(255,255,255,0.35);
 	border-top: 0px;
+	text-decoration: none;
+	color: inherit;
 }
 
 .lp-link-box-one:hover {
