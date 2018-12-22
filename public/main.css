@@ -64,6 +64,9 @@ body {
     align-items: center;
 	color: white;
 	position: relative;
+	background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg);
+	background-size: cover;
+	
 }
 
 @keyframes appear {
@@ -88,8 +91,8 @@ body {
   align-items: center;
   align-content: center;
   font-size: 60px;
-	text-align: center;
-	opacity: 0;
+  text-align: center;
+  opacity: 0;
 }
 
 .lp-link-box {
@@ -398,7 +401,8 @@ body {
 	}
 
 	.about-image > img {
-		width: 100%;
+		width: auto;
+		height: 90%;
 	}
 
 	.artist-container {
