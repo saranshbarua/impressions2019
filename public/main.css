@@ -82,7 +82,7 @@ body {
 
 .tagline-container {
   width: 80%;
-  min-height: 55vh;
+  min-height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +96,7 @@ body {
 	width: 87vw;
 	height: 200px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 80px;
 	display: flex;
 	flex-direction: column;
 	background-color: rgba(19,20,36,.85);
@@ -194,7 +194,7 @@ body {
 
 .about-image {
 	width: 100%;
-	height: 60vh;
+	min-height: 35vh;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -393,8 +393,8 @@ body {
 		width: 50%;
 		height: 100vh;
 		flex-direction: column;
-		justify-content: flex-start;
-		padding-top: 100px;
+		justify-content: center;
+		padding-top: 50px;
 	}
 
 	.about-image > img {

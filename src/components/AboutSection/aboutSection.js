@@ -21,7 +21,7 @@ const AboutSection = () => {
         </Slide>
       </div>
       <div className="about-image">
-        <img src="http://www.hibridblog.com/wp-content/uploads/2016/11/gypsea-lust-6.jpg" alt="Top view"/>
+        <img src="http://www.littlecelt.net/wp-content/uploads/2012/01/large_2460883111.jpg" alt="Top view"/>
       </div>
     </div>
   )
