@@ -12,6 +12,7 @@ body {
 }
 
 .pf-700 {
+	font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -66,7 +67,7 @@ body {
 	position: relative;
 	background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg);
 	background-size: cover;
-	
+	background-position: center;
 }
 
 @keyframes appear {
@@ -208,6 +209,13 @@ body {
 	height: auto;
 }
 
+.cta-event {
+	min-height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* Artists */
 
 .artist-container {
@@ -256,11 +264,39 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
 	padding: 10px 20px 50px 20px;
 	color: white;
+	overflow: hidden;
 }
 
+.event-heading {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.event-heading > img {
+	height: 200px;
+	transform: translateX(200px)
+}
+
+.cta-event {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.event-button {
+	height: 50px;
+	width: 200px;
+	background-color: #fafafa;
+	border-radius: 4px;
+	box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.9);
+	font-size: 15px;
+	color: #131424;
+}
 
 /* Media Queries */
 
@@ -433,5 +469,24 @@ body {
 		transform: scaleX(0.98) scaleY(0.965);
 		/* margin-top: -12px; */
 		flex-direction: row;
+	}
+
+	.event-heading {
+		min-height: 40vh;
+		display: flex;
+		justify-content: center;
+		padding-left: 140px;
+		padding-top: 40px;
+	}
+
+	.cta-event {
+		min-height: 40vh;
+		padding-top: 70px;
+	}
+
+	.event-button {
+		height: 80px;
+		width: 300px;
+		font-size: 23px;
 	}
 }
