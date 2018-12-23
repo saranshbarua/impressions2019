@@ -1,5 +1,5 @@
 import React from 'react'
-import ArtistCarousel from '../Carousel/carousel'
+// import ArtistCarousel from '../Carousel/carousel'
 import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 
