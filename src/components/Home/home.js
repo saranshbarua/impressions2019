@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import WOW from 'wow.js'
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faAlignJustify, faAlignRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faAlignJustify, faAlignRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Fade from 'react-reveal/Fade'
 
 //Sections
 
@@ -23,9 +24,11 @@ export default class Home extends Component {
   render() {
     return (
       <div className="main">
-        <div className="hamburger">
-          <FontAwesomeIcon icon="align-right" />
-        </div>
+        <Fade delay={2800}>
+          <div className="hamburger">
+            <FontAwesomeIcon icon="align-right" />
+          </div>
+        </Fade>
         <LandingPage />
         <AboutSection />
         <Artists />
