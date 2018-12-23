@@ -7,6 +7,7 @@ import LandingPage from '../LandingPage/landingPage'
 import AboutSection from '../AboutSection/aboutSection'
 import Artists from '../Artists/artists'
 import EventSection from '../EventSection/eventSection'
+import Sponsors from '../Sponsors/sponsors'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -21,6 +22,7 @@ export default class Home extends Component {
         <AboutSection />
         <Artists />
         <EventSection />
+        <Sponsors />
       </div>
     )
   }
