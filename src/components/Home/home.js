@@ -6,6 +6,7 @@ import WOW from 'wow.js'
 import LandingPage from '../LandingPage/landingPage'
 import AboutSection from '../AboutSection/aboutSection'
 import Artists from '../Artists/artists'
+import EventSection from '../EventSection/eventSection'
 
 export default class Home extends Component {
   componentDidMount() {
@@ -19,6 +20,7 @@ export default class Home extends Component {
         <LandingPage />
         <AboutSection />
         <Artists />
+        <EventSection />
       </div>
     )
   }
