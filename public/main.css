@@ -120,7 +120,8 @@ body {
     align-items: center;
 	color: white;
 	position: relative;
-	background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg);
+	/* background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg); */
+	background-image: url(./main.png);
 	background-size: cover;
 	background-position: center;
 }
