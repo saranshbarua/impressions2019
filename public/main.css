@@ -27,7 +27,26 @@ body {
 }
 
 .main {
-    min-height: 100vh;
+	min-height: 100vh;
+	position: relative;
+}
+
+.hamburger {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	z-index: 2;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #131424;
+}
+
+.hamburger:hover {
+	cursor: pointer;
 }
 
 .lp-container {
@@ -360,6 +379,10 @@ body {
 		width: 200px;
 		margin: 0px 0px;
 	}
+
+	.sponsors-container {
+		padding-top: 50px;
+	}
 }
 
 @media (min-width: 800px) {
@@ -506,5 +529,13 @@ body {
 	.sponsors-container {
 		transform: scaleX(0.98) scaleY(0.965);
 		margin-top: -5px;
+		padding-top: 50px;
+	}
+
+	.hamburger {
+		right: 30px;
+		top: 30px;
+		height: 50px;
+		width: 50px;
 	}
 }
