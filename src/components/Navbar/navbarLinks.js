@@ -1,11 +1,12 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-const NavbarLinks = () => {
+const NavbarLinks = (props) => {
   
   return (
     <div>
       <ul>
-          <li>About Impressions</li>
+          <li><AnchorLink href="#aboutSection" onClick={props.closeTheNav}>About Impressions</AnchorLink></li>
           <li>Artists</li>
           <li>Events</li>
           <li>Sponsors</li>

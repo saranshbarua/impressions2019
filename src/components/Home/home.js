@@ -50,7 +50,7 @@ export default class Home extends Component {
             <FontAwesomeIcon icon="align-right" />
           </div>
         </Fade>
-        <Navbar navState={this.state.isNavbar}/>
+        <Navbar closeNav={this.toggleNavbar} navState={this.state.isNavbar}/>
         <LandingPage />
         <AboutSection />
         <Artists />

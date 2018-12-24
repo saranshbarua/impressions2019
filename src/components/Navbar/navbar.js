@@ -6,7 +6,7 @@ const Navbar = (props) => {
     case(true):
       return (
         <div className="nav navbar-open">
-          <NavbarLinks />
+          <NavbarLinks closeTheNav={props.closeNav} />
         </div>
       )
     case(false):
