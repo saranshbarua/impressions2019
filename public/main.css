@@ -118,6 +118,33 @@ body {
 	}
 }
 
+.ul-test {
+	padding: 0px !important;
+	text-align: center;
+}
+
+.ul-test > li {
+	list-style-type: none;
+	text-decoration: none;
+	outline: none;
+	color: white;
+	margin: 20px;
+}
+
+.nav-links {
+	text-decoration: none;
+	outline: none;
+	color: white;
+	font-size: 30px;
+	transition: all 300ms ease-in-out;
+	display: inline-block;
+	padding: 10px;
+}
+
+.nav-links:hover {
+	transform: translateX(30px);
+}
+
 .lp-container {
     min-height: 100vh;
     background-color: white;
@@ -481,6 +508,10 @@ body {
 	.sponsors-container {
 		padding-top: 50px;
 	}
+
+	.nav-links {
+		font-size: 40px;
+	}
 }
 
 @media (min-width: 800px) {
@@ -635,5 +666,9 @@ body {
 		top: 30px;
 		height: 50px;
 		width: 50px;
+	}
+
+	.nav-links {
+		font-size: 60px;
 	}
 }

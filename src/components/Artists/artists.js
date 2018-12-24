@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade'
 const Artists = () => {
   return (
     <div>
-      <div className="artist-container">
+      <div className="artist-container" id="artistsSection">
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>02</span> PREVIOUS ARTISTS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Superstars</span></Fade>
         <Slide bottom>

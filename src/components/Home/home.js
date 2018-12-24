@@ -3,7 +3,6 @@ import WOW from 'wow.js'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faAlignJustify, faAlignRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Fade from 'react-reveal/Fade'
 
 //Sections
 

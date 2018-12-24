@@ -5,13 +5,12 @@ const NavbarLinks = (props) => {
   
   return (
     <div>
-      <ul>
-          <li><AnchorLink href="#aboutSection" onClick={props.closeTheNav}>About Impressions</AnchorLink></li>
-          <li>Artists</li>
-          <li>Events</li>
-          <li>Sponsors</li>
-          <li>Team</li>
-          <li>Contact Us</li>
+      <ul className="ul-test">
+          <li><AnchorLink className="pf-400 nav-links" href="#aboutSection" onClick={props.closeTheNav}>About</AnchorLink></li>
+          <li><AnchorLink className="pf-400 nav-links" href="#artistsSection" onClick={props.closeTheNav}>Artists</AnchorLink></li>
+          <li><AnchorLink className="pf-400 nav-links" href="#eventsSection" onClick={props.closeTheNav}>Events</AnchorLink></li>
+          <li><AnchorLink className="pf-400 nav-links" href="#sponsorsSection" onClick={props.closeTheNav}>Sponsors</AnchorLink></li>
+          {/* <li><AnchorLink href="#aboutSection" onClick={props.closeTheNav}>About Impressions</AnchorLink></li> */}
       </ul>
     </div>
   )

@@ -4,7 +4,7 @@ import Slide from 'react-reveal/Slide'
 
 const EventSection = () => {
   return (
-    <div className="event-section">
+    <div className="event-section" id="eventsSection">
       <div className="event-heading">
          <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>03</span> PARTICIPATE AND WIN</span>
          <Fade duration={700} top cascade><span className="pf-400 section-heading">Events</span></Fade>
