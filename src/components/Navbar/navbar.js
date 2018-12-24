@@ -1,23 +1,24 @@
 import React from 'react'
+import NavbarLinks from './navbarLinks'
 
 const Navbar = (props) => {
   switch(props.navState) {
     case(true):
       return (
         <div className="nav navbar-open">
-          Navbar open
+          <NavbarLinks />
         </div>
       )
     case(false):
       return (
         <div className="nav navbar-close">
-          Navbar close
+          <NavbarLinks />
         </div>
       )
     default:
     return (
       <div className="nav">
-        Navbar close
+        <NavbarLinks />
       </div>
     )
   }
