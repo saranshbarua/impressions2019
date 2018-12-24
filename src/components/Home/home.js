@@ -45,11 +45,9 @@ export default class Home extends Component {
   render() {
     return (
       <div className="main">
-        <Fade delay={2800}>
-          <div className="hamburger" onClick={this.toggleNavbar}>
+          <div className="hamburger ham-appear" onClick={this.toggleNavbar}>
             <FontAwesomeIcon icon="align-right" />
           </div>
-        </Fade>
         <Navbar closeNav={this.toggleNavbar} navState={this.state.isNavbar}/>
         <LandingPage />
         <AboutSection />

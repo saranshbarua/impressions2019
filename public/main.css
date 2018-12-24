@@ -44,11 +44,27 @@ body {
 	align-items: center;
 	color: rgba(255,255,255,0.6);
 	transition: all 300ms ease-in-out;
+	opacity: 0;
 }
 
 .hamburger:hover {
 	cursor: pointer;
 	color: white;
+}
+
+.ham-appear {
+	animation: ham-app 400ms ease-in 1 forwards;
+	animation-delay: 2800ms;
+}
+
+@keyframes ham-app {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 /* Navbar */
