@@ -17,7 +17,7 @@ const EventSection = () => {
         </Slide>
       </div>
       <div className="cta-event">
-        <button className="event-button pf-400">Register here</button>
+        <a href="/events" className="event-button pf-400">Register here</a>
       </div>
     </div>
   )
