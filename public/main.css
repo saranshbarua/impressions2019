@@ -461,6 +461,23 @@ body {
 	color: white;
 }
 
+/* Events Page */
+
+.events-page {
+	min-height: 100vh;
+	background-color: #131424;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 20px 50px 20px;
+	color: white;	
+}
+
+.ev-head {
+	
+}
+
 /* Media Queries */
 
 @media (min-width: 600px) {
@@ -676,5 +693,9 @@ body {
 
 	.nav-links {
 		font-size: 60px;
+	}
+
+	.events-page {
+		transform: scaleX(0.98) scaleY(0.965);
 	}
 }

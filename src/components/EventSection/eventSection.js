@@ -1,6 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import  { Link } from 'react-router-dom'
 
 const EventSection = () => {
   return (
@@ -17,7 +18,7 @@ const EventSection = () => {
         </Slide>
       </div>
       <div className="cta-event">
-        <a href="/events" className="event-button pf-400">Register here</a>
+        <Link to="/events"><button className="event-button pf-400">Register here</button></Link>
       </div>
     </div>
   )
