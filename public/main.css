@@ -516,6 +516,17 @@ body {
 	padding-left: 10px;
 }
 
+.team-section {
+	min-height: 100vh;
+	background-color: #131424;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 20px 50px 20px;
+	color: white;	
+}
+
 /* Media Queries */
 
 @media (min-width: 600px) {
@@ -788,5 +799,10 @@ body {
 	.event-count {
 		margin-top: 5px;
 		font-size: 13px;
+	}
+
+	.team-section {
+		transform: scaleX(0.98) scaleY(0.965);
+		margin-top: -12px;
 	}
 }
