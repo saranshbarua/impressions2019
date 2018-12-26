@@ -1,5 +1,5 @@
 import React from 'react'
-// import ArtistCarousel from '../Carousel/carousel'
+import ArtistCarousel from '../Carousel/carousel'
 import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 
@@ -19,7 +19,7 @@ const Artists = () => {
             The fest has also seen international artists like Rave Radio, Candice Redding and Club Banditz.
             </p>
           </Slide>
-          {/* <ArtistCarousel /> */}
+          <ArtistCarousel />
       </div>
     </div>
   )

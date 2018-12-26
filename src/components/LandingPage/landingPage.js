@@ -1,9 +1,7 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Fade from 'react-reveal/Fade'
-
 import { Component } from 'react'
-import { Transform } from 'stream';
 
 export default class landingPage extends Component {
   constructor(props) {
@@ -22,7 +20,6 @@ export default class landingPage extends Component {
   }
 
   render() {
-    var xpos = this.state.x;
     let halfW = window.innerWidth / 2;
     let halfH = window.innerHeight / 2;
     let degX = (this.state.x / halfH ) * 10;
@@ -38,6 +35,7 @@ export default class landingPage extends Component {
               <div style={{
                 transformStyle: 'preserve-3d',
                 backfaceVisibility: 'hidden',
+                transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)',
                 transform: `perspective( 600px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX(${degX}deg) rotateY(${degY}deg)`
               }}>
                 Feel the Wanderlust

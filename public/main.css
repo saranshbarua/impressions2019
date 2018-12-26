@@ -353,11 +353,48 @@ body {
 	height: auto;
 }
 
-.cta-event {
-	min-height: 100px;
+.team-section {
+	min-height : 50vh;
+	background-color: #131424;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+.team-heading {
+	font-size: 42px;
+}
+
+.team-content {
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: white;
+	word-break: break-word;
+	padding: 30px 20px 0px 24px;
+}
+
+.about {
+	color: rgba(255,255,255,0.67);
+	line-height: 26px;
+	font-size: 14px;
+}
+
+.team-image {
+	width: 100%;
+	min-height: 35vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid lime;
+}
+
+.team-image > img {
+	width: 90%;
+	height: auto;
 }
 
 /* Artists */
@@ -387,11 +424,13 @@ body {
 }
 
 .artist-card {
-	height: 210px;
+	height: 310px;
 	width: 210px;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
 	border-radius: 5px;
 	margin: 0px 20px;
-	box-shadow: 0px 5px 20px 0px black;
 }
 
 .artist-card > img {
@@ -443,6 +482,13 @@ body {
 	text-decoration: none;
 	outline: none;
 	color: #131424;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-event {
+	min-height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -517,7 +563,7 @@ body {
 }
 
 .team-section {
-	min-height: 100vh;
+	min-height: 50vh;
 	background-color: #131424;
 	display: flex;
 	flex-direction: column;
@@ -571,10 +617,10 @@ body {
 		padding: 10px 40px;
 	}
 
-	.artist-card {
+	.artist-card > img {
 		height: 200px;
 		width: 200px;
-		margin: 0px 0px;
+		margin: 0px 10px;
 	}
 
 	.sponsors-container {
@@ -804,5 +850,29 @@ body {
 	.team-section {
 		transform: scaleX(0.98) scaleY(0.965);
 		margin-top: -12px;
+		flex-direction: row;
+	}
+
+	.team-heading {
+		font-size: 70px;
+	}
+
+	.team-content {
+		width: 50%;
+		padding-top: 80px;
+		padding-left: 140px;
+	}
+
+	.team-image {
+		width: 50%;
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.team-image > img {
+		width: auto;
+		height: 90%;
 	}
 }
