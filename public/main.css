@@ -389,7 +389,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid lime;
 }
 
 .team-image > img {
@@ -869,10 +868,6 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		overflow: hidden;
-	}
-
-	.team-image > img {
-		width: auto;
-		height: 90%;
+		padding-top: 150px;
 	}
 }

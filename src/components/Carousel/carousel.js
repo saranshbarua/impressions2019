@@ -2,16 +2,19 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 
 export default class ArtistCarousel extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     var settings = {
-      dots: true,
+      dots: this.props.dots,
       infinite: false,
       speed: 500,
-      slidesToShow: 4,
+      slidesToShow: 1,
       slidesToScroll: 1,
       initialSlide: 0,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 2000,
       responsive: [
         {
           breakpoint: 1024,
@@ -47,19 +50,19 @@ export default class ArtistCarousel extends Component {
               justifyContent: 'center',
               alignItems: 'center'
             }}>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
+              <img height="300px" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
             </div>
 
             <div className="artist-card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
+              <img height="300px" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
             </div>
 
             <div className="artist-card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
+              <img height="300px" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
             </div>
 
             <div className="artist-card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
+              <img height="300px" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/NikhilDSouza_WikiCommons.jpg" alt="nikhil"/>
             </div>
 
             <div className="artist-card">

@@ -45,7 +45,7 @@ export default class Team extends Component {
         </Slide>
       </div>
       <div className="team-image">
-        <ArtistCarousel />
+        <ArtistCarousel dots="false" />
       </div>
     </div>
     )
