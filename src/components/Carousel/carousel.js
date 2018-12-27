@@ -1,13 +1,32 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" , marginRight: '-660px'}}
+      onClick={onClick}
+    />
+  );
+}
+
 export default class ArtistCarousel extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     var settings = {
-      dots: this.props.dots,
+      dots: true,
       infinite: false,
       speed: 500,
       slidesToShow: 1,
@@ -15,6 +34,8 @@ export default class ArtistCarousel extends Component {
       initialSlide: 0,
       autoplay: true,
       autoplaySpeed: 4000,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
       responsive: [
         {
           breakpoint: 1024,

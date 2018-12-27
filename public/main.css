@@ -571,6 +571,10 @@ body {
 	color: white;	
 }
 
+.slick-dots li button:before {
+    color: white !important;
+  }
+
 /* Media Queries */
 
 @media (min-width: 600px) {
