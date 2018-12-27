@@ -1,5 +1,4 @@
 import React from 'react'
-// import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 
 const Sponsors = () => {
@@ -7,7 +6,6 @@ const Sponsors = () => {
     <div className="sponsors-container" id="sponsorsSection">
        <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>04</span> SPONSORS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Our Partners</span></Fade>
-        
     </div>
   )
 }

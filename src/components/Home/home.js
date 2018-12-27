@@ -13,6 +13,7 @@ import Artists from '../Artists/artists'
 import EventSection from '../EventSection/eventSection'
 import Sponsors from '../Sponsors/sponsors'
 import Team from '../Team/team'
+import ContactUs from '../ContactUs/contactUs'
 
 library.add(faAlignJustify, faAlignRight);
 
@@ -55,6 +56,7 @@ export default class Home extends Component {
         <EventSection />
         <Sponsors />
         <Team />
+        <ContactUs />
       </div>
     )
   }
