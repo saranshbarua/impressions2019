@@ -429,7 +429,6 @@ body {
 	justify-content: center !important;
 	align-items: center !important;
 	border-radius: 5px;
-	margin: 0px 20px;
 }
 
 .artist-card > img {
@@ -617,8 +616,8 @@ body {
 	}
 
 	.artist-card > img {
-		height: 200px;
-		width: 200px;
+		height: 300px;
+		width: auto;
 		margin: 0px 10px;
 	}
 
