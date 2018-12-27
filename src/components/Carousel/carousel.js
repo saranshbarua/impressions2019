@@ -14,7 +14,7 @@ export default class ArtistCarousel extends Component {
       slidesToScroll: 1,
       initialSlide: 0,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 4000,
       responsive: [
         {
           breakpoint: 1024,
