@@ -323,6 +323,11 @@ body {
 	font-size: 42px;
 }
 
+.section-subheading {
+	font-size: 30px;
+	margin-top: 40px;
+}
+
 .about-content {
 	min-height: 83vh;
 	display: flex;
@@ -772,6 +777,11 @@ body {
 
 	.section-heading {
 		font-size: 70px;
+	}
+
+	.section-subheading {
+		font-size: 40px;
+		margin-top: 25px;
 	}
 
 	.about-content {
