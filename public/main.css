@@ -467,6 +467,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-height: 100px;
+}
+
+.cta-event:hover {
+	cursor: default;
+	pointer-events: none;
 }
 
 .event-button {
@@ -483,13 +489,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.cta-event {
-	min-height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	opacity: 0.5;
+	pointer-events: none;
 }
 
 /* Sponsors*/
