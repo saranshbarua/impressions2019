@@ -215,7 +215,7 @@ body {
 	color: white;
 	position: relative;
 	/* background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg); */
-	background-image: url(./main.png);
+	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/dallas-texas-skyline-01-paul-kyegombe.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -599,7 +599,11 @@ body {
 .map {
 	width: 100%;
 	height: 250px;
-	border: 1px solid red;
+	overflow: hidden;
+}
+
+.map-link {
+	
 }
 
 .cp-box {
@@ -946,6 +950,7 @@ body {
 	.contact-section {
 		transform: scaleX(0.98) scaleY(0.965);
 		margin-top: -9px;
+		padding-top: 50px;
 	}
 
 	.cp-boxes {
