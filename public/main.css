@@ -696,6 +696,10 @@ body {
 	.cp-box {
 		width: 100%;
 	}
+
+	.map {
+		height: 350px;
+	}
 }
 
 @media (min-width: 800px) {
@@ -953,5 +957,14 @@ body {
 
 	.new-date {
 		font-size: 21px;
+	}
+
+	.map {
+		width: 70%;
+		height: 450px;
+	}
+
+	.venue {
+		font-size: 30px;
 	}
 }
