@@ -39,7 +39,8 @@ export default class landingPage extends Component {
                 transform: `perspective( 600px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX(${degX}deg) rotateY(${degY}deg)`
               }}>
                 <span style={{
-                  color: '#223637'
+                  color: '#223637',
+                  fontFamily: 'Kaushan Script'
                 }}>Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
