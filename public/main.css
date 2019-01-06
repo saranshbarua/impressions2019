@@ -38,7 +38,7 @@ body {
 	z-index: 3;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(19,20,36,.85);
+	background-color: rgba(19,20,36,.65);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -261,7 +261,7 @@ body {
 .lp-link-box-one {
 	border: 0.5px solid rgba(255,255,255,0.35);
 	opacity: 0;
-	background-color: rgba(19,20,36,.85);
+	background-color: rgba(19,20,36,.65);
 	transform: translateX(-30px);
 }
 
@@ -271,7 +271,7 @@ body {
 	text-decoration: none;
 	color: inherit;
 	opacity: 0;
-	background-color: rgba(19,20,36,.85);
+	background-color: rgba(19,20,36,.65);
 	transform: translateX(30px);
 }
 
