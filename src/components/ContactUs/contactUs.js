@@ -42,8 +42,20 @@ const ContactUs = () => {
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
               <span className="lato-400 small-lato">SOCIAL MEDIA</span>
               <span className="pf-400 date new-date">
-                Follow 
-                <div><FontAwesomeIcon icon="twitter" /></div>
+                Follow - &nbsp;
+                  <FontAwesomeIcon 
+                    icon={["fab", "facebook"]}
+                    style={{
+                      margin: '0px 5px'
+                    }}
+                  /> 
+                  <FontAwesomeIcon 
+                    icon={["fab", "instagram"]}
+                    style={{
+                      margin: '0px 5px'
+                    }}
+                  />
+                {/* <div></div> */}
               </span>
             </div>
     </div>
