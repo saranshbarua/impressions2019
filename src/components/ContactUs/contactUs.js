@@ -20,10 +20,18 @@ const ContactUs = () => {
       </div>
       <div className="lp-link-box cp-box">
             <div className="lp-link-boxes lp-link-box-one cp-boxes">
+              <a href="mailto:saranshbarua@gmail.com" style={{
+                display: 'flex',
+                flexDirection: 'column',
+                textAlign: 'center',
+                color: 'white',
+                textDecoration: 'none'
+              }}>
               <span className="lato-400 small-lato">EMAIL</span>
               <span className="pf-400 date new-date">
                 saranshbarua@gmail.com
               </span>
+              </a>
             </div>
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
               <span className="lato-400 small-lato">PHONE</span>
