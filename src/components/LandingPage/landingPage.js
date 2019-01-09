@@ -22,11 +22,26 @@ export default class landingPage extends Component {
   render() {
     let halfW = window.innerWidth / 2;
     let halfH = window.innerHeight / 2;
-    let degX = (this.state.x / halfH ) * 5;
-    let degY = (this.state.y / halfW) * -5;
+    let degX = (this.state.x / halfH ) * 6;
+    let degY = (this.state.y / halfW) * -6;
     return (
       <div onMouseMove={(e) => {this.handleMouse(e)}} className="lp-container">
         <div className="lp-main pf-400">
+          <div className="frame">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame frame-one">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+            </div>
+          </div>
+          {/* <div className="frame frame-2">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+            </div>
+          </div> */}
           <Fade duration={700} delay={1500} top cascade>
             <h2 className="lato-300 logo">IMPRESSIONS</h2>
           </Fade>
@@ -41,7 +56,7 @@ export default class landingPage extends Component {
                 <span className="ftw" style={{
                   // color: '#223637',
                   fontFamily: 'Cookie',
-                  fontSize: '140px'
+                  fontSize: '170px'
                 }}>Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
