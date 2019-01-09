@@ -7,7 +7,7 @@ body {
 
 /* Fonts */
 .pf-400 {
-  font-family: 'Kaushan Script', serif;
+  font-family: 'Cookie', serif;
   font-weight: 400;
 }
 
@@ -216,12 +216,43 @@ body {
     align-items: center;
 	color: white;
 	position: relative;
-	/* background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg); */
-	background-image: url(https://images.unsplash.com/photo-1470274130023-64addc574eaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=60);
+	/* background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/saint-louis-skyline-in-watercolor-background-pablo-romero.jpg'); */
+	/* background-image: url(https://images.unsplash.com/photo-1470274130023-64addc574eaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=60); */
 	background-size: cover;
 	background-position: center;
 	
 }
+
+@keyframes blink {
+	0% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+	  }
+	  12% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 1.5),  0 0 20px rgba(10, 175, 230, 1);
+	  }
+	  18% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0.2);
+	  }
+	  25% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 0.9),  0 0 20px rgba(10, 175, 230, 0.3);
+	  }
+	  35% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 0.8),  0 0 20px rgba(10, 175, 230, 0.1);
+	  }
+	  42% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 1.2),  0 0 20px rgba(10, 175, 230, 0);
+	  }
+	  50% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 1.6),  0 0 20px rgba(10, 175, 230, 1);
+	  }
+	  100% {
+		text-shadow: 0 0 20px rgba(10, 175, 230, 1.6),  0 0 20px rgba(10, 175, 230, 1);
+	  }
+}
+/* 
+.ftw {
+	animation: blink 1900ms ease-in-out infinite alternate;
+} */
 
 .logo {
 	font-size: 25px;

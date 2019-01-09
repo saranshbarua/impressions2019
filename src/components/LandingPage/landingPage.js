@@ -38,9 +38,10 @@ export default class landingPage extends Component {
                 transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)',
                 transform: `perspective( 600px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX(${degX}deg) rotateY(${degY}deg)`
               }}>
-                <span style={{
+                <span className="ftw" style={{
                   // color: '#223637',
-                  fontFamily: 'Kaushan Script'
+                  fontFamily: 'Cookie',
+                  fontSize: '140px'
                 }}>Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
