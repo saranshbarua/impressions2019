@@ -43,7 +43,8 @@ export default class landingPage extends Component {
             </div>
           </div> */}
           <Fade duration={700} delay={1500} top cascade>
-            <h2 className="lato-300 logo">IMPRESSIONS</h2>
+            {/* <h2 className="lato-300 logo">IMPRESSIONS</h2> */}
+            <div className="log"></div>
           </Fade>
           <div className="tagline-container">
             {/* <Fade delay={2000} distance={'50px'} bottom> */}
@@ -63,7 +64,7 @@ export default class landingPage extends Component {
             {/* </Fade> */}
             
           </div>
-          <div className="lp-link-box">
+          {/* <div className="lp-link-box">
             <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
               <span className="lato-400 small-lato">WHEN IS IT</span>
               <span className="pf-400 date">
@@ -76,7 +77,7 @@ export default class landingPage extends Component {
                 About Impressions
               </span>
             </AnchorLink>
-          </div>
+          </div> */}
         </div>
     </div>
     )

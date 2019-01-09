@@ -265,6 +265,19 @@ body {
 	transform: rotate(-15deg);
 }
 
+.log {
+	height: 100px;
+	width: 300px;
+	background-image: url('./snap.png');
+	background-size: cover;
+	background-position: center;
+	z-index: 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
 .ftw {
 background: #FF416C;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
