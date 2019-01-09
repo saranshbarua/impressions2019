@@ -218,7 +218,7 @@ body {
 	position: relative;
 	/* background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/saint-louis-skyline-in-watercolor-background-pablo-romero.jpg'); */
 	/* background-image: url(https://images.unsplash.com/photo-1470274130023-64addc574eaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=60); */
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	overflow: hidden;
 }
