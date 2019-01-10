@@ -32,12 +32,12 @@ export default class landingPage extends Component {
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
           </div>
-          <div className="frame frame-one">
+          {/* <div className="frame-one">
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
           </div>
-          {/* <div className="frame frame-2">
+          <div className="frame-2">
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
@@ -54,11 +54,7 @@ export default class landingPage extends Component {
                 transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)',
                 transform: `perspective( 600px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX(${degX}deg) rotateY(${degY}deg)`
               }}>
-                <span className="ftw" style={{
-                  // color: '#223637',
-                  fontFamily: 'Cookie',
-                  fontSize: '170px'
-                }}>Feel the Wanderlust</span>
+                <span className="ftw">Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
             {/* </Fade> */}

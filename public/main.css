@@ -224,8 +224,8 @@ body {
 }
 
 .frame {
-	height: 450px;
-	width: 380px;
+	height: 380px;
+	width: 280px;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	left: 20px;
@@ -240,17 +240,37 @@ body {
 }
 
 .frame-one {
+	height: 450px;
+	width: 380px;
+	background-color: rgba(255,255,255,1);
 	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	transition: all 400ms ease-in-out;
 	right: -15px;
 	bottom: -14px;
-	transform: rotate(-25deg);
+	transform: rotate(-5deg);
 	background-color: rgba(255,255,255,1);
 }
 
 .frame-2 {
-	right: 10px !important;
+	height: 450px;
+	width: 380px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	transform: rotate(-25deg);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	transition: all 400ms ease-in-out;
+	right: 10% !important;
 	top: 1%;
-	transform: rotate(-15deg);
+	transform: rotate(15deg);
 }
 
 .frame-photo {
@@ -266,8 +286,10 @@ body {
 }
 
 .log {
-	height: 100px;
-	width: 300px;
+	/* height: 100px;
+	width: 300px; */
+	height: 80px;
+	width: 210px;
 	background-image: url('./snap.png');
 	background-size: cover;
 	background-position: center;
@@ -284,6 +306,7 @@ background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-2
 background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
+  font-size: 90px;
 }
 
 .frame-photo:hover {
@@ -709,6 +732,8 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 /* Media Queries */
 
+/* Beyond 600px */
+
 @media (min-width: 600px) {
 	.lp-link-box {
 		flex-direction: row;
@@ -787,7 +812,13 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	.map {
 		height: 350px;
 	}
+
+	.ftw {
+		font-size: 110px;
+	}
 }
+
+/* Beyond 800px */
 
 @media (min-width: 800px) {
 	.logo {
@@ -1054,5 +1085,9 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 	.venue {
 		font-size: 30px;
+	}
+
+	.ftw {
+		font-size: 170px;
 	}
 }
