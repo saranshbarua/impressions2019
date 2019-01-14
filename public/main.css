@@ -224,36 +224,46 @@ body {
 }
 
 .frame {
-	height: 380px;
-	width: 280px;
+	/* height: 380px;
+	width: 280px; */
+	height: 250px;
+	width: 195px;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	left: 20px;
-	top: 38%;
+	bottom: 0%;
 	transform: rotate(-25deg);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding-top: 20px;
+	padding-top: 12px;
 	transition: all 400ms ease-in-out;
 }
 
+.frame:hover {
+	transform: rotate(-15deg);
+}
+
 .frame-one {
-	height: 450px;
-	width: 380px;
+	height: 250px;
+	width: 195px;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding-top: 20px;
+	padding-top: 12px;
 	transition: all 400ms ease-in-out;
-	right: -15px;
-	bottom: -14px;
-	transform: rotate(-5deg);
+	right: -5px;
+	bottom: 90px;
+	transform: rotate(10deg);
 	background-color: rgba(255,255,255,1);
+}
+
+.frame-one:hover {
+	transform: rotate(3deg);
 }
 
 .frame-2 {
@@ -279,10 +289,6 @@ body {
 	 background-color: #131424;
 	 filter: grayscale(1);
 	 transition: all 700ms ease-in-out;
-}
-
-.frame:hover {
-	transform: rotate(-15deg);
 }
 
 .log {
@@ -815,6 +821,11 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 	.ftw {
 		font-size: 110px;
+	}
+
+	.log {
+		height: 100px;
+		width: 300px;
 	}
 }
 

@@ -32,12 +32,12 @@ export default class landingPage extends Component {
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
           </div>
-          {/* <div className="frame-one">
+          <div className="frame-one">
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
           </div>
-          <div className="frame-2">
+          {/* <div className="frame-2">
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
