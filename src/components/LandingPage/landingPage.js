@@ -2,13 +2,15 @@ import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Fade from 'react-reveal/Fade'
 import { Component } from 'react'
+import Clock from '../Clock/clock'
 
 export default class landingPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
       x: 0,
-      y: 0
+      y: 0,
+      deadline: 'Feb, 23, 2019'
     }
   }
 
@@ -72,6 +74,12 @@ export default class landingPage extends Component {
                 <span className="ftw">Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
+              {/* <div style ={ {
+                zIndex: 5,
+                color: 'red'
+              }}>
+                <Clock deadline = {this.state.deadline} />
+              </div> */}
             {/* </Fade> */}
             
           </div>
