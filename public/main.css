@@ -241,8 +241,28 @@ body {
 	transition: all 400ms ease-in-out;
 }
 
+.frame-container {
+	height: 250px;
+	width: 195px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	left: 20px;
+	bottom: 0%;
+	transform: rotate(-15deg) !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 12px;
+	transition: all 400ms ease-in-out;
+}
+
+.frame:hover .frame-container {
+	transform: rotate(-25deg);
+}
+
 .frame:hover {
-	transform: rotate(-15deg);
+	transform: rotate(-7deg);
 }
 
 .frame-one {
@@ -262,16 +282,50 @@ body {
 	background-color: rgba(255,255,255,1);
 }
 
+.frame-one-container {
+	height: 250px;
+	width: 195px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 12px;
+	transition: all 400ms ease-in-out;
+	right: -5px;
+	bottom: 90px;
+	transform: rotate(15deg) !important;
+	background-color: rgba(255,255,255,1);
+}
+
 .frame-one:hover {
-	transform: rotate(3deg);
+	transform: rotate(15deg);
 }
 
 .frame-2 {
-	height: 450px;
-	width: 380px;
+	height: 400px;
+	width: 310px;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	transform: rotate(-25deg);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	transition: all 400ms ease-in-out;
+	top: 1%;
+	transform: rotate(20deg);
+	display: none;
+}
+
+.frame-2-container {
+	height: 400px;
+	width: 310px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	transform: rotate(-3deg) !important;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -1117,12 +1171,13 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	}
 
 	.frame, .frame-one, .frame-2 {
-		height: 400px;
-		width: 310px;	
+		height: 420px !important;
+		width: 330px !important;	
+		padding-top: 18px;
 	}
 
 	.frame {
-		left: 8%;
+		left: 6%;
 		bottom: 6%;
 	}
 
@@ -1139,11 +1194,15 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	.frame-2 {
 		display: flex;
 		top: 20%;
-		left: 42%;
+		left: 40%;
 		transform: rotate(7deg);
 	}
 
 	.frame-2:hover {
 		transform: rotate(0deg);
+	}
+
+	.frame-2-container {
+		display: flex;
 	}
 }

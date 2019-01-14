@@ -27,14 +27,29 @@ export default class landingPage extends Component {
     return (
       <div onMouseMove={(e) => {this.handleMouse(e)}} className="lp-container">
         <div className="lp-main pf-400">
+        <div className="frame frame-container">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+            </div>
+          </div>
           <div className="frame">
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
           </div>
+          <div className="frame-one frame-one-container">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="http://myhappiness.club/wp-content/uploads/2016/12/Norway-from-a-Kayak-wcth01.jpg" alt=""/>
+            </div>
+          </div>
           <div className="frame-one">
             <div className="frame-photo">
               <img height="100%" width="100%" src="http://myhappiness.club/wp-content/uploads/2016/12/Norway-from-a-Kayak-wcth01.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame-2 frame-2-container">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://i.pinimg.com/originals/8b/da/60/8bda60d18f7a66f2fa0cc6532bbc236a.jpg" alt=""/>
             </div>
           </div>
           <div className="frame-2">
