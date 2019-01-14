@@ -340,6 +340,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
   align-content: center;
   font-size: 60px;
   text-align: center;
+  pointer-events: none;
 }
 
 .lp-link-box {
