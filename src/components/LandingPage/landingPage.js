@@ -22,13 +22,44 @@ export default class landingPage extends Component {
   render() {
     let halfW = window.innerWidth / 2;
     let halfH = window.innerHeight / 2;
-    let degX = (this.state.x / halfH ) * 5;
-    let degY = (this.state.y / halfW) * -5;
+    let degX = (this.state.x / halfH ) * 6;
+    let degY = (this.state.y / halfW) * -6;
     return (
       <div onMouseMove={(e) => {this.handleMouse(e)}} className="lp-container">
         <div className="lp-main pf-400">
+        <div className="frame frame-container">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame-one frame-one-container">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="http://myhappiness.club/wp-content/uploads/2016/12/Norway-from-a-Kayak-wcth01.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame-one">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="http://myhappiness.club/wp-content/uploads/2016/12/Norway-from-a-Kayak-wcth01.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame-2 frame-2-container">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://i.pinimg.com/originals/8b/da/60/8bda60d18f7a66f2fa0cc6532bbc236a.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="frame-2">
+            <div className="frame-photo">
+              <img height="100%" width="100%" src="https://i.pinimg.com/originals/8b/da/60/8bda60d18f7a66f2fa0cc6532bbc236a.jpg" alt=""/>
+            </div>
+          </div>
           <Fade duration={700} delay={1500} top cascade>
-            <h2 className="lato-300 logo">IMPRESSIONS</h2>
+            {/* <h2 className="lato-300 logo">IMPRESSIONS</h2> */}
+            <div className="log"></div>
           </Fade>
           <div className="tagline-container">
             {/* <Fade delay={2000} distance={'50px'} bottom> */}
@@ -38,16 +69,13 @@ export default class landingPage extends Component {
                 transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)',
                 transform: `perspective( 600px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX(${degX}deg) rotateY(${degY}deg)`
               }}>
-                <span style={{
-                  // color: '#223637',
-                  fontFamily: 'Kaushan Script'
-                }}>Feel the Wanderlust</span>
+                <span className="ftw">Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
             {/* </Fade> */}
             
           </div>
-          <div className="lp-link-box">
+          {/* <div className="lp-link-box">
             <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
               <span className="lato-400 small-lato">WHEN IS IT</span>
               <span className="pf-400 date">
@@ -60,7 +88,7 @@ export default class landingPage extends Component {
                 About Impressions
               </span>
             </AnchorLink>
-          </div>
+          </div> */}
         </div>
     </div>
     )

@@ -7,7 +7,7 @@ body {
 
 /* Fonts */
 .pf-400 {
-  font-family: 'Kaushan Script', serif;
+  font-family: 'Cookie', serif;
   font-weight: 400;
 }
 
@@ -216,11 +216,169 @@ body {
     align-items: center;
 	color: white;
 	position: relative;
-	/* background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/2773/hillside-long-exposure-nightlights-nighttime-roads-1920x1080-wallpaper.jpg); */
-	background-image: url(https://images.unsplash.com/photo-1470274130023-64addc574eaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=60);
+	/* background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/saint-louis-skyline-in-watercolor-background-pablo-romero.jpg'); */
+	/* background-image: url(https://images.unsplash.com/photo-1470274130023-64addc574eaf?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=60); */
+	background-size: contain;
+	background-position: center;
+	overflow: hidden;
+}
+
+.frame {
+	/* height: 380px;
+	width: 280px; */
+	height: 250px;
+	width: 195px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	left: 20px;
+	bottom: 0%;
+	transform: rotate(-25deg);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 12px;
+	transition: all 400ms ease-in-out;
+}
+
+.frame-container {
+	height: 250px;
+	width: 195px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	left: 20px;
+	bottom: 0%;
+	transform: rotate(-15deg) !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 12px;
+	transition: all 400ms ease-in-out;
+}
+
+.frame:hover .frame-container {
+	transform: rotate(-25deg);
+}
+
+.frame:hover {
+	transform: rotate(-7deg);
+}
+
+.frame-one {
+	height: 250px;
+	width: 195px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 12px;
+	transition: all 400ms ease-in-out;
+	right: -5px;
+	bottom: 90px;
+	transform: rotate(10deg);
+	background-color: rgba(255,255,255,1);
+}
+
+.frame-one-container {
+	height: 250px;
+	width: 195px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 12px;
+	transition: all 400ms ease-in-out;
+	right: -5px;
+	bottom: 90px;
+	transform: rotate(15deg) !important;
+	background-color: rgba(255,255,255,1);
+}
+
+.frame-one:hover {
+	transform: rotate(15deg);
+}
+
+.frame-2 {
+	height: 400px;
+	width: 310px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	transform: rotate(-25deg);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	transition: all 400ms ease-in-out;
+	top: 1%;
+	transform: rotate(20deg);
+	display: none;
+}
+
+.frame-2-container {
+	height: 400px;
+	width: 310px;
+	background-color: rgba(255,255,255,1);
+	position: absolute;
+	transform: rotate(-3deg) !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	transition: all 400ms ease-in-out;
+	top: 1%;
+	transform: rotate(20deg);
+	display: none;
+}
+
+.frame-photo {
+	 height: 75%;
+	 width: 90%;
+	 background-color: #131424;
+	 filter: grayscale(1);
+	 transition: all 700ms ease-in-out;
+}
+
+.log {
+	/* height: 100px;
+	width: 300px; */
+	height: 80px;
+	width: 210px;
+	background-image: url('./snap.png');
 	background-size: cover;
 	background-position: center;
-	
+	z-index: 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.ftw {
+background: #FF416C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  font-size: 90px;
+}
+
+.frame:hover .frame-photo {
+	filter: grayscale(0);
+}
+
+.frame-one:hover .frame-photo {
+	filter: grayscale(0);
+}
+
+.frame-2:hover .frame-photo {
+	filter: grayscale(0);
 }
 
 .logo {
@@ -236,6 +394,7 @@ body {
   align-content: center;
   font-size: 60px;
   text-align: center;
+  pointer-events: none;
 }
 
 .lp-link-box {
@@ -642,6 +801,8 @@ body {
 
 /* Media Queries */
 
+/* Beyond 600px */
+
 @media (min-width: 600px) {
 	.lp-link-box {
 		flex-direction: row;
@@ -720,7 +881,23 @@ body {
 	.map {
 		height: 350px;
 	}
+
+	.ftw {
+		font-size: 110px;
+	}
+
+	.log {
+		height: 100px;
+		width: 300px;
+	}
+
+	.frame, .frame-one {
+		height: 320px;
+		width: 250px;	
+	}
 }
+
+/* Beyond 800px */
 
 @media (min-width: 800px) {
 	.logo {
@@ -987,5 +1164,45 @@ body {
 
 	.venue {
 		font-size: 30px;
+	}
+
+	.ftw {
+		font-size: 170px;
+	}
+
+	.frame, .frame-one, .frame-2 {
+		height: 420px !important;
+		width: 330px !important;	
+		padding-top: 18px;
+	}
+
+	.frame {
+		left: 6%;
+		bottom: 6%;
+	}
+
+	.frame-one {
+		right: 5%;
+		bottom: 0%;
+		transform: rotate(25deg);
+	}
+
+	.frame-one:hover {
+		transform: rotate(10deg);
+	}
+
+	.frame-2 {
+		display: flex;
+		top: 20%;
+		left: 40%;
+		transform: rotate(7deg);
+	}
+
+	.frame-2:hover {
+		transform: rotate(0deg);
+	}
+
+	.frame-2-container {
+		display: flex;
 	}
 }
