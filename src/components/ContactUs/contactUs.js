@@ -29,14 +29,14 @@ const ContactUs = () => {
               }}>
               <span className="lato-400 small-lato">EMAIL</span>
               <span className="pf-400 date new-date">
-                saranshbarua@gmail.com
+                jiityc@gmail.com
               </span>
               </a>
             </div>
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
               <span className="lato-400 small-lato">PHONE</span>
               <span className="pf-400 date new-date">
-                +91-8269236747
+                +91-8373918526
               </span>
             </div>
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
