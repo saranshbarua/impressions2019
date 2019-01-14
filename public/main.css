@@ -278,9 +278,9 @@ body {
 	align-items: center;
 	padding-top: 20px;
 	transition: all 400ms ease-in-out;
-	right: 10% !important;
 	top: 1%;
-	transform: rotate(15deg);
+	transform: rotate(20deg);
+	display: none;
 }
 
 .frame-photo {
@@ -315,7 +315,15 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
   font-size: 90px;
 }
 
-.frame-photo:hover {
+.frame:hover .frame-photo {
+	filter: grayscale(0);
+}
+
+.frame-one:hover .frame-photo {
+	filter: grayscale(0);
+}
+
+.frame-2:hover .frame-photo {
 	filter: grayscale(0);
 }
 
@@ -827,6 +835,11 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 		height: 100px;
 		width: 300px;
 	}
+
+	.frame, .frame-one {
+		height: 320px;
+		width: 250px;	
+	}
 }
 
 /* Beyond 800px */
@@ -1100,5 +1113,36 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 	.ftw {
 		font-size: 170px;
+	}
+
+	.frame, .frame-one, .frame-2 {
+		height: 400px;
+		width: 310px;	
+	}
+
+	.frame {
+		left: 8%;
+		bottom: 6%;
+	}
+
+	.frame-one {
+		right: 5%;
+		bottom: 0%;
+		transform: rotate(25deg);
+	}
+
+	.frame-one:hover {
+		transform: rotate(10deg);
+	}
+
+	.frame-2 {
+		display: flex;
+		top: 20%;
+		left: 42%;
+		transform: rotate(7deg);
+	}
+
+	.frame-2:hover {
+		transform: rotate(0deg);
 	}
 }
