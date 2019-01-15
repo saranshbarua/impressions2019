@@ -20,7 +20,7 @@ const ContactUs = () => {
       </div>
       <div className="lp-link-box cp-box">
             <div title="Send mail" className="lp-link-boxes lp-link-box-one cp-boxes">
-              <a href="mailto:saranshbarua@gmail.com" style={{
+              <a href="mailto:jiityc@gmail.com" style={{
                 display: 'flex',
                 flexDirection: 'column',
                 textAlign: 'center',
