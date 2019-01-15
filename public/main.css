@@ -682,13 +682,15 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 .media-partner {
 	min-height: 120px;
-	border: 1px solid red;
 	width: 100%;
 	margin-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: flex-start;
+}
+
+.spon-img {
+	margin: 5px;
 }
 
 .spon-img {
@@ -1150,6 +1152,15 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 		justify-content: center;
 		overflow: hidden;
 		padding-top: 150px;
+	}
+
+	.media-partner {
+		
+		justify-content: inherit;
+	}
+	
+	.spon-img {
+		margin: 25px;
 	}
 
 	.contact-section {
