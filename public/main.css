@@ -1083,6 +1083,10 @@ canvas {
 		width: 50px;
 	}
 
+	.nav {
+		background-color: rgba(19,20,36,1);
+	}
+
 	.nav-links {
 		font-size: 60px;
 	}
