@@ -38,6 +38,14 @@ export default class landingPage extends Component {
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
             </div>
+            <span className="pf-400" style={{
+              alignSelf: 'flex-start',
+              margin: '10px 20px',
+              color: 'black',
+              fontSize: '25px'
+            }}>
+              #eiffel-tower #love
+            </span>
           </div>
           <div className="frame-one frame-one-container">
             <div className="frame-photo">
@@ -48,6 +56,14 @@ export default class landingPage extends Component {
             <div className="frame-photo">
               <img height="100%" width="100%" src="http://myhappiness.club/wp-content/uploads/2016/12/Norway-from-a-Kayak-wcth01.jpg" alt=""/>
             </div>
+            <span className="pf-400" style={{
+              alignSelf: 'flex-start',
+              margin: '10px 20px',
+              color: 'black',
+              fontSize: '25px'
+            }}>
+              #dal-lake #wanderlust
+            </span>
           </div>
           <div className="frame-2 frame-2-container">
             <div className="frame-photo">
@@ -58,6 +74,14 @@ export default class landingPage extends Component {
             <div className="frame-photo">
               <img height="100%" width="100%" src="https://i.pinimg.com/originals/8b/da/60/8bda60d18f7a66f2fa0cc6532bbc236a.jpg" alt=""/>
             </div>
+            <span className="pf-400" style={{
+              alignSelf: 'flex-start',
+              margin: '10px 20px',
+              color: 'black',
+              fontSize: '25px'
+            }}>
+              #eiffel-tower #love
+            </span>
           </div>
           <Fade duration={700} delay={1500} top cascade>
             {/* <h2 className="lato-300 logo">IMPRESSIONS</h2> */}
