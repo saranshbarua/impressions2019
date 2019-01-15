@@ -77,14 +77,14 @@ export default class landingPage extends Component {
             {/* </Fade> */}
             
           </div>
-          
+          <Fade duration={700} delay={1500} bottom cascade>
           <div className="lp-link-box">
             {/* <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
               <span className="pf-400 date">
                 24th Feb 2019
               </span>
             </AnchorLink> */}
-            <div className="lp-link-boxes lp-link-box-two wow appear-box-two">
+            <div className="lp-link-boxes lp-link-box-two">
               <div className="timer">
                 <Clock deadline = {this.state.deadline} />
               </div>
@@ -92,6 +92,8 @@ export default class landingPage extends Component {
 
             </div>
           </div>
+          </Fade>
+          
         </div>
     </div>
     )
