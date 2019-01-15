@@ -1168,6 +1168,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 		padding: 0px;
 		transform: translateX(0px);
 		opacity: 1;
+		font-size: 25px;
 	}
 
 	.new-date {

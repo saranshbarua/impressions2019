@@ -28,20 +28,20 @@ const ContactUs = () => {
                 textDecoration: 'none'
               }}>
               <span className="lato-400 small-lato">EMAIL</span>
-              <span className="pf-400 date new-date">
+              <span className="pf-400">
                 jiityc@gmail.com
               </span>
               </a>
             </div>
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
               <span className="lato-400 small-lato">PHONE</span>
-              <span className="pf-400 date new-date">
+              <span className="pf-400">
                 +91-8373918526
               </span>
             </div>
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
               <span className="lato-400 small-lato">SOCIAL MEDIA</span>
-              <span className="pf-400 date new-date">
+              <span className="pf-400">
                 Follow - &nbsp;
                   <FontAwesomeIcon 
                     icon={["fab", "facebook"]}
