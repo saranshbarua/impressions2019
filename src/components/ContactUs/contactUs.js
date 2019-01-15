@@ -43,18 +43,32 @@ const ContactUs = () => {
               <span className="lato-400 small-lato">SOCIAL MEDIA</span>
               <span className="pf-400">
                 Follow - &nbsp;
-                  <FontAwesomeIcon 
-                    icon={["fab", "facebook"]}
+                  <a
                     style={{
-                      margin: '0px 5px'
+                      color: 'white'
                     }}
-                  /> 
-                  <FontAwesomeIcon 
-                    icon={["fab", "instagram"]}
+                    target="_blank"
+                    href="https://www.facebook.com/jiit.impressions/">
+                    <FontAwesomeIcon 
+                      icon={["fab", "facebook"]}
+                      style={{
+                        margin: '0px 5px'
+                      }}
+                    />
+                  </a> 
+                  <a
                     style={{
-                      margin: '0px 5px'
+                      color: 'white'
                     }}
-                  />
+                    target="_blank"
+                    href="https://www.instagram.com/jiit.impressions/">
+                    <FontAwesomeIcon 
+                      icon={["fab", "instagram"]}
+                      style={{
+                        margin: '0px 5px'
+                      }}
+                    />
+                  </a>  
                 {/* <div></div> */}
               </span>
             </div>
