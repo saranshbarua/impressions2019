@@ -80,15 +80,16 @@ export default class landingPage extends Component {
           
           <div className="lp-link-box">
             {/* <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
-              <span className="lato-400 small-lato">WHEN IS IT</span>
               <span className="pf-400 date">
                 24th Feb 2019
               </span>
             </AnchorLink> */}
             <div className="lp-link-boxes lp-link-box-two wow appear-box-two">
-                <div className="timer">
+              <div className="timer">
                 <Clock deadline = {this.state.deadline} />
               </div>
+              <span style={{marginBottom: '-10px', marginTop: '10px'}} className="lato-400 small-lato">COMING SOON</span>
+
             </div>
           </div>
         </div>
