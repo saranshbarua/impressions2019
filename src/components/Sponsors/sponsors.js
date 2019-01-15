@@ -23,7 +23,7 @@ const MapSponsors = () => {
       {sponsorsArray.map(item => {
         return (
           <div className="spon-img" key={item}>
-            <img src={item} height="100%" />
+            <img src={item} height="100%" alt="" />
           </div>
         )
       })}

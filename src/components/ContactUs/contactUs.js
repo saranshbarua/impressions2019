@@ -48,6 +48,7 @@ const ContactUs = () => {
                       color: 'white'
                     }}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.facebook.com/jiit.impressions/">
                     <FontAwesomeIcon 
                       icon={["fab", "facebook"]}
@@ -61,6 +62,7 @@ const ContactUs = () => {
                       color: 'white'
                     }}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.instagram.com/jiit.impressions/">
                     <FontAwesomeIcon 
                       icon={["fab", "instagram"]}

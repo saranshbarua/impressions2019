@@ -1,5 +1,4 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Fade from 'react-reveal/Fade'
 import { Component } from 'react'
 import Clock from '../Clock/clock'
