@@ -1158,6 +1158,11 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 		padding-top: 50px;
 	}
 
+	.cp-box {
+		width: 70%;
+		height: 140px;
+	}
+
 	.cp-boxes {
 		align-items: center !important;
 		padding: 0px;
