@@ -47,11 +47,7 @@ class Clock extends Component {
                     {this.leading0(this.state.minutes)} Min &nbsp;
 
                     </span>
-                    <span style={{
-                         display: 'inline-block',
-                         width: '60px',
-                         textAlign: 'center'
-                    }}>
+                    <span className="sec">
                     {this.leading0(this.state.seconds)} Sec
 
                     </span>

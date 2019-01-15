@@ -387,7 +387,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 .tagline-container {
   width: 80%;
-  min-height: 45vh;
+  min-height: 33vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -431,7 +431,6 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 .lp-link-box-two {
 	border: 0.5px solid rgba(255,255,255,0.35);
-	border-top: 0px;
 	text-decoration: none;
 	color: inherit;
 	opacity: 0;
@@ -816,12 +815,14 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 		flex-direction: row;
 		height: 150px;
 		width: 70vw;
-		bottom: 10%;
+		bottom: 7%;
+		justify-content: center;
 	}
 
 	.lp-link-boxes {
-		height: 100%;
-		width: 50%;
+		height: 80%;
+		width: 80%;
+		bottom: 0px;
 	}
 
 	.lp-link-box-one {
@@ -830,7 +831,6 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	
 	.lp-link-box-two {
 		border: 0.5px solid rgba(255,255,255,0.35);
-		border-left: 0px;
 	}
 	
 	.lp-link-box-one:hover {
@@ -934,16 +934,21 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 		}
 	}
 
+	.tagline-container {
+		margin-top: -65px;
+		min-height: 33vh;
+	}
+
 	.lp-link-box {
 		flex-direction: row;
-		height: 160px;
-		width: 65vw;
+		height: 120px;
+		width: 470px;
 		bottom: 12%;
 	}
 
 	.lp-link-boxes {
 		height: 100%;
-		width: 50%;
+		width: 100%;
 		font-size: 30px;
 		padding-left: 45px;
 	}
@@ -963,7 +968,6 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	
 	.lp-link-box-two {
 		border: 0.5px solid rgba(255,255,255,0.35);
-		border-left: 0px;
 	}
 	
 	.lp-link-box-one:hover {
@@ -1175,7 +1179,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	}
 
 	.ftw {
-		font-size: 170px;
+		font-size: 130px;
 	}
 
 	.frame, .frame-one, .frame-2 {
@@ -1186,7 +1190,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 	.frame {
 		left: 6%;
-		bottom: 6%;
+		bottom: 0%;
 	}
 
 	.frame-one {
@@ -1201,8 +1205,8 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 	.frame-2 {
 		display: flex;
-		top: 20%;
-		left: 40%;
+		top: 38%;
+		left: 39%;
 		transform: rotate(7deg);
 	}
 
@@ -1212,5 +1216,18 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 
 	.frame-2-container {
 		display: flex;
+	}
+
+	.timer {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 33px;
+	}
+
+	.sec {
+		display: inline-block;
+		width: 80px;
+		text-align: center;
 	}
 }
