@@ -397,9 +397,13 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
   pointer-events: none;
 }
 
+.timer {
+	z-index: 5;
+}
+
 .lp-link-box {
 	width: 87vw;
-	height: 200px;
+	height: 100px;
 	position: absolute;
 	bottom: 80px;
 	display: flex;
@@ -431,8 +435,12 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	text-decoration: none;
 	color: inherit;
 	opacity: 0;
-	background-color: rgba(19,20,36,.65);
+	background-color: rgba(19,20,36,.85);
 	transform: translateX(30px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px !important;
 }
 
 .lp-link-box-one:hover {

@@ -74,29 +74,23 @@ export default class landingPage extends Component {
                 <span className="ftw">Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>
-              {/* <div style ={ {
-                zIndex: 5,
-                color: 'red'
-              }}>
-                <Clock deadline = {this.state.deadline} />
-              </div> */}
             {/* </Fade> */}
             
           </div>
-          {/* <div className="lp-link-box">
-            <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
+          
+          <div className="lp-link-box">
+            {/* <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
               <span className="lato-400 small-lato">WHEN IS IT</span>
               <span className="pf-400 date">
                 24th Feb 2019
               </span>
-            </AnchorLink>
+            </AnchorLink> */}
             <AnchorLink href="#aboutSection" className="lp-link-boxes lp-link-box-two wow appear-box-two">
-              <span className="lato-400 small-lato">WHAT IS IT</span>
-              <span className="pf-400 date">
-                About Impressions
-              </span>
+                <div className="timer">
+                <Clock deadline = {this.state.deadline} />
+              </div>
             </AnchorLink>
-          </div> */}
+          </div>
         </div>
     </div>
     )
