@@ -85,11 +85,11 @@ export default class landingPage extends Component {
                 24th Feb 2019
               </span>
             </AnchorLink> */}
-            <AnchorLink href="#aboutSection" className="lp-link-boxes lp-link-box-two wow appear-box-two">
+            <div className="lp-link-boxes lp-link-box-two wow appear-box-two">
                 <div className="timer">
                 <Clock deadline = {this.state.deadline} />
               </div>
-            </AnchorLink>
+            </div>
           </div>
         </div>
     </div>
