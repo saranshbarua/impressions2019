@@ -46,9 +46,9 @@ export default class Home extends Component {
   render() {
     return (
       <div className="main">
-          <div className="hamburger ham-appear" onClick={this.toggleNavbar}>
-            <FontAwesomeIcon icon="align-right" />
-          </div>
+        <div className="hamburger ham-appear" onClick={this.toggleNavbar}>
+          <FontAwesomeIcon icon="align-right" />
+        </div>
         <Navbar closeNav={this.toggleNavbar} navState={this.state.isNavbar}/>
         <LandingPage />
         <AboutSection />

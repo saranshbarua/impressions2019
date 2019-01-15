@@ -29,6 +29,7 @@ body {
 .main {
 	min-height: 100vh;
 	position: relative;
+	overflow: hidden;
 }
 
 .hamburger {
@@ -409,6 +410,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	display: flex;
 	flex-direction: column;
 	transition: all 700ms ease-in-out;
+	z-index: 4;
 }
 
 .lp-link-boxes {
@@ -514,12 +516,17 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 	font-size: 14px;
 }
 
+canvas {
+	width: 100vw !important;
+}
+
 .about-image {
 	width: 100%;
 	min-height: 35vh;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	z-index: 50;
 }
 
 .about-image > img {
