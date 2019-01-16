@@ -47,7 +47,7 @@ const Sponsors = () => {
          params={{
           "particles": {
               "number": {
-                  "value": 160,
+                  "value": 50,
                   "density": {
                       "enable": false
                   }
@@ -56,7 +56,7 @@ const Sponsors = () => {
                   "value": 3,
                   "random": true,
                   "anim": {
-                      "speed": 3,
+                      "speed": 2,
                       "size_min": 0.3
                   }
               },
@@ -92,7 +92,8 @@ const Sponsors = () => {
                       "distance": 220,
                       "duration": 3
                   }
-              }
+              },
+              "retina-detect": false
           }
       }}
         />
