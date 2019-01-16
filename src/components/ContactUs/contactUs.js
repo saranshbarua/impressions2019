@@ -4,12 +4,14 @@ import Slide from 'react-reveal/Slide'
 import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import ParticlesDiv from '../Particles/particles'
 
 library.add(faInstagram, faFacebook, faTwitter);
 
 const ContactUs = () => {
   return (
     <div className="contact-section" id="contactSection">
+      <ParticlesDiv />
       <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>06</span> CONTACT US</span>
       <Fade duration={700} top cascade><span className="pf-400 section-heading">Reach Out</span></Fade>
       <Slide><p className="pf-400 venue">Jaypee Institute of Information Technology</p></Slide>

@@ -2,10 +2,12 @@ import React from 'react'
 import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 import ArtistCarousel from '../Carousel/carousel'
+import ParticlesDiv from '../Particles/particles'
 
 const Team = () => {
   return (
     <div className="team-section" id="teamSection">
+    <ParticlesDiv />
     <div className="team-content">
       <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> SQUAD</span>
       <Fade duration={700} top cascade><span className="pf-400 team-heading">Meet the team</span></Fade>

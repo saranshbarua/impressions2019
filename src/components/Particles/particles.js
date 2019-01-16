@@ -3,11 +3,11 @@ import Particles from 'react-particles-js'
 
 export default function ParticlesDiv() {
   return (
-    <div>
+    <React.Fragment>
       <Particles 
          style={{
-           zIndex: 1,
-           position: 'absolute',
+           zIndex: -1,
+           position: 'fixed',
            top: '0px',
            left: '0px',
            width: '100%'
@@ -15,7 +15,7 @@ export default function ParticlesDiv() {
          params={{
           "particles": {
               "number": {
-                  "value": 50,
+                  "value": 75,
                   "density": {
                       "enable": false
                   }
@@ -39,22 +39,23 @@ export default function ParticlesDiv() {
               }
           },
           "interactivity": {
+              "detect_on": "window",
               "events": {
                   "onhover": {
                       "enable": true,
                       "mode": "bubble"
                   },
                   "onclick": {
-                      "enable": true,
+                      "enable": false,
                       "mode": "repulse"
                   }
               },
               "modes": {
                   "bubble": {
-                      "distance": 300,
+                      "distance": 250,
                       "duration": 2,
                       "size": 4,
-                      "opacity": 0.6
+                      "opacity": 1
                   },
                   "repulse": {
                       "distance": 220,
@@ -65,6 +66,6 @@ export default function ParticlesDiv() {
           }
       }}
         />
-    </div>
+    </React.Fragment>
   )
 }

@@ -2,10 +2,12 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 import  { Link } from 'react-router-dom'
+import ParticlesDiv from '../Particles/particles'
 
 const EventSection = () => {
   return (
     <div className="event-section" id="eventsSection">
+      <ParticlesDiv />
       <div className="event-heading">
          <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>03</span> PARTICIPATE AND WIN</span>
          <Fade duration={700} top cascade><span className="pf-400 section-heading">Events</span></Fade>

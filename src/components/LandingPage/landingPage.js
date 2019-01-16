@@ -2,7 +2,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import { Component } from 'react'
 import Clock from '../Clock/clock'
-import Particles from 'react-particles-js'
 
 export default class landingPage extends Component {
   constructor(props) {
