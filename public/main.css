@@ -85,6 +85,7 @@ body {
 	align-items: center;
 	/* opacity: 0; */
 	color: white;
+	z-index: 6;
 }
 
 .navbar-open {
