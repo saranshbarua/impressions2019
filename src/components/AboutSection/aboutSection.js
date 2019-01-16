@@ -6,7 +6,7 @@ import Particles from 'react-particles-js'
 const AboutSection = () => {
   return (
     <div className="about-section" id="aboutSection">
-        <Particles 
+        {/* <Particles 
          style={{
            zIndex: 1,
            position: 'absolute',
@@ -66,7 +66,7 @@ const AboutSection = () => {
               "retina-detect": false
           }
       }}
-        />
+        /> */}
       <div className="about-content">
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>01</span> IMPRESSIONS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">All about it</span></Fade>

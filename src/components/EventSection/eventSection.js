@@ -7,7 +7,7 @@ import Particles from 'react-particles-js'
 const EventSection = () => {
   return (
     <div className="event-section" id="eventsSection">
-     <Particles 
+     {/* <Particles 
          style={{
            zIndex: 1,
            position: 'absolute',
@@ -67,7 +67,7 @@ const EventSection = () => {
               "retina-detect": false
           }
       }}
-        />
+        /> */}
       <div className="event-heading">
          <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>03</span> PARTICIPATE AND WIN</span>
          <Fade duration={700} top cascade><span className="pf-400 section-heading">Events</span></Fade>

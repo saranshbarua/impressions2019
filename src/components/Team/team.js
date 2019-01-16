@@ -3,11 +3,13 @@ import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 import ArtistCarousel from '../Carousel/carousel'
 import Particles from 'react-particles-js'
+import ParticlesDiv from '../Particles/particles'
 
 const Team = () => {
   return (
     <div className="team-section" id="teamSection">
-    <Particles 
+    <ParticlesDiv />
+    {/* <Particles 
          style={{
            zIndex: 1,
            position: 'absolute',
@@ -67,7 +69,7 @@ const Team = () => {
               "retina-detect": false
           }
       }}
-        />
+        /> */}
     <div className="team-content">
       <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> SQUAD</span>
       <Fade duration={700} top cascade><span className="pf-400 team-heading">Meet the team</span></Fade>
