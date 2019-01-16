@@ -1,72 +1,10 @@
 import React from 'react'
 import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
-import Particles from 'react-particles-js'
 
 const AboutSection = () => {
   return (
     <div className="about-section" id="aboutSection">
-        {/* <Particles 
-         style={{
-           zIndex: 1,
-           position: 'absolute',
-           top: '0px',
-           left: '0px',
-           width: '100%'
-         }}
-         params={{
-          "particles": {
-              "number": {
-                  "value": 50,
-                  "density": {
-                      "enable": false
-                  }
-              },
-              "size": {
-                  "value": 3,
-                  "random": true,
-                  "anim": {
-                      "speed": 2,
-                      "size_min": 0.3
-                  }
-              },
-              "line_linked": {
-                  "enable": false
-              },
-              "move": {
-                  "random": true,
-                  "speed": 0.7,
-                  "direction": "top",
-                  "out_mode": "out"
-              }
-          },
-          "interactivity": {
-              "events": {
-                  "onhover": {
-                      "enable": true,
-                      "mode": "bubble"
-                  },
-                  "onclick": {
-                      "enable": true,
-                      "mode": "repulse"
-                  }
-              },
-              "modes": {
-                  "bubble": {
-                      "distance": 300,
-                      "duration": 2,
-                      "size": 4,
-                      "opacity": 0.6
-                  },
-                  "repulse": {
-                      "distance": 220,
-                      "duration": 3
-                  }
-              },
-              "retina-detect": false
-          }
-      }}
-        /> */}
       <div className="about-content">
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>01</span> IMPRESSIONS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">All about it</span></Fade>
