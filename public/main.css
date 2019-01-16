@@ -517,6 +517,7 @@ background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, F
 }
 
 canvas {
+	display: none;
 	width: 100vw !important;
 }
 
@@ -1261,5 +1262,9 @@ canvas {
 		display: inline-block;
 		width: 80px;
 		text-align: center;
+	}
+
+	canvas {
+		display: block;
 	}
 }
