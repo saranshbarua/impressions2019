@@ -233,6 +233,7 @@ body {
 	width: 280px; */
 	height: 250px;
 	width: 195px;
+	z-index: 2;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	left: 20px;
@@ -273,6 +274,7 @@ body {
 .frame-one {
 	height: 250px;
 	width: 195px;
+	z-index: 2;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	display: flex;
@@ -311,6 +313,7 @@ body {
 .frame-2 {
 	height: 400px;
 	width: 310px;
+	z-index: 2;
 	background-color: rgba(255,255,255,1);
 	position: absolute;
 	transform: rotate(-25deg);
