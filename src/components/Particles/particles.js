@@ -15,7 +15,7 @@ export default function ParticlesDiv() {
          params={{
           "particles": {
               "number": {
-                  "value": 75,
+                  "value": 100,
                   "density": {
                       "enable": false
                   }

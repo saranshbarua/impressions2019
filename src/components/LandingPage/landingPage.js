@@ -68,7 +68,7 @@ export default class landingPage extends Component {
               color: 'black',
               fontSize: '25px'
             }}>
-              #eiffel-tower #love
+              #nature #love
             </span>
           </div>
           <Fade duration={700} delay={1500} top cascade>
