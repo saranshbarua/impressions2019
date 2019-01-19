@@ -2,31 +2,20 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import { Component } from 'react'
 import Clock from '../Clock/clock'
+import ParticlesDiv from '../Particles/particles'
 
 export default class landingPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      x: 0,
-      y: 0,
       deadline: 'Feb, 23, 2019'
     }
   }
 
-  handleMouse(e) {
-    this.setState({
-      x: e.screenX,
-      y: e.screenY
-    })
-  }
-
   render() {
-    let halfW = window.innerWidth / 2;
-    let halfH = window.innerHeight / 2;
-    let degX = (this.state.x / halfH ) * 6;
-    let degY = (this.state.y / halfW) * -6;
     return (
-      <div onMouseMove={(e) => {this.handleMouse(e)}} className="lp-container">
+      <div className="lp-container">
+        <ParticlesDiv hover={false} />
         <div className="lp-main pf-400">
         <div className="frame frame-container">
             <div className="frame-photo">
@@ -91,9 +80,7 @@ export default class landingPage extends Component {
               <div style={{
                 transformStyle: 'preserve-3d',
                 backfaceVisibility: 'hidden',
-                transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)',
-                transform: `perspective( 600px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX(${degX}deg) rotateY(${degY}deg)`
-              }}>
+                transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)'              }}>
                 <span className="ftw">Feel the Wanderlust</span>
                 {/* <img src='./clock.png' alt=""/> */}
               </div>

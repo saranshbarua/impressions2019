@@ -1,12 +1,12 @@
 import React from 'react'
 import Particles from 'react-particles-js'
 
-export default function ParticlesDiv() {
+export default function ParticlesDiv(props) {
   return (
     <React.Fragment>
       <Particles 
          style={{
-           zIndex: -1,
+           zIndex: 1,
            position: 'fixed',
            top: '0px',
            left: '0px',
