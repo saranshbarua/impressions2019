@@ -599,6 +599,10 @@ canvas {
 	width: 100%;
 }
 
+.t-head {
+	font-size: 55px;
+}
+
 .ts-head {
 	font-size: 40px;
 }
@@ -609,7 +613,7 @@ canvas {
 	margin: 20px 0px;
 	position: relative;
 	border-radius: 5px;
-	box-shadow: 0px 4px 18px 0px rgba(19,20,36,.95);
+	box-shadow: 0px 4px 18px 0px rgba(0,0,0,.95);
 	overflow: hidden;
 	z-index: 2;
 }
@@ -1345,6 +1349,18 @@ canvas {
 
 	canvas {
 		display: block;
+	}
+
+	.team-page {
+		transform: scaleX(0.98) scaleY(0.993);
+	}
+
+	.t-head {
+		font-size: 80px;
+	}
+
+	.ts-head {
+		font-size: 50px;
 	}
 
 	.team-sub {
