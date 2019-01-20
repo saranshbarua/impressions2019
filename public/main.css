@@ -630,6 +630,7 @@ canvas {
 
 .team-card:hover .mem-details {
 	top: 0px;
+	border-radius: 5px;
 }
 
 .mem-name {
@@ -1344,5 +1345,11 @@ canvas {
 
 	canvas {
 		display: block;
+	}
+
+	.team-sub {
+		flex-direction: row;
+		justify-content: space-evenly;
+		border: 1px solid lime;
 	}
 }
