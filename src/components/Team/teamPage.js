@@ -277,7 +277,9 @@ const mapPeople = (teamType, folderName, cardClasses) => {
 
 export default function TeamPage() {
   return (
-    <div className="events-page">
+    <div className="events-page" style={{
+      transform: 'scaleX(0.98) scaleY(0.99)'
+    }}>
         <Fade top cascade><span className="pf-400 ev-head" style={{fontSize: '55px'}}>Team</span></Fade>
         <Slide bottom><span className="pf-400 ts-head">Finance</span></Slide>
         {mapPeople(financeTeam, 'jycfinanceteam', 'team-card')}
