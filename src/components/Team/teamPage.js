@@ -278,23 +278,29 @@ const mapPeople = (teamType, folderName, cardClasses) => {
 export default function TeamPage() {
   return (
     <div className="events-page" style={{
-      transform: 'scaleX(0.98) scaleY(0.99)'
+      transform: 'scaleX(0.98) scaleY(0.993)'
     }}>
         <Fade top cascade><span className="pf-400 ev-head" style={{fontSize: '55px'}}>Team</span></Fade>
+        <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Finance</span></Slide>
         {mapPeople(financeTeam, 'jycfinanceteam', 'team-card')}
+        <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Operations</span></Slide>
         {mapPeople(operationsDirector,'jycoperationsteam', 'team-card')}
         {mapPeople(operationsTeam, 'jycoperationsteam','team-card team-card-small')}
+        <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Internal Affairs</span></Slide>
         {mapPeople(internalAffairsDirector,'jycteaminternalaffairs', 'team-card')}
         {mapPeople(internalAffairsTeam, 'jycteaminternalaffairs','team-card team-card-small')}
+        <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Public Relations</span></Slide>
         {mapPeople(prDirector,'jycteampublicrelations', 'team-card')}
         {mapPeople(prTeam, 'jycteampublicrelations','team-card team-card-small')}
+        <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Media and Technical</span></Slide>
         {mapPeople(mntDirector,'jycteammediatechnical', 'team-card')}
         {mapPeople(mntTeam, 'jycteammediatechnical','team-card team-card-small')}
+        <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Creative</span></Slide>
         {mapPeople(creativeTeam, 'jycteamcreative','team-card team-card-small')}
     </div>
