@@ -292,6 +292,9 @@ export default function TeamPage() {
         <Slide bottom><span className="pf-400 ts-head">Public Relations</span></Slide>
         {mapPeople(prDirector,'jycteampublicrelations', 'team-card')}
         {mapPeople(prTeam, 'jycteampublicrelations','team-card team-card-small')}
+        <Slide bottom><span className="pf-400 ts-head">Media and Technical</span></Slide>
+        {mapPeople(mntDirector,'jycteammediatechnical', 'team-card')}
+        {mapPeople(mntTeam, 'jycteammediatechnical','team-card team-card-small')}
         <Slide bottom><span className="pf-400 ts-head">Creative</span></Slide>
         {mapPeople(creativeTeam, 'jycteamcreative','team-card team-card-small')}
     </div>
