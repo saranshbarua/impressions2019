@@ -1356,4 +1356,12 @@ canvas {
 		width: 240px;
 		height: 280px;
 	}
+
+	.team-card-small > .mem-details {
+		top: 180px;
+	}
+
+	.team-card-small > div > .mem-name {
+		font-size: 38px;
+	}
 }
