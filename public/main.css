@@ -1349,7 +1349,12 @@ canvas {
 
 	.team-sub {
 		flex-direction: row;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		border: 1px solid lime;
+	}
+
+	.team-card-small {
+		width: 240px;
+		height: 280px;
 	}
 }
