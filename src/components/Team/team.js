@@ -13,8 +13,9 @@ const Team = () => {
       <Fade duration={700} top cascade><span className="pf-400 team-heading">Meet the team</span></Fade>
       <Slide bottom>
         <p className="lato-400 about">
-        Impressions, the annual techno-cultural festival of Jaypee Institute of Information Technology, Sector 62, Noida, is a two day pulsating festival with an array of events, 
-        allowing the students to exhibit and participate in technical and academic pursuits of programming, robotics, panel discussions, talk shows and many more creative challenges.
+          The team behind Impressions has devoted its months to ensure that it remains a memorable and truly impressionable experience for all those who witness it. 
+          Having a diverse set of people with skills ranging from Public Relations to Management and Marketing to Design, 
+          the team has pledged to raise the bar set by previous generations.
         </p>
       </Slide>
     </div>

@@ -14,8 +14,9 @@ const EventSection = () => {
         {/* <img src="https://openclipart.org/image/2400px/svg_to_png/231466/Ballet-Dancer-Silhouette.png" alt=""/> */}
         <Slide bottom>
           <p className="lato-400 about">
-            Participate in events conducted by various hubs and win amazing prizes.
-            Participate in events conducted by various hubs and win amazing prizes.
+            From dance to drama, fashion to literary and of course, the multitude of tech events conducted at Impressions,  
+            this is the platform for you to explore your hidden talents and showcase your skills. 
+            Participate in the various events conducted at Impressions’19 to win amazing prizes.
           </p>
         </Slide>
       </div>
