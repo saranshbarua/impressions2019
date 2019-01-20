@@ -140,7 +140,7 @@ const prTeam = [
   },
   {
     avatar: 'prakhar.jpg',
-    name: 'Prakhar Chauchan',
+    name: 'Prakhar Chauhan',
     designation: 'Deputy Director',
     facebook: 'https://www.facebook.com/jiit.impressions/',
     instagram: 'https://www.facebook.com/jiit.impressions/'
@@ -148,6 +148,71 @@ const prTeam = [
   {
     avatar: 'prapti.jpg',
     name: 'Prapti Miglani',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  }
+];
+
+const mntDirector = [
+  {
+    avatar: 'prateek.jpg',
+    name: 'Prateek Bansal',
+    designation: 'Director (Technical)',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  },
+  {
+    avatar: 'shruti.jpg',
+    name: 'Shruti Ahuja',
+    designation: 'Director (Media)',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  }
+];
+
+const mntTeam = [
+  {
+    avatar: 'neha.jpg',
+    name: 'Neha Rastogi',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  },
+  {
+    avatar: 'prayas.jpg',
+    name: 'Prayas Lashkari',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  },
+  {
+    avatar: 'saurabh.jpg',
+    name: 'Saurabh Pandey',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  }
+];
+
+const creativeTeam = [
+  {
+    avatar: 'aayushi.jpg',
+    name: 'Aayushi Dohare',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  },
+  {
+    avatar: 'niharinth.jpg',
+    name: 'Niharinth S Selva',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  },
+  {
+    avatar: 'rangoli.jpg',
+    name: 'Rangoli Chitranshi',
     designation: 'Deputy Director',
     facebook: 'https://www.facebook.com/jiit.impressions/',
     instagram: 'https://www.facebook.com/jiit.impressions/'
@@ -225,6 +290,8 @@ export default function TeamPage() {
         <Slide bottom><span className="pf-400 ts-head">Public Relations</span></Slide>
         {mapPeople(prDirector,'jycteampublicrelations', 'team-card')}
         {mapPeople(prTeam, 'jycteampublicrelations','team-card team-card-small')}
+        <Slide bottom><span className="pf-400 ts-head">Creative</span></Slide>
+        {mapPeople(creativeTeam, 'jycteamcreative','team-card team-card-small')}
     </div>
   )
 }
