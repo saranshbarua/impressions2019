@@ -1,6 +1,11 @@
 import React from 'react'
 import Fade from 'react-reveal'
 import Slide from 'react-reveal/Slide'
+import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(faInstagram, faFacebook, faTwitter);
 
 export default function TeamPage() {
   return (
@@ -15,7 +20,41 @@ export default function TeamPage() {
               <span className="mem-name pf-400">Apoorv Singhal</span>
               <span className="mem-desig pf-400">Director</span>
               <div className="mem-contact">
-                
+                <a
+                  style={{
+                    color: 'white'
+                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/jiit.impressions/">
+                  <FontAwesomeIcon 
+                    icon={["fab", "facebook"]}
+                    size="2x"
+                    style={{
+                      margin: '0px 5px',
+                      color: '#3b5998',
+                      fontFamily: 'Lato, sans-serif'
+                    }}
+                  />
+                </a>
+                &nbsp;
+                <a
+                  style={{
+                    color: 'white'
+                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/jiit.impressions/">
+                  <FontAwesomeIcon 
+                    icon={["fab", "instagram"]}
+                    size="2x"
+                    style={{
+                      margin: '0px 5px',
+                      color: '#e4405f',
+                      fontFamily: 'Lato, sans-serif'
+                    }}
+                  />
+                </a> 
               </div>
             </div>
           </div>

@@ -625,7 +625,7 @@ canvas {
 	justify-content: flex-start;
 	align-items: flex-end;
 	font-size: 20px !important;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.8);
 }
 
 .team-card:hover .mem-details {
@@ -633,11 +633,11 @@ canvas {
 }
 
 .mem-name {
-	color: white;
-	/* background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	color: #FF4B2B;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
 	background: linear-gradient(to right, #FF4B2B, #FF416C);
 	-webkit-text-fill-color:transparent;
-	-webkit-background-clip: text; */
+	-webkit-background-clip: text;
 	font-size: 50px;
 	margin-right: 10px;
 }
