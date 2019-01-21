@@ -534,7 +534,7 @@ canvas {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	z-index: 50;
+	z-index: 3;
 }
 
 .about-image > img {
