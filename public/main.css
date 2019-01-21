@@ -63,7 +63,7 @@ body {
 
 .ham-appear {
 	animation: ham-app 400ms ease-in 1 forwards;
-	animation-delay: 2800ms;
+	animation-delay: 1000ms;
 }
 
 @keyframes ham-app {
