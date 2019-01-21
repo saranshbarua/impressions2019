@@ -19,12 +19,12 @@ export default class landingPage extends Component {
         <div className="lp-main pf-400">
         <div className="frame frame-container">
             <div className="frame-photo">
-              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+              <img height="100%" width="100%" src="./picthree.jpg" alt="eiffel tower"/>
             </div>
           </div>
           <div className="frame">
             <div className="frame-photo">
-              <img height="100%" width="100%" src="https://www.toureiffel.paris/themes/custom/tour_eiffel/img/picto_myGoogleBusiness_1.jpg" alt=""/>
+              <img height="100%" width="100%" src="./picthree.jpg" alt="eiffel tower"/>
             </div>
             <span className="pf-400" style={{
               alignSelf: 'flex-start',

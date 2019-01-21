@@ -15,7 +15,7 @@ export default function ParticlesDiv() {
          params={{
           "particles": {
               "number": {
-                  "value": 100,
+                  "value": 200,
                   "density": {
                       "enable": false
                   }
@@ -52,7 +52,7 @@ export default function ParticlesDiv() {
               },
               "modes": {
                   "bubble": {
-                      "distance": 250,
+                      "distance": 200,
                       "duration": 2,
                       "size": 4,
                       "opacity": 1
