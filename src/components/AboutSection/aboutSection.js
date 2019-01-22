@@ -23,7 +23,7 @@ const AboutSection = () => {
         </Slide>
       </div>
       <div className="about-image">
-        <img src="http://www.littlecelt.net/wp-content/uploads/2012/01/large_2460883111.jpg" alt="Top view"/>
+        <img src="./artist.jpg" alt="Top view"/>
       </div>
     </div>
   )
