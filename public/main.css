@@ -250,6 +250,13 @@ body {
 	transition: all 400ms ease-in-out;
 }
 
+.photo-text {
+	align-self: flex-start;
+	margin: 10px 20px;
+	color: black;
+	font-size: 22px;
+}
+
 .frame-container {
 	height: 250px;
 	width: 195px;
@@ -916,6 +923,18 @@ canvas {
 
 /* Beyond 600px */
 
+@media (max-width: 330px) {
+	.spon-img {
+		height: 120px;
+		width: 120px;
+	}
+
+	.frame {
+		height: 224px;
+		width: 178px;
+	}
+}
+
 @media (min-width: 600px) {
 	.lp-link-box {
 		flex-direction: row;
@@ -1392,5 +1411,9 @@ canvas {
 
 	.team-card-small > div > .mem-name {
 		font-size: 38px;
+	}
+
+	.photo-text {
+		font-size: 25px;
 	}
 }

@@ -26,11 +26,10 @@ export default class landingPage extends Component {
             <div className="frame-photo">
               <img height="100%" width="100%" src="./picthree.jpg" alt="eiffel tower"/>
             </div>
-            <span className="pf-400" style={{
+            <span className="pf-400 photo-text" style={{
               alignSelf: 'flex-start',
               margin: '10px 20px',
-              color: 'black',
-              fontSize: '25px'
+              color: 'black'
             }}>
               #eiffel-tower #love
             </span>
@@ -44,11 +43,10 @@ export default class landingPage extends Component {
             <div className="frame-photo">
               <img height="100%" width="100%" src="pictwo.jpg" alt="Dal lake"/>
             </div>
-            <span className="pf-400" style={{
+            <span className="pf-400 photo-text" style={{
               alignSelf: 'flex-start',
               margin: '10px 20px',
-              color: 'black',
-              fontSize: '25px'
+              color: 'black'
             }}>
               #dal-lake #wanderlust
             </span>
@@ -62,11 +60,10 @@ export default class landingPage extends Component {
             <div className="frame-photo">
               <img height="100%" width="100%" src="./picone.jpg" alt="nature"/>
             </div>
-            <span className="pf-400" style={{
+            <span className="pf-400 photo-text" style={{
               alignSelf: 'flex-start',
               margin: '10px 20px',
-              color: 'black',
-              fontSize: '25px'
+              color: 'black'
             }}>
               #nature #love
             </span>
