@@ -18,7 +18,6 @@ const NavbarLinks = (props) => {
           <li><AnchorLink className="pf-400 nav-links" href="#sponsorsSection" onClick={props.closeTheNav}>Sponsors</AnchorLink></li>
           <li><AnchorLink className="pf-400 nav-links" href="#teamSection" onClick={props.closeTheNav}>Team</AnchorLink></li>
           <li><AnchorLink className="pf-400 nav-links" href="#contactSection" onClick={props.closeTheNav}>Contact Us</AnchorLink></li>
-          <br/>
           <li>
             <a
               style={{
