@@ -69,28 +69,18 @@ export default class landingPage extends Component {
             </span>
           </div>
           <Fade duration={700} delay={1500} top cascade>
-            {/* <h2 className="lato-300 logo">IMPRESSIONS</h2> */}
             <div className="log"></div>
           </Fade>
           <div className="tagline-container">
-            {/* <Fade delay={2000} distance={'50px'} bottom> */}
               <div style={{
                 transformStyle: 'preserve-3d',
                 backfaceVisibility: 'hidden',
                 transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)'              }}>
                 <span className="ftw">Feel the Wanderlust</span>
-                {/* <img src='./clock.png' alt=""/> */}
-              </div>
-            {/* </Fade> */}
-            
+              </div>            
           </div>
           <Fade duration={700} delay={1500} bottom cascade>
           <div className="lp-link-box">
-            {/* <AnchorLink className="lp-link-boxes lp-link-box-one wow appear-box-one">
-              <span className="pf-400 date">
-                24th Feb 2019
-              </span>
-            </AnchorLink> */}
             <div className="lp-link-boxes lp-link-box-two">
               <div className="timer">
                 <Clock deadline = {this.state.deadline} />
@@ -106,12 +96,3 @@ export default class landingPage extends Component {
     )
   }
 }
-
-
-// const landingPage = () => {
-//   return (
-    
-//   )
-// }
-
-// export default landingPage
