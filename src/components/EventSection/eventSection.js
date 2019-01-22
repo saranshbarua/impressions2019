@@ -11,7 +11,6 @@ const EventSection = () => {
       <div className="event-heading">
          <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>03</span> PARTICIPATE AND WIN</span>
          <Fade duration={700} top cascade><span className="pf-400 section-heading">Events</span></Fade>
-        {/* <img src="https://openclipart.org/image/2400px/svg_to_png/231466/Ballet-Dancer-Silhouette.png" alt=""/> */}
         <Slide bottom>
           <p className="lato-400 about">
             From dance to drama, fashion to literary and of course, the multitude of tech events conducted at Impressions,  

@@ -593,6 +593,16 @@ canvas {
 	align-items: center;
 }
 
+.team-button {
+	margin-left: -100px;
+	width: 150px;
+	background-color: rgba(255,255,255,1) !important;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 3px 10px 0px rgba(19,20,36,0.985);
+	font-size: 18px;
+}
+
 .team-image > img {
 	width: 90%;
 	height: auto;
@@ -921,8 +931,6 @@ canvas {
 
 /* Media Queries */
 
-/* Beyond 600px */
-
 @media (max-width: 330px) {
 	.spon-img {
 		height: 120px;
@@ -934,6 +942,8 @@ canvas {
 		width: 178px;
 	}
 }
+
+/* Beyond 600px */
 
 @media (min-width: 600px) {
 	.lp-link-box {
@@ -1027,6 +1037,12 @@ canvas {
 	.frame, .frame-one {
 		height: 320px;
 		width: 250px;	
+	}
+
+	.team-button {
+		height: 70px;
+		width: 250px;
+		margin-left: -220px;
 	}
 }
 
@@ -1398,6 +1414,17 @@ canvas {
 	.team-sub {
 		flex-direction: row;
 		justify-content: space-around;
+	}
+
+	.team-button {
+		margin: 0px;
+		font-size: 30px;
+		height: 70px;
+		width: 300px;
+	}
+
+	.team-button:hover {
+		cursor: pointer;
 	}
 
 	.team-card-small {

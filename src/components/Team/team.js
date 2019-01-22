@@ -1,8 +1,8 @@
 import React from 'react'
 import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
-import ArtistCarousel from '../Carousel/carousel'
 import ParticlesDiv from '../Particles/particles'
+import { Link } from 'react-router-dom'
 
 const Team = () => {
   return (
@@ -20,7 +20,8 @@ const Team = () => {
       </Slide>
     </div>
     <div className="team-image">
-      <ArtistCarousel />
+      <img src="./teamvec.svg" height="200px" alt=""/>
+     <Link to="/team" style={{outline: 'none', textDecoration: 'none'}}><button className="pf-400 team-button">Meet the team</button></Link>
     </div>
   </div>  
   )
