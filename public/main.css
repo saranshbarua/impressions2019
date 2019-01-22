@@ -1177,7 +1177,7 @@ canvas {
 	}
 
 	.nav {
-		background-color: rgba(19,20,36,1);
+		background-color: rgba(19,20,36,0.985);
 	}
 
 	.nav-links {
