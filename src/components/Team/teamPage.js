@@ -187,6 +187,13 @@ const mntTeam = [
     instagram: 'https://www.facebook.com/jiit.impressions/'
   },
   {
+    avatar: 'saransh.jpg',
+    name: 'Saransh Barua',
+    designation: 'Web Master',
+    facebook: 'https://www.facebook.com/jiit.impressions/',
+    instagram: 'https://www.facebook.com/jiit.impressions/'
+  },
+  {
     avatar: 'saurabh.jpg',
     name: 'Saurabh Pandey',
     designation: 'Deputy Director',
@@ -226,7 +233,7 @@ const mapPeople = (teamType, folderName, cardClasses) => {
       let imgSrc = `./${folderName}/${item.avatar}`;
       return(
       <div className={cardClasses} key={i}>
-        <img src={imgSrc} height="100%" width="100%" alt="team member"/>
+        <img src={imgSrc} width="100%" alt="team member"/>
         <div className="mem-details">
           <span className="mem-name pf-400">{item.name}</span>
           <span className="mem-desig pf-400">{item.designation}</span>
