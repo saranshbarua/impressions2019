@@ -591,6 +591,7 @@ canvas {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 3;
 }
 
 .team-button {
@@ -601,6 +602,7 @@ canvas {
 	border-radius: 4px;
 	box-shadow: 0px 3px 10px 0px rgba(19,20,36,0.985);
 	font-size: 18px;
+	z-index: 3;
 }
 
 .team-image > img {
