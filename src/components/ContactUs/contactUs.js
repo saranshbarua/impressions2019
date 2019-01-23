@@ -12,7 +12,7 @@ const ContactUs = () => {
   return (
     <div className="contact-section" id="contactSection">
       <ParticlesDiv />
-      <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>06</span> CONTACT US</span>
+      <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>07</span> CONTACT US</span>
       <Fade duration={700} top cascade><span className="pf-400 section-heading">Reach Out</span></Fade>
       <Slide><p className="pf-400 venue">Jaypee Institute of Information Technology</p></Slide>
       <div className="map" title="Get Directions">

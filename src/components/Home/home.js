@@ -12,6 +12,7 @@ import AboutSection from '../AboutSection/aboutSection'
 import Artists from '../Artists/artists'
 import EventSection from '../EventSection/eventSection'
 import Sponsors from '../Sponsors/sponsors'
+import Merc from '../Merchandise/merc'
 import Team from '../Team/team'
 import ContactUs from '../ContactUs/contactUs'
 
@@ -55,6 +56,7 @@ export default class Home extends Component {
         <Artists />
         <EventSection />
         <Sponsors />
+        <Merc />
         <Team />
         <ContactUs />
       </div>
