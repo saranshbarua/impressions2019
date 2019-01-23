@@ -1496,7 +1496,7 @@ canvas {
 
 	.merc-container {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -20px;
+		margin-top: -10px;
 		padding-top: 50px;
 	}
 
