@@ -737,6 +737,7 @@ canvas {
 	padding: 10px 20px 50px 20px;
 	color: white;
 	overflow: hidden;
+	z-index: 3;
 }
 
 .event-heading {
@@ -756,11 +757,7 @@ canvas {
 	justify-content: center;
 	align-items: center;
 	min-height: 100px;
-}
-
-.cta-event:hover {
-	cursor: default;
-	pointer-events: none;
+	z-index: 3;
 }
 
 .event-button {
@@ -777,8 +774,11 @@ canvas {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 0.5;
-	pointer-events: none;
+	z-index: 3;
+}
+
+.event-button:hover {
+	cursor: pointer;
 }
 
 /* Sponsors*/

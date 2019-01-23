@@ -20,7 +20,7 @@ const EventSection = () => {
         </Slide>
       </div>
       <div className="cta-event">
-        <Link to="/events" style={{outline: 'none', textDecoration: 'none'}}><button className="event-button pf-400">Opening soon</button></Link>
+        <Link to="/eventlol" style={{outline: 'none', textDecoration: 'none'}}><button className="event-button pf-400">Opening soon</button></Link>
       </div>
     </div>
   )
