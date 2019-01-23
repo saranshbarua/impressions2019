@@ -5,9 +5,23 @@ import Slide from 'react-reveal/Slide'
 export default class Merc extends Component {
   render() {
     return (
-      <div className="team-section" id="teamSection">
+      <div className="merc-container" id="mercSection">
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> MERCHANDISE</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Wear the swag</span></Fade>
+        <div className="merc-cont">
+            <div className="tee-card">
+              <img src="./merch/tone.jpg" width="100%" alt="Tshirt one"/>
+              <button className="tee-button pf-400">Buy now</button>
+            </div>
+            <div className="tee-card">
+              <img src="./merch/ttwo.jpg" width="100%" alt="Tshirt two"/>
+              <button className="tee-button pf-400">Buy now</button>
+            </div>
+            <div className="tee-card">
+              <img src="./merch/tthree.jpg" width="100%" alt="Tshirt three"/>
+              <button className="tee-button pf-400">Buy now</button>
+            </div>
+        </div>
       </div>
     )
   }

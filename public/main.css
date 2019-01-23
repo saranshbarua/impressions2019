@@ -929,6 +929,54 @@ canvas {
 	transform: translateX(0px);
 }
 
+/* Merchandise */
+
+.merc-container {
+	min-height: 60vh;
+	background-color: #131424;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 20px 50px 20px;
+	color: white;
+}
+
+.merc-cont {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.tee-card {
+	min-height: 400px;
+	width: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tee-button {
+	height: 45px;
+	width: 200px;
+	background-color: white;
+	border: 0px;
+	border-radius: 4px;
+	box-shadow: 0px 4px 20px 0px rgba(19,20,36,.95);
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tee-button:hover {
+	cursor: pointer;
+}
+
 /* Media Queries */
 
 @media (max-width: 330px) {
@@ -1444,5 +1492,26 @@ canvas {
 
 	.photo-text {
 		font-size: 25px;
+	}
+
+	.merc-container {
+		transform: scaleX(0.98) scaleY(0.965);
+		margin-top: -20px;
+		padding-top: 50px;
+	}
+
+	.merc-cont {
+		flex-direction: row;
+	}
+
+	.tee-card {
+		height: 450px;
+		width: 370px;
+	}
+
+	.tee-button {
+		height: 55px;
+		width: 240px;
+		font-size: 30px;
 	}
 }
