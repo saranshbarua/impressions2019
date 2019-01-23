@@ -804,16 +804,14 @@ canvas {
 }
 
 .spon-img {
-	margin: 5px;
-}
-
-.spon-img {
 	height: 150px;
 	width: 150px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 5px;
+	z-index: 3;
 }
 
 .spon-img > img {
@@ -1282,6 +1280,8 @@ canvas {
 		transform: scaleX(0.98) scaleY(0.965);
 		margin-top: -12px;
 		flex-direction: row;
+		min-height: 85vh;
+		z-index: 3;
 	}
 
 	.team-heading {
