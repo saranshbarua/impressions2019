@@ -207,7 +207,7 @@ body {
 
 .appear-top {
 	animation: appear-top 300ms ease-in forwards;
-	animation-delay: 2400ms;
+	animation-delay: 2100ms;
 }
 
 .appear-top-2 {
