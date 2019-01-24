@@ -11,7 +11,7 @@ export default class Merc extends Component {
         <div className="merc-cont">
             <div className="tee-card">
               <img src="./merch/tone.jpg" width="100%" alt="Tshirt one"/>
-              <button className="tee-button pf-400">Buy now</button>
+              <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLScnh-litpgPmfNW0vvydL_UDml9OeSGVTShh8ai3B1TT_Kl1w/viewform"><button className="tee-button pf-400">Buy now</button></a>
             </div>
             <div className="tee-card">
               <img src="./merch/ttwo.jpg" width="100%" alt="Tshirt two"/>
