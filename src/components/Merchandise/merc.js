@@ -10,15 +10,15 @@ export default class Merc extends Component {
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> MERCHANDISE</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Wear the swag</span></Fade>
         <div className="merc-cont">
-            <div className="tee-card">
+            <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/tone.jpg" width="100%" alt="Tshirt one"/>
               <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLScnh-litpgPmfNW0vvydL_UDml9OeSGVTShh8ai3B1TT_Kl1w/viewform"><button className="tee-button pf-400">Buy now</button></a>
             </div>
-            <div className="tee-card">
+            <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/ttwo.jpg" width="100%" alt="Tshirt two"/>
               <button className="tee-button pf-400">Buy now</button>
             </div>
-            <div className="tee-card">
+            <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/tthree.jpg" width="100%" alt="Tshirt three"/>
               <button className="tee-button pf-400">Buy now</button>
             </div>
