@@ -8,7 +8,7 @@ const Artists = () => {
       <div className="artist-container" id="artistsSection">
         <ParticlesDiv />
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>02</span> PREVIOUS ARTISTS</span>
-        <Fade duration={700} top cascade><span className="pf-400 section-heading">Superstars</span></Fade>
+        <Fade duration={700} top cascade><span className="pf-400 section-heading">Proshows</span></Fade>
         <Slide bottom>
             <p className="lato-400 about artist">
             Over the years, Impressions has witnessed the presence of celebrities like Nikhil D’souza with Band, SUNBURN Campus, Vh1 Supersonic 101 with prominent artists performing there. 
