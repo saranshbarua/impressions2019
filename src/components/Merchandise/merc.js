@@ -12,19 +12,19 @@ export default class Merc extends Component {
         <div className="merc-cont">
             <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/tone.jpg" width="100%" alt="Tshirt one"/>
-              <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLScnh-litpgPmfNW0vvydL_UDml9OeSGVTShh8ai3B1TT_Kl1w/viewform"><button className="tee-button pf-400">Buy now</button></a>
+              <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLSfGisO3ul66GFa048VI0nYZKbnguP4DuBYo0KqAWGAnvXa6YQ/viewform" target="_blank"><button className="tee-button pf-400">Buy now</button></a>
             </div>
             <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/ttwo.jpg" width="100%" alt="Tshirt two"/>
-              <button className="tee-button pf-400">Buy now</button>
+              <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLScfBdiDnEaoWzUyWqdFnBTET4iNo0KMj4cIyLPJ1Z-JxuEMbw/viewform" target="_blank"><button className="tee-button pf-400">Buy now</button></a>
             </div>
             <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/tthree.jpg" width="100%" alt="Tshirt three"/>
-              <button className="tee-button pf-400">Buy now</button>
+              <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLScnh-litpgPmfNW0vvydL_UDml9OeSGVTShh8ai3B1TT_Kl1w/viewform" target="_blank"><button className="tee-button pf-400">Buy now</button></a>
             </div>
             <div className="tee-card" style={{zIndex: '5'}}>
               <img src="./merch/tthree.jpg" width="100%" alt="Tshirt three"/>
-              <button className="tee-button pf-400">Buy now</button>
+              <a style={{textDecoration: 'none', outline: 'none'}} href="https://docs.google.com/forms/d/e/1FAIpQLSc2KuFNpiO3T-c4cvrlU9Mx1VT4d6EUU-3iIh3uJe2xEMsefg/viewform" target="_blank"><button className="tee-button pf-400">Buy now</button></a>
             </div>
         </div>
       </div>
