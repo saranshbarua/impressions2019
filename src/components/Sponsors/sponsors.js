@@ -3,8 +3,6 @@ import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 import ParticlesDiv from '../Particles/particles'
 
-const powerSponsor = ['./powerSponsor/rtm.png'];
-
 const asso = ['./asso/pnb.jpg'];
 
 const eventPartners = ['./eventpartners/hariwell.jpg'];
@@ -47,7 +45,6 @@ const Sponsors = () => {
        <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>04</span> SPONSORS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Our Partners</span></Fade>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Powered by</span></Slide>
-        {/* {MapSponsors(powerSponsor, '')} */}
         <div className="spon-img">
           <img src="./powerSponsor/rtm.png" width="100%" alt=""/>
         </div>
