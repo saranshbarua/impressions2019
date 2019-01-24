@@ -9,16 +9,16 @@ const eventPartners = ['./eventpartners/hariwell.jpg'];
 
 const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.png'];
 
-const mediaPartners = ['./mediapartners/spon1.JPG',
+const mediaPartners = ['./mediapartners/spon1.jpg',
   './mediapartners/Delhipedia.jpg',
   './mediapartners/DU Beats.jpg',
-  './mediapartners/DU Bulletin.JPG',
+  './mediapartners/DU Bulletin.jpg',
   './mediapartners/DU Express.jpg',
   './mediapartners/du refresh news logo.png',
   './mediapartners/DU Updates.png',
   './mediapartners/DU Vibes.jpg',
   './mediapartners/Ignite_Engineers_Logo.png',
-  './mediapartners/Know A Fest.PNG',
+  './mediapartners/Know A Fest.png',
   './mediapartners/The Campus Media.jpg',
   './mediapartners/The Education Tree.jpg',
   './mediapartners/University Express.jpg'
