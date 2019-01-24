@@ -98,6 +98,13 @@ const internalAffairsTeam = [
     instagram: 'https://instagram.com/ankur.jain98'
   },
   {
+    avatar: 'ayush.jpg',
+    name: 'Ayush Singh',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/profile.php?id=100005715488165',
+    instagram: 'https://instagram.com/ayushsingh_13'
+  },
+  {
     avatar: 'hardik.jpg',
     name: 'Hardik Sharma',
     designation: 'Deputy Director',
@@ -132,13 +139,6 @@ const prDirector = [
 
 const prTeam = [
   {
-    avatar: 'ayush.jpg',
-    name: 'Ayush Singh',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/profile.php?id=100005715488165',
-    instagram: 'https://instagram.com/ayushsingh_13'
-  },
-  {
     avatar: 'prakhar.jpg',
     name: 'Prakhar Chauhan',
     designation: 'Deputy Director',
@@ -163,6 +163,13 @@ const mntDirector = [
     instagram: 'https://instagram.com/prateekb123'
   },
   {
+    avatar: 'prayas.jpg',
+    name: 'Prayas Lashkari',
+    designation: 'Director (Design)',
+    facebook: 'https://www.facebook.com/PrayasLashkari',
+    instagram: 'https://instagram.com/prayas_98'
+  },
+  {
     avatar: 'shruti.jpg',
     name: 'Shruti Ahuja',
     designation: 'Director (Media)',
@@ -180,20 +187,6 @@ const mntTeam = [
     instagram: 'https://instagram.com/neha.rastogi31'
   },
   {
-    avatar: 'prayas.jpg',
-    name: 'Prayas Lashkari',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/PrayasLashkari',
-    instagram: 'https://instagram.com/prayas_98'
-  },
-  {
-    avatar: 'saransh.jpg',
-    name: 'Saransh Barua',
-    designation: 'Web Master',
-    facebook: 'https://www.facebook.com/saransh.barua',
-    instagram: 'https://www.instagram.com/saranshbarua/'
-  },
-  {
     avatar: 'saurabh.jpg',
     name: 'Saurabh Pandey',
     designation: 'Deputy Director',
@@ -202,27 +195,41 @@ const mntTeam = [
   }
 ];
 
-const creativeTeam = [
+const webMaster = [
+  {
+    avatar: 'saransh.jpg',
+    name: 'Saransh Barua',
+    designation: '',
+    facebook: 'https://www.facebook.com/saransh.barua',
+    instagram: 'https://www.instagram.com/saranshbarua/'
+  }
+];
+
+const creativeDirector = [
   {
     avatar: 'aayushi.jpg',
     name: 'Aayushi Dohare',
-    designation: 'Deputy Director',
+    designation: 'Director',
     facebook: 'https://www.facebook.com/aayushi.dohare',
     instagram: 'https://instagram.com/aayushi.dohare'
   },
+  {
+    avatar: 'rangoli.jpg',
+    name: 'Rangoli Chitranshi',
+    designation: 'Director',
+    facebook: 'https://www.facebook.com/rangoli.chitranshi',
+    instagram: 'https://instagram.com/rangoli13'
+  }
+];
+
+const creativeTeam = [
+  
   {
     avatar: 'niharinth.jpg',
     name: 'Niharinth S Selva',
     designation: 'Deputy Director',
     facebook: 'https://www.facebook.com/Ladlikeselva',
     instagram: 'https://instagram.com/broodyblues'
-  },
-  {
-    avatar: 'rangoli.jpg',
-    name: 'Rangoli Chitranshi',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/rangoli.chitranshi',
-    instagram: 'https://instagram.com/rangoli13'
   }
 ];
 
@@ -307,7 +314,11 @@ export default function TeamPage() {
         {mapPeople(mntTeam, 'jycteammediatechnical','team-card team-card-small')}
         <br/><br/>
         <Slide bottom><span className="pf-400 ts-head">Creative</span></Slide>
+        {mapPeople(creativeDirector,'jycteamcreative', 'team-card')}
         {mapPeople(creativeTeam, 'jycteamcreative','team-card team-card-small')}
+        <br/><br/>
+        <Slide bottom><span className="pf-400 ts-head">Web Master</span></Slide>
+        {mapPeople(webMaster, 'jycwebteam','team-card')}
     </div>
   )
 }
