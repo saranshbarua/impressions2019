@@ -1019,6 +1019,22 @@ canvas {
 		height: 224px;
 		width: 178px;
 	}
+
+	.nav-links {
+		font-size: 30px;
+	}
+
+	.Clock-days {
+		font-size: 23px;
+	}
+
+	.ftw {
+		font-size: 80px;
+	}
+
+	.lp-link-box {
+		bottom: 25px;
+	}
 }
 
 /* Beyond 600px */
