@@ -13,10 +13,11 @@ const ContactUs = () => {
     <div className="contact-section" id="contactSection">
       <ParticlesDiv />
       <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>07</span> CONTACT US</span>
-      <Fade duration={700} top cascade><span className="pf-400 section-heading">Reach Out</span></Fade>
+      <Fade duration={700} top cascade><span className="pf-400 section-heading">Reach Us</span></Fade>
+      <img src="./jyclogo.png" height="100px" width="100px" alt=""/>
       <Slide><p className="pf-400 venue">Jaypee Institute of Information Technology</p></Slide>
       <div className="map" title="Get Directions">
-        <a href="https://www.google.com/maps/place/JAYPEE+INSTITUTE+OF+INFORMATION+TECHNOLOGY/@28.629431,77.3726531,17z/data=!4m19!1m13!4m12!1m4!2m2!1d77.3711296!2d28.6308149!4e1!1m6!1m2!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!2sjaypee+institute+of+information+technology!2m2!1d77.3720556!2d28.6297291!3m4!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!8m2!3d28.6297291!4d77.3720556">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/JAYPEE+INSTITUTE+OF+INFORMATION+TECHNOLOGY/@28.629431,77.3726531,17z/data=!4m19!1m13!4m12!1m4!2m2!1d77.3711296!2d28.6308149!4e1!1m6!1m2!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!2sjaypee+institute+of+information+technology!2m2!1d77.3720556!2d28.6297291!3m4!1s0x390ce551491b3ce7:0x7335d9fcfd4d9db0!8m2!3d28.6297291!4d77.3720556">
           <img src='./map.png' width="100%" alt="JIIT location"/>        
         </a>
       </div>
