@@ -205,6 +205,28 @@ body {
 	}
 }
 
+.appear-top {
+	animation: appear-top 300ms ease-in forwards;
+	animation-delay: 2400ms;
+}
+
+.appear-top-2 {
+	animation: appear-top 300ms ease-in forwards;
+	animation-delay: 2000ms;
+}
+
+@keyframes appear-top {
+	0% {
+		opacity: 0;
+		transform: translateY(40px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
 @keyframes anim-effect{
 	0% {
 		transform: translate3d(-100%, 0, 0);
@@ -414,6 +436,8 @@ body {
   text-align: center;
   pointer-events: none;
   z-index: 7;
+  transform: translateY(40px);
+  opacity: 0;
 }
 
 .timer {
@@ -455,7 +479,7 @@ body {
 	color: inherit;
 	opacity: 0;
 	background-color: rgba(19,20,36,.85);
-	transform: translateX(30px);
+	transform: translateY(40px);
 	display: flex;
 	justify-content: center;
 	align-items: center;

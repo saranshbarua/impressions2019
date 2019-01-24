@@ -71,26 +71,23 @@ export default class landingPage extends Component {
           <Fade duration={700} delay={1500} top cascade>
             <div className="log"></div>
           </Fade>
-          <div className="tagline-container">
-              <div style={{
+          <div className="tagline-container appear-top-2">
+              {/* <div style={{
                 transformStyle: 'preserve-3d',
                 backfaceVisibility: 'hidden',
-                transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)'              }}>
+                transition: 'transform .5s cubic-bezier(.215, .61, .355, 1), box-shadow .5s cubic-bezier(.215, .61, .355, 1)'              }}> */}
                 <span className="ftw">Feel the Wanderlust</span>
-              </div>            
+              {/* </div>             */}
           </div>
-          <Fade duration={700} delay={1500} bottom cascade>
           <div className="lp-link-box">
-            <div className="lp-link-boxes lp-link-box-two">
+            <div className="lp-link-boxes lp-link-box-two appear-top">
               <div className="timer">
                 <Clock deadline = {this.state.deadline} />
               </div>
               <span style={{marginBottom: '-10px', marginTop: '10px'}} className="lato-400 small-lato">COMING SOON</span>
 
             </div>
-          </div>
-          </Fade>
-          
+          </div>          
         </div>
     </div>
     )
