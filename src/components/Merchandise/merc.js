@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade'
+import ParticlesDiv from '../Particles/particles'
 
 export default class Merc extends Component {
   render() {
     return (
       <div className="merc-container" id="mercSection">
+        <ParticlesDiv />
         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> MERCHANDISE</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Wear the swag</span></Fade>
         <div className="merc-cont">
