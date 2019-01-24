@@ -22,6 +22,10 @@ export default class Merc extends Component {
               <img src="./merch/tthree.jpg" width="100%" alt="Tshirt three"/>
               <button className="tee-button pf-400">Buy now</button>
             </div>
+            <div className="tee-card" style={{zIndex: '5'}}>
+              <img src="./merch/tthree.jpg" width="100%" alt="Tshirt three"/>
+              <button className="tee-button pf-400">Buy now</button>
+            </div>
         </div>
       </div>
     )

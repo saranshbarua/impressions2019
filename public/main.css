@@ -1298,7 +1298,7 @@ canvas {
 
 	.sponsors-container {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -12px;
+		margin-top: -22px;
 		padding-top: 50px;
 	}
 
@@ -1542,7 +1542,7 @@ canvas {
 
 	.merc-container {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -16px;
+		margin-top: -27px;
 		padding-top: 50px;
 	}
 
@@ -1551,8 +1551,8 @@ canvas {
 	}
 
 	.tee-card {
-		height: 450px;
-		width: 370px;
+		height: 420px;
+		width: 340px;
 	}
 
 	.tee-button {
