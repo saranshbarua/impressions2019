@@ -3,8 +3,11 @@ import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 import ParticlesDiv from '../Particles/particles'
 
+const eventPartners = ['./eventpartners/hariwell.jpg'];
 
-const sponsorsArray = ['./mediapartners/spon1.JPG',
+const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.png'];
+
+const mediaPartners = ['./mediapartners/spon1.JPG',
   './mediapartners/Delhipedia.jpg',
   './mediapartners/DU Beats.jpg',
   './mediapartners/DU Bulletin.JPG',
@@ -19,10 +22,10 @@ const sponsorsArray = ['./mediapartners/spon1.JPG',
   './mediapartners/University Express.jpg'
 ];
 
-const MapSponsors = () => {
+const MapSponsors = (partnerType, classType) => {
   return (
-    <div className="media-partner">
-      {sponsorsArray.map(item => {
+    <div className={classType}>
+      {partnerType.map(item => {
         return (
           <div className="spon-img" key={item}>
             <img src={item} height="100%" alt="" />
@@ -39,8 +42,14 @@ const Sponsors = () => {
        <ParticlesDiv />
        <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>04</span> SPONSORS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Our Partners</span></Fade>
+        <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Event Partner</span></Slide>
+        {MapSponsors(eventPartners)}
+        <br/> <br/>
+        <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Food Partners</span></Slide>
+        {MapSponsors(foodPartners, 'simple-flex')}
+        <br/> <br/>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Media Partners</span></Slide>
-        <MapSponsors />
+        {MapSponsors(mediaPartners, 'media-partner')}
     </div>
   )
 }

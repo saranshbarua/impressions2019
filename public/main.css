@@ -977,6 +977,12 @@ canvas {
 	cursor: pointer;
 }
 
+.simple-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* Media Queries */
 
 @media (max-width: 330px) {
@@ -1252,7 +1258,7 @@ canvas {
 
 	.sponsors-container {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -5px;
+		margin-top: -12px;
 		padding-top: 50px;
 	}
 
@@ -1268,7 +1274,7 @@ canvas {
 	}
 
 	.nav-links {
-		font-size: 60px;
+		font-size: 50px;
 	}
 
 	.events-page {
@@ -1326,7 +1332,7 @@ canvas {
 
 	.team-section {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -12px;
+		margin-top: -7px;
 		flex-direction: row;
 		min-height: 85vh;
 		z-index: 3;
@@ -1362,7 +1368,7 @@ canvas {
 
 	.contact-section {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -9px;
+		margin-top: -11px;
 		padding-top: 50px;
 	}
 
@@ -1496,7 +1502,7 @@ canvas {
 
 	.merc-container {
 		transform: scaleX(0.98) scaleY(0.965);
-		margin-top: -10px;
+		margin-top: -16px;
 		padding-top: 50px;
 	}
 
