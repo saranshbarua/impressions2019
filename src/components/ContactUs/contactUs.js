@@ -32,7 +32,7 @@ const ContactUs = () => {
               }}>
               <span className="lato-400 small-lato">EMAIL</span>
               <span className="pf-400">
-                jiityc@gmail.com
+                jyc@jiitimpressions.co.in
               </span>
               </a>
             </div>
@@ -74,7 +74,6 @@ const ContactUs = () => {
                       }}
                     />
                   </a>  
-                {/* <div></div> */}
               </span>
             </div>
     </div>
