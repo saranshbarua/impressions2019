@@ -23,7 +23,7 @@ const ContactUs = () => {
       </div>
       <div className="lp-link-box cp-box">
             <a href="mailto:jyc@jiitimpressions.co.in" style={{textDecoration: 'none', color: 'white'}} title="Send mail" className="lp-link-boxes lp-link-box-one cp-boxes">
-              <a href="mailto:jyc@jiitimpressions.co.in" style={{
+              <div style={{
                 display: 'flex',
                 flexDirection: 'column',
                 textAlign: 'center',
@@ -34,7 +34,7 @@ const ContactUs = () => {
               <span className="pf-400">
                 jyc@jiitimpressions.co.in
               </span>
-              </a>
+              </div>
             </a>
             <div href="#aboutSection" className="lp-link-boxes lp-link-box-two cp-boxes">
               <span className="lato-400 small-lato">PHONE</span>
