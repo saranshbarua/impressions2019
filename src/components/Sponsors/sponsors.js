@@ -7,7 +7,7 @@ const asso = ['./asso/pnb.jpg'];
 
 const eventPartners = ['./eventpartners/hariwell.jpg'];
 
-const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.png'];
+const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.jpg'];
 
 const mediaPartners = ['./mediapartners/spon1.jpg',
   './mediapartners/Delhipedia.jpg',
