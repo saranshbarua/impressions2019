@@ -963,16 +963,16 @@ canvas {
 	align-items: center;
 	padding-top: 30px;
 	padding: 20px;
+	padding-bottom: 70px;
 }
 
 .ep-hub-name {
-	font-size: 35px;
+	font-size: 40px;
 }
 
 .ep-top {
 	width: 100%;
 	min-height: 100px;
-	/* border: 1px solid red; */
 	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
@@ -981,12 +981,21 @@ canvas {
 
 .event-box {
 	width: 95%;
-	/* border: 1px solid lime; */
-	margin-top: 0px;
+	margin-top: 50px;
 	min-height:  100px;
+	display: flex;
+	flex-direction: column;
 }
 
-.event-heading {
+.ep-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+}
+
+.ep-heading {
 	font-size: 35px;
 }
 
@@ -994,6 +1003,7 @@ canvas {
 	color: rgba(255,255,255,0.67);
 	line-height: 26px;
 	font-size: 14px;
+	margin-top: 12px;
 }
 
 .ep-register {
@@ -1004,7 +1014,7 @@ canvas {
 	border-radius: 4px;
 	box-shadow: 0px 4px 18px 0px rgba(19,20,36,.85);
 	align-self: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-size: 25px;
 }
 
@@ -1615,5 +1625,53 @@ canvas {
 		height: 55px;
 		width: 240px;
 		font-size: 30px;
+	}
+
+	.ep-cont {
+		transform: scaleX(0.98) scaleY(0.97);
+	}
+
+	.ep-hub-name {
+		font-size: 60px;
+	}
+
+	.ep-top {
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 50px;
+		width: 95%;
+	}
+
+	.ep-logo {
+		width: 30%;
+		max-width: 300px;
+	}
+
+	.event-box {
+		width: 68%;
+		margin: 0px;
+		height: 100%;
+	}
+
+	.ep-heading {
+		font-size: 50px;
+	}
+
+	.ep-desc {
+		font-size: 17px;
+		line-height: 34px;
+	}
+
+	.ep-register {
+		align-self: flex-start;
+		height: 60px;
+		width: 260px;
+		margin-top: 40px;
+	}
+
+	.ep-ex-box {
+		width: 95%;
+		margin-top: 100px;
+		padding-left: 35px;
 	}
 }
