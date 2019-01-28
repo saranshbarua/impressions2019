@@ -7,7 +7,7 @@ const Events = () => {
     <div className="events-page">
       <Fade top cascade><span className="pf-400 ev-head">Events</span></Fade>
       <div className="hubs-cont">
-        <Link to={`/eventlol/knuth`}>
+        <Link style={{outline: 'none', textDecoration: 'none'}} to={`/eventlol/knuth`}>
           <div className="hub-card">
             <div className="hub-img">
               <img src="https://media.licdn.com/dms/image/C4E0BAQExLsnLuNFZ8w/company-logo_200_200/0?e=2159024400&v=beta&t=_WDOcKLT02xVQmDxJ_F2r9rO0YMzYpfx0lBSA7sL6Tg"
