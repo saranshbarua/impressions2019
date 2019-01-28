@@ -9,18 +9,18 @@ library.add(faInstagram, faFacebook, faTwitter);
 
 const financeTeam = [
   {
-    avatar: 'apoorv.jpg',
-    name: 'Apoorv Singhal',
-    designation: 'Director',
-    facebook: 'https://www.facebook.com/ApoorvSinghal.8',
-    instagram: 'https://instagram.com/apoorvsinghal.8'
-  },
-  {
     avatar: 'darpan.jpg',
     name: 'Darpan Jain',
     designation: 'Director',
     facebook: 'https://www.facebook.com/darpan.jain.5074',
     instagram: 'https://instagram.com/feat._me'
+  },
+  {
+    avatar: 'apoorv.jpg',
+    name: 'Apoorv Singhal',
+    designation: 'Director',
+    facebook: 'https://www.facebook.com/ApoorvSinghal.8',
+    instagram: 'https://instagram.com/apoorvsinghal.8'
   }
 ];
 
@@ -56,13 +56,13 @@ const operationsTeam = [
     facebook: 'https://www.facebook.com/arjun.soota',
     instagram: 'https://instagram.com/arjunsoota'
   },
-  {
-    avatar: 'mukul.jpg',
-    name: 'Mukul Agrawal',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/mukul.agarwal.73700',
-    instagram: 'https://instagram.com/mukul.agarwal.73700'
-  },
+  // {
+  //   avatar: 'mukul.jpg',
+  //   name: 'Mukul Agrawal',
+  //   designation: 'Deputy Director',
+  //   facebook: 'https://www.facebook.com/mukul.agarwal.73700',
+  //   instagram: 'https://instagram.com/mukul.agarwal.73700'
+  // },
   {
     avatar: 'skandha.jpg',
     name: 'Skandha Choudhry',
@@ -79,6 +79,13 @@ const internalAffairsDirector = [
     designation: 'Director',
     facebook: 'https://www.facebook.com/jayesh.majumdar',
     instagram: 'https://instagram.com/jayesh_majumdar_'
+  },
+  {
+    avatar: 'ayush.jpg',
+    name: 'Ayush Singh',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/profile.php?id=100005715488165',
+    instagram: 'https://instagram.com/ayushsingh_13'
   }
 ];
 
@@ -89,20 +96,6 @@ const internalAffairsTeam = [
     designation: 'Deputy Director',
     facebook: 'https://www.facebook.com/aditya.bendapudi',
     instagram: 'https://instagram.com/adityabendapudi'
-  },
-  {
-    avatar: 'ankur.jpg',
-    name: 'Ankur Jain',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/pv.ankur',
-    instagram: 'https://instagram.com/ankur.jain98'
-  },
-  {
-    avatar: 'ayush.jpg',
-    name: 'Ayush Singh',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/profile.php?id=100005715488165',
-    instagram: 'https://instagram.com/ayushsingh_13'
   },
   {
     avatar: 'hardik.jpg',
@@ -121,6 +114,13 @@ const internalAffairsTeam = [
 ];
 
 const prDirector = [
+  {
+    avatar: 'ankur.jpg',
+    name: 'Ankur Jain',
+    designation: 'Director',
+    facebook: 'https://www.facebook.com/pv.ankur',
+    instagram: 'https://instagram.com/ankur.jain98'
+  },
   {
     avatar: 'dhruv.jpg',
     name: 'Dhruv Gupta',
