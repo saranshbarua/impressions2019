@@ -199,7 +199,7 @@ const webMaster = [
   {
     avatar: 'saransh.jpg',
     name: 'Saransh Barua',
-    designation: '',
+    designation: 'Developer',
     facebook: 'https://www.facebook.com/saransh.barua',
     instagram: 'https://www.instagram.com/saranshbarua/'
   }

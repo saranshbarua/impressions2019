@@ -690,7 +690,7 @@ canvas {
 	background: linear-gradient(to right, #FF4B2B, #FF416C);
 	-webkit-text-fill-color:transparent;
 	-webkit-background-clip: text;
-	font-size: 50px;
+	font-size: 48px;
 	margin-right: 10px;
 }
 
