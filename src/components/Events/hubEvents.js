@@ -1,14 +1,7 @@
 import React, { Component } from 'react'
 import Slide from 'react-reveal/Slide'
+import eventsInfo from './eventStore'
 
-const eventsInfo = {
-  knuth: [
-    {
-      name: "KnuthCup",
-      time: "JNSJNS"
-    }
-  ]
-}
 export default class hubEvents extends Component {
 
   constructor(props) {
