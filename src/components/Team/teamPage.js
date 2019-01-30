@@ -79,13 +79,6 @@ const internalAffairsDirector = [
     designation: 'Director',
     facebook: 'https://www.facebook.com/jayesh.majumdar',
     instagram: 'https://instagram.com/jayesh_majumdar_'
-  },
-  {
-    avatar: 'ayush.jpg',
-    name: 'Ayush Singh',
-    designation: 'Deputy Director',
-    facebook: 'https://www.facebook.com/profile.php?id=100005715488165',
-    instagram: 'https://instagram.com/ayushsingh_13'
   }
 ];
 
@@ -96,6 +89,13 @@ const internalAffairsTeam = [
     designation: 'Deputy Director',
     facebook: 'https://www.facebook.com/aditya.bendapudi',
     instagram: 'https://instagram.com/adityabendapudi'
+  },
+  {
+    avatar: 'ayush.jpg',
+    name: 'Ayush Singh',
+    designation: 'Deputy Director',
+    facebook: 'https://www.facebook.com/profile.php?id=100005715488165',
+    instagram: 'https://instagram.com/ayushsingh_13'
   },
   {
     avatar: 'hardik.jpg',
