@@ -844,7 +844,7 @@ canvas {
 }
 
 .foodAdjust {
-	justify-content: space-between;
+	justify-content: space-between !important;
 	flex-wrap: wrap;
 }
 
