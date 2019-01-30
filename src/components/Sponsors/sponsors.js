@@ -7,7 +7,7 @@ const asso = ['./asso/pnb.jpg'];
 
 const eventPartners = ['./eventpartners/hariwell.jpg'];
 
-const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.jpg'];
+const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.jpg','./foodpartners/scooby.png'];
 
 const mediaPartners = ['./mediapartners/spon1.jpg',
   './mediapartners/Delhipedia.jpg',
@@ -56,7 +56,7 @@ const Sponsors = () => {
         {MapSponsors(eventPartners)}
         <br/> <br/>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Food Partners</span></Slide>
-        {MapSponsors(foodPartners, 'simple-flex')}
+        {MapSponsors(foodPartners, 'simple-flex foodAdjust')}
         <br/> <br/>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Media Partners</span></Slide>
         {MapSponsors(mediaPartners, 'media-partner')}

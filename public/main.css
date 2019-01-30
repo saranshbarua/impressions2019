@@ -843,6 +843,11 @@ canvas {
 	width: 100%;
 }
 
+.foodAdjust {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 /* Events Page */
 
 .events-page {
