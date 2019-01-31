@@ -12,11 +12,11 @@ export default class hubEvents extends Component {
   }
 
   mapEvents() {
-    for(let i=1;i<eventsInfo[this.state.hub].length();i++) {
+    for(let i=1;i<eventsInfo[this.state.hub].events.length;i++) {
       return (
         <div className="event-box ep-ex-box" key={i}>
             <span className="ep-heading pf-400">
-              <Slide bottom>Execute 19.1</Slide>
+              <Slide bottom>{eventsInfo[this.state.hub].events[i].name}</Slide>
             </span>
             <Slide>
               <span className="lato-400 ep-desc">
@@ -32,6 +32,7 @@ export default class hubEvents extends Component {
   }
 
   render() {
+    console.log(eventsInfo[this.state.hub])
     return (
       <div className="ep-cont">
         <span className="pf-400 ep-hub-name"><Slide top cascade>{eventsInfo[this.state.hub].hubName}</Slide></span>
@@ -56,7 +57,7 @@ export default class hubEvents extends Component {
         </div>
 
         <div className="more-events">
-          {this.mapEvents}
+          {this.mapEvents()}
         </div>
 
 
