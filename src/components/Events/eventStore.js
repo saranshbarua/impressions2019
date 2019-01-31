@@ -1,18 +1,21 @@
 const eventsInfo = {
-  knuth: [
-    {
-      name: 'Imagine your Korea',
-      desc: '',
-      time: '',
-      room: ''
-    },
-    {
-      name: 'Test Your Bond',
-      desc: '',
-      time: '',
-      room: ''
-    }
-  ],
+  knuth: {
+    hubName: 'Knuth Programming Hub',
+    events: [
+      {
+        name: 'Imagine your Korea',
+        desc: '',
+        time: '',
+        room: ''
+      },
+      {
+        name: 'Test Your Bond',
+        desc: '',
+        time: '',
+        room: ''
+      }
+    ]
+  },
   jhankar: [
     {
       name: 'Dance of Fame : Western',
