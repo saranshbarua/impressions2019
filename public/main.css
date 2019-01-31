@@ -805,6 +805,10 @@ canvas {
 	cursor: pointer;
 }
 
+.hub-name {
+	font-size: 27px;
+}
+
 /* Sponsors*/
 
 .sponsors-container {
@@ -1388,7 +1392,7 @@ canvas {
 	}
 
 	.events-page {
-		transform: scaleX(0.98) scaleY(0.965);
+		transform: scaleX(0.98) scaleY(0.987);
 	}
 
 	.ev-head {
@@ -1398,7 +1402,7 @@ canvas {
 	.hubs-cont {
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: space-evenly;
 		align-items: flex-start;
 	}
 
@@ -1432,7 +1436,7 @@ canvas {
 	}
 
 	.hub-name {
-		font-size: 25px;
+		font-size: 50px;
 		color: white;
 	}
 
