@@ -55,17 +55,24 @@ const eventsInfo = {
     hubName: 'JPEG',
     events: [
       {
-        name: '',
+        name: 'Mr. and miss Photogenic',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'Photo booth - Annapurna - D1 D2',
         link: ''
       },
       {
-        name: '',
+        name: 'Piksel',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'Annapurna Wall - D1 - D2( Decoration)',
+        link: ''
+      },
+      {
+        name: 'Just do it',
+        desc: '',
+        time: '12:00 Noon - 03:00 P.M',
+        room: 'D2 - LT5',
         link: ''
       }
     ]
@@ -74,17 +81,24 @@ const eventsInfo = {
     hubName: 'CICE',
     events: [
       {
-        name: '',
+        name: 'Jaypee innovation challenge',
         desc: '',
-        time: '',
-        room: '',
+        time: '10:00 AM to 01:00 PM',
+        room: 'G12 D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Circuit hunt',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 A.M to 1:00 P.M.',
+        room: 'JBS atrium D1 D2 ( Right Side )',
+        link: ''
+      },
+      {
+        name: 'Electromania',
+        desc: '',
+        time: '02:00 P.M - 04:00 P.M',
+        room: 'LT5-D1 BEL1-D2',
         link: ''
       }
     ]
@@ -93,17 +107,10 @@ const eventsInfo = {
     hubName: 'Graphicas',
     events: [
       {
-        name: '',
+        name: 'Treasure Hunt',
         desc: '',
-        time: '',
-        room: '',
-        link: ''
-      },
-      {
-        name: '',
-        desc: '',
-        time: '',
-        room: '',
+        time: '11:00 P.M - 02:00 P.M',
+        room: 'D1 - G7',
         link: ''
       }
     ]
@@ -112,17 +119,31 @@ const eventsInfo = {
     hubName: 'Cresendo',
     events: [
       {
-        name: '',
+        name: 'Voice of Impressions',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 P.M - 03:00 P.M',
+        room: 'In front of Green Gate close to Audi - D2 (Stage Setup)',
         link: ''
       },
       {
-        name: '',
+        name: 'Euphonium',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 P.M - 02:30 P.M',
+        room: 'D1 G3',
+        link: ''
+      },
+      {
+        name: 'Antakshari',
+        desc: '',
+        time: '01:00 P.M - 04:00 P.M',
+        room: 'D1 - LT 2',
+        link: ''
+      },
+      {
+        name: 'Busking(Performance / Singing)',
+        desc: '',
+        time: 'Miscellenous',
+        room: 'D1- Water Fountain / in front of temple',
         link: ''
       }
     ]
@@ -131,17 +152,17 @@ const eventsInfo = {
     hubName: 'IOE',
     events: [
       {
-        name: '',
+        name: 'Resfeber',
         desc: '',
-        time: '',
-        room: '',
+        time: '12:00 Noon to 02:00 P.M',
+        room: 'LT 1 - D1 (Decoration - Pole near Sarojini)',
         link: ''
       },
       {
-        name: '',
+        name: 'Enigma',
         desc: '',
-        time: '',
-        room: '',
+        time: '01:00 P.M To 03:00 P.M',
+        room: 'G8-D2',
         link: ''
       }
     ]
@@ -150,17 +171,17 @@ const eventsInfo = {
     hubName: 'Kalakriti',
     events: [
       {
-        name: '',
+        name: 'Bric-A-Brac',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'Near Rajiv Gandhi statue - D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Masquerade of venice',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'Near Rajiv Gandhi statue - D2',
         link: ''
       }
     ]
@@ -169,17 +190,17 @@ const eventsInfo = {
     hubName: 'Developer Students Club',
     events: [
       {
-        name: '',
+        name: 'Tresure Hunt',
         desc: '',
-        time: '',
-        room: '',
+        time: '12:00 Noon - 04:00 P.M',
+        room: 'G9 - D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Googled About Google',
         desc: '',
-        time: '',
-        room: '',
+        time: '12:00 Noon - 04:00 P.M',
+        room: 'G9 - D2',
         link: ''
       }
     ]
@@ -188,17 +209,24 @@ const eventsInfo = {
     hubName: 'Knuth Programming Hub',
     events: [
       {
-        name: '',
+        name: 'Knuth Cup',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'CL1 - CL2 - D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Code Creed',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'CL1 - CL2 - D2',
+        link: ''
+      },
+      {
+        name: 'Guess The Code',
+        desc: '',
+        time: 'Whole Day',
+        room: 'CL1 - CL2 - D2',
         link: ''
       }
     ]
@@ -207,17 +235,17 @@ const eventsInfo = {
     hubName: 'Parola',
     events: [
       {
-        name: '',
+        name: 'Debate',
         desc: '',
-        time: '',
-        room: '',
+        time: '10:00 A.M - 04:00 P.M',
+        room: 'LT4-D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Open Mic',
         desc: '',
-        time: '',
-        room: '',
+        time: '10:00 A.M - 04:00 P.M',
+        room: 'LT4-D2',
         link: ''
       }
     ]
@@ -226,17 +254,31 @@ const eventsInfo = {
     hubName: 'Ucr',
     events: [
       {
-        name: '',
+        name: 'Autonomous Line follower',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'JBS Atrium ( Left Side ) - D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Robo Race',
         desc: '',
-        time: '',
-        room: '',
+        time: 'Whole Day',
+        room: 'JMUN Registration Desk - D2',
+        link: ''
+      },
+      {
+        name: 'Robo soccer',
+        desc: '',
+        time: 'Whole Day',
+        room: 'JMUN Registration Desk - D1',
+        link: ''
+      },
+      {
+        name: 'Build-A-Thon',
+        desc: '',
+        time: 'Whole Day',
+        room: 'G14 - D1',
         link: ''
       }
     ]
@@ -245,17 +287,24 @@ const eventsInfo = {
     hubName: 'Game Development Hub',
     events: [
       {
-        name: '',
+        name: 'Virtual Treasure Hunt',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 A.M - 02:00 P.M',
+        room: 'D1 - LT 3',
         link: ''
       },
       {
-        name: '',
+        name: 'Tech Quiz and PUBg',
         desc: '',
-        time: '',
-        room: '',
+        time: '12:00 Noon - 03:00 P.M',
+        room: 'D2 - G5 - G6',
+        link: ''
+      },
+      {
+        name: 'Exhibition',
+        desc: '',
+        time: '02:00 P.M - 05:00 P.M',
+        room: 'D2 - Outside Audi ( Right Side)',
         link: ''
       }
     ]
@@ -264,17 +313,24 @@ const eventsInfo = {
     hubName: 'Radiance',
     events: [
       {
-        name: '',
+        name: 'Theme Walk: Vanity',
         desc: '',
-        time: '',
-        room: '',
+        time: '05:30 onwards',
+        room: 'OAT D1 with G1 G2 (04:00 / 05:00 onwards)',
         link: ''
       },
       {
-        name: '',
+        name: 'Jiit Ministars',
         desc: '',
-        time: '',
-        room: '',
+        time: '05:30 onwards',
+        room: 'OAT D1 with G1 G2 (04:00 / 05:00 onwards)',
+        link: ''
+      },
+      {
+        name: 'Mr. and miss Impressions',
+        desc: '',
+        time: '11:00 A.M - 01:00 P.M',
+        room: 'Auditorium with Green Rooms - D1',
         link: ''
       }
     ]
@@ -283,17 +339,17 @@ const eventsInfo = {
     hubName: 'Page Turner Society',
     events: [
       {
-        name: '',
+        name: 'Oracle Quest',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 A.M - 02:00 P.M',
+        room: 'G5 - D1',
         link: ''
       },
       {
-        name: '',
+        name: 'Gods of Olyumpus',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 A.M - 03:00 P.M',
+        room: 'LT2 D2',
         link: ''
       }
     ]
@@ -302,17 +358,24 @@ const eventsInfo = {
     hubName: 'Thespian',
     events: [
       {
-        name: '',
+        name: 'Nukkad Natak',
         desc: '',
-        time: '',
-        room: '',
+        time: '10:00 A.M - 01:00 P.M',
+        room: 'D1 - Outside Annapurna',
         link: ''
       },
       {
-        name: '',
+        name: 'Rangmanch',
         desc: '',
-        time: '',
-        room: '',
+        time: '10:00 A.M - 01:00 P.M',
+        room: 'D2 - Audi',
+        link: ''
+      },
+      {
+        name: 'Mono - Dono - Teeno',
+        desc: '',
+        time: '03:00 P.M - 05:00 P.M',
+        room: 'D2 - LT 3',
         link: ''
       }
     ]
@@ -321,17 +384,17 @@ const eventsInfo = {
     hubName: 'Adwitiya',
     events: [
       {
-        name: '',
+        name: 'Charades Muets',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 A.M - 02:00 P.M',
+        room: 'Near Photocopy Shop - D1',
         link: ''
       },
       {
-        name: '',
+        name: 'boulevard of enigma',
         desc: '',
-        time: '',
-        room: '',
+        time: '11:00 A.M - 02:00 P.M',
+        room: 'G7 - D2',
         link: ''
       }
     ]
