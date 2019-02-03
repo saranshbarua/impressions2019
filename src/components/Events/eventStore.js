@@ -3,14 +3,14 @@ const eventsInfo = {
     hubName: 'Icreate',
     events: [
       {
-        name: '',
+        name: 'Imagine your Korea',
         desc: '',
         time: '',
         room: '',
         link: ''
       },
       {
-        name: '',
+        name: 'Test Your Bond',
         desc: '',
         time: '',
         room: '',
@@ -22,17 +22,31 @@ const eventsInfo = {
     hubName: 'Jhankar',
     events: [
       {
-        name: '',
+        name: 'Dance of Fame - Western',
         desc: '',
-        time: '',
-        room: '',
+        time: '01:00 P.M- 05:00 P.M',
+        room: 'Audi- D1 + all F1-F10(JBS)(Whole Day)',
         link: ''
       },
       {
-        name: '',
+        name: 'Dance of Fame - Classical',
         desc: '',
-        time: '',
-        room: '',
+        time: '01:00 P.M- 05:00 P.M',
+        room: 'Audi- D1 + all F1-F10(JBS)(Whole Day)',
+        link: ''
+      },
+      {
+        name: 'Fire groove-solo dance competetion',
+        desc: '',
+        time: '01:00 P.M- 05:00 P.M',
+        room: 'Audi - D2 + Green Rooms',
+        link: ''
+      },
+      {
+        name: 'On the spot',
+        desc: '',
+        time: '01:00 P.M- 05:00 P.M',
+        room: 'Audi - D2 + Green Rooms',
         link: ''
       }
     ]

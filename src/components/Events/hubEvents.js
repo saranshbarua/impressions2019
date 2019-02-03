@@ -11,23 +11,26 @@ export default class HubEvents extends Component {
   }
 
   mapEvents() {
-    for (let i = 1; i < eventsInfo[this.state.hub].events.length; i++) {
-      return (
-        <div className="event-box ep-ex-box" key={i}>
-          <span className="ep-heading pf-400">
-            <Slide bottom>{eventsInfo[this.state.hub].events[i].name}</Slide>
-          </span>
-          <Slide>
-            <span className="lato-400 ep-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </span>
-            <button className="ep-register pf-400">Register now</button>
-          </Slide>
-        </div>
-      )
-    }
+    let remainingEvents = eventsInfo[this.state.hub].events.slice(1);
+    return (
+      remainingEvents.map((item,i) => {
+        return (
+          <div className="event-box ep-ex-box" key={i}>
+            <span className="ep-heading pf-400">
+              <Slide bottom>{item.name}</Slide>
+            </span>
+            <Slide>
+              <span className="lato-400 ep-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </span>
+              <button className="ep-register pf-400">Register now</button>
+            </Slide>
+          </div>
+        )
+      })
+    )
   }
 
   render() {
