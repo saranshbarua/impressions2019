@@ -36,7 +36,7 @@ const hubInfo = [
   {
     name: 'IOE',
     eventCount: '2',
-    link: 'ioe'
+    link: '/ioe'
   },
   {
     name: 'Kalakriti',
