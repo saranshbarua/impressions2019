@@ -24,7 +24,9 @@ export default class HubEvents extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </span>
+              </span>
+              <span className="lato-400 ep-desc"> <b>Time: {item.time}</b></span>
+              <span className="lato-400 ep-desc"> <b>Venue: {item.room}</b></span>
               <button className="ep-register pf-400">Register now</button>
             </Slide>
           </div>
@@ -51,6 +53,8 @@ export default class HubEvents extends Component {
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </span>
+              <span className="lato-400 ep-desc"> <b>Time: {eventsInfo[this.state.hub].events[0].time}</b></span>
+              <span className="lato-400 ep-desc"> <b>Venue: {eventsInfo[this.state.hub].events[0].room}</b></span>
               <button className="ep-register pf-400">Register now</button>
             </Slide>
           </div>
