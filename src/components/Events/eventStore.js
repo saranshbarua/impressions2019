@@ -22,55 +22,48 @@ const eventsInfo = {
     hubName: 'Jhankar',
     events: [
       {
-        name: 'Dance of Fame - Western',
-        desc: '',
+        name: 'Dance Of Fame- Group Dance Competition',
+        desc: 'Jhankaar introduces you to the Dance Of Fame- Group Dance competition, this year on February 23rd, where you can team up and unite to present your skills at dancing, group coordination and synchronization. There will be specific competition for western and folk dance. There will be only one round.',
         time: '01:00 P.M- 05:00 P.M',
         room: 'Audi- D1 + all F1-F10(JBS)(Whole Day)',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfHTsDGLuymvv1Xi0QflAL4oioB9g0bIWMN0Uap0vAXGqcUKw/viewform'
       },
       {
-        name: 'Dance of Fame - Classical',
-        desc: '',
-        time: '01:00 P.M- 05:00 P.M',
-        room: 'Audi- D1 + all F1-F10(JBS)(Whole Day)',
-        link: ''
-      },
-      {
-        name: 'Fire groove-solo dance competetion',
-        desc: '',
+        name: 'Fire Groove-Solo Dance Competition 2019',
+        desc: 'From contemporary to Hip Hop, all dance forms intrigue us in different ways and strike a chord in our hearts. Jhankaar presents to you the Fire Groove- Solo Dance competition, this year on February 24th, where you can portray your talents and show off your flair.',
         time: '01:00 P.M- 05:00 P.M',
         room: 'Audi - D2 + Green Rooms',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfDzFTiq6Jr3mtsFrrJODHhEaL7RhJWZ3cmmwFGEMjZHyULhA/viewform'
       },
       {
-        name: 'On the spot',
-        desc: '',
+        name: 'Jhoom Le Zara- On The Spot Dance Competition',
+        desc: 'Wanted to participate but didn’t get there time to prepare? No worries! Jhankaar brings to you Jhoom Le Jara- On The Spot competition, this year on February 24th, where you can register on spot and show off your dance skills.',
         time: '01:00 P.M- 05:00 P.M',
         room: 'Audi - D2 + Green Rooms',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSc_K6tBAcDlu1ClXKOvAzJnCPnDPKTAJSPkjzH0EspYwPQ1uw/viewform'
       }
     ]
   },
   jpeg: {
     hubName: 'JPEG',
     events: [
-      {
-        name: 'Mr. and miss Photogenic',
-        desc: '',
-        time: 'Whole Day',
-        room: 'Photo booth - Annapurna - D1 D2',
-        link: ''
-      },
+      // {
+      //   name: 'Mr. and miss Photogenic',
+      //   desc: '',
+      //   time: 'Whole Day',
+      //   room: 'Photo booth - Annapurna - D1 D2',
+      //   link: ''
+      // },
       {
         name: 'Piksel',
-        desc: '',
+        desc: 'JPEG-The photography society of JIIT , is again back with its online photography competition Piksel. So what are you waiting for? Hold on your camera and send us your amazing shots to win exciting prizes.',
         time: 'Whole Day',
         room: 'Annapurna Wall - D1 - D2( Decoration)',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSePOZrF0Fg57v-SyGLVdNv1EjymJQ6h4FRJqPoUfcREZjiLrA/viewform'
       },
       {
         name: 'Just do it',
-        desc: '',
+        desc: 'A fun filled event where the clock ticks as fast as the excitement through your veins. So put on your shoes, and get ready for yet another chance to feel the amaze, and be the winner. \n 30 minutes, 15 tasks, if you have it in you, You have the prize !!',
         time: '12:00 Noon - 03:00 P.M',
         room: 'D2 - LT5',
         link: ''
@@ -107,11 +100,11 @@ const eventsInfo = {
     hubName: 'Graphicas',
     events: [
       {
-        name: 'Treasure Hunt',
-        desc: '',
-        time: '11:00 P.M - 02:00 P.M',
-        room: 'D1 - G7',
-        link: ''
+        name: 'Pandora\'s Tesoro',
+        desc: 'Are you a wanderlust? Ever wanted to explore Russia? But what\'s the fun in strolling alone? Graphicas brings you Treasure Hunt . Time to unravel the adventure and discover the hidden treasures in the land of Russia with your buddies. The never before expedition is right here!',
+        time: '11:00 P.M - 01:00 P.M',
+        room: 'D1 - G1',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScPqf1y0GEp28u4jfIRZn85VFR1dqVFvGHcLedOb-GwJBvQTw/viewform'
       }
     ]
   },
@@ -153,17 +146,17 @@ const eventsInfo = {
     events: [
       {
         name: 'Resfeber',
-        desc: '',
+        desc: 'Resfeber will be a team event conducted by It\'s Our Earth(IOE)It will constitute of 2 eliminators followed by the final round.Team size can range from 2 to 4 members. But one can participate individually too, if willing.The eliminators will test the participants on various grounds such as their geographical and general knowledge.Top 3 teams will get exciting prizes and certificates.',
         time: '12:00 Noon to 02:00 P.M',
-        room: 'LT 1 - D1 (Decoration - Pole near Sarojini)',
-        link: ''
+        room: 'LT 3 - D1',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSerAEd_XfY3ykuQsx3yXA7X_jlW4q78TD7Ut_fXLfKoH2VaBA/viewform'
       },
       {
         name: 'Enigma',
-        desc: '',
+        desc: 'Enigma will be a team event conducted by It\'s Our Earth(IOE).This event will constitute of 2 eliminators before the commencement of the final round. Team size can range from 2-4 members. But one can participate individually too, if willing. The eliminators will also be synergistic to the fest theme(Travel). Top 3 teams will get exciting prizes and certificates.',
         time: '01:00 P.M To 03:00 P.M',
         room: 'G8-D2',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeEDLkyByg7PWYYuME35_g9wxUVcdoL3MaMxite12zcdhkENg/viewform'
       }
     ]
   },
@@ -172,14 +165,14 @@ const eventsInfo = {
     events: [
       {
         name: 'Bric-A-Brac',
-        desc: '',
+        desc: 'This will be a team event,comprising of 2-3 members in each team . The event will be executed in steps . Total time will be of 2 hours. ',
         time: 'Whole Day',
         room: 'Near Rajiv Gandhi statue - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/1d-HVnOrAHdg0BkH7QcQS_9wEbjCvNmnMKNkmQlchnJY/viewform'
       },
       {
         name: 'Masquerade of venice',
-        desc: '',
+        desc: 'This will be a team event,comprising of 1-2 members in each team. In this event, participants will make face masks out of colourful clays as per the culture of Venice.',
         time: 'Whole Day',
         room: 'Near Rajiv Gandhi statue - D2',
         link: ''
@@ -190,18 +183,18 @@ const eventsInfo = {
     hubName: 'Developer Students Club',
     events: [
       {
-        name: 'Tresure Hunt',
-        desc: '',
+        name: 'La Tomatina Treasure Hunt',
+        desc: 'A treasure hunt, where simple decoding takes you to different locations in the college.  The treasure hunt will consists of several rounds containing clues (either a code or a puzzle) each indicating a particular place in the college campus. The participants need to solve those clues in order to move ahead.  Use your android devices to decode your way through the various obstacles.',
         time: '12:00 Noon - 04:00 P.M',
         room: 'G9 - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSdysuIfYfa3sapM-eA6Yg-KANdLyAmpmeXX-gka8BP9ypg6AQ/viewform'
       },
       {
-        name: 'Googled About Google',
-        desc: '',
+        name: 'Uno Dos Tres',
+        desc: 'The event will consist of 3 fun rounds. Namely Bingo, Scrabble, Heads up. They are simple games but with a twist. Each round offers an all-together distinct, puzzling, challenging, and equally intriguing task in itself! It will require you to use your knowledge about various technology to clear each round. Come in teams and compete against each-other to win exciting prizes! Each round will be an elimination round',
         time: '12:00 Noon - 04:00 P.M',
         room: 'G9 - D2',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfTtDV0Sm37dZLCUAI3AUc0Mqb_m2-c9Rz51IIjO2JIsTyxCg/viewform'
       }
     ]
   },
@@ -217,17 +210,17 @@ const eventsInfo = {
       },
       {
         name: 'Code Creed',
-        desc: '',
+        desc: 'The Contest will consist of three rounds. Where each round is a knockout round. The ranklist is ACM ICPC STYLED. Top 30 will qualify for the round 2 and Top 15 will qualify for the final round.',
         time: 'Whole Day',
         room: 'CL1 - CL2 - D2',
-        link: ''
+        link: ' https://docs.google.com/forms/d/1fz1dCIjOdu6jv4_qKF0kO_kI2KbJMFrPQZE4Y27Rhwg/viewform'
       },
       {
         name: 'Guess The Code',
-        desc: '',
+        desc: 'Given an executable file and constraints on the variables. Generate the solution using same output of executable file. Your solution would be further checked on several test cases within the same constraints',
         time: 'Whole Day',
         room: 'CL1 - CL2 - D2',
-        link: ''
+        link: ' https://docs.google.com/forms/d/1iMtV8xeWzR7V7h3I9w6Z5PnmIjA45h-o16LRKABrvJk/viewform'
       }
     ]
   },
@@ -235,18 +228,18 @@ const eventsInfo = {
     hubName: 'Parola',
     events: [
       {
-        name: 'Debate',
+        name: 'Bilingual Conventional Debate',
         desc: '',
         time: '10:00 A.M - 04:00 P.M',
-        room: 'LT4-D1',
-        link: ''
+        room: 'LT4 (ABB2)-D1',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfS_h4678BmC-S6jCk7dW1zG607etpV1hAvx2Hj8s_Ml9mkrg/viewform'
       },
       {
         name: 'Open Mic',
         desc: '',
         time: '10:00 A.M - 04:00 P.M',
         room: 'LT4-D2',
-        link: ''
+        link: ' https://docs.google.com/forms/d/e/1FAIpQLSdncdxIkhOUhnxJaPYd0W4Vf_y32bxoefV_Ko0gpquW-JvlfA/viewform'
       }
     ]
   },
@@ -340,17 +333,17 @@ const eventsInfo = {
     events: [
       {
         name: 'Oracle Quest',
-        desc: '',
+        desc: 'It\'s time to go on a quest. Find clues around college and solve riddles to be the champion of this quest.',
         time: '11:00 A.M - 02:00 P.M',
         room: 'G5 - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfekwrF-G4hIosZT1rx3EqUJlpVq0SV8YZ9pEyzM2z_zgUw_g/viewform'
       },
       {
         name: 'Gods of Olyumpus',
-        desc: '',
+        desc: 'The Greek Gods are all lined up. It\'s time to see who\'s the strongest of them all. \n Teams/individuals will participate in an auction system, followed by a small creative game to make the strongest team of Greek Gods. The 3 strongest teams will then compete in a Greek battle to win the title.',
         time: '11:00 A.M - 03:00 P.M',
         room: 'LT2 D2',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSesCYfne-rrzokx1G6ZDQ2xY1OoXfgPGwliCiaiLH26RK2OXw/viewform'
       }
     ]
   },

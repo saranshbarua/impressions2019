@@ -16,7 +16,7 @@ export default class HubEvents extends Component {
       remainingEvents.map((item,i) => {
         let desc = item.desc;
         let newText = desc.split('\n').map((item, i) => {
-            return <p key={i} className="lato-400 ep-desc">{item}</p>;
+            return <span key={i} className="lato-400 ep-desc">{item}<br /></span>;
         });
         return (
           <div className="event-box ep-ex-box" key={i}>
