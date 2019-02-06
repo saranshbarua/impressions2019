@@ -14,20 +14,22 @@ export default class HubEvents extends Component {
     let remainingEvents = eventsInfo[this.state.hub].events.slice(1);
     return (
       remainingEvents.map((item,i) => {
+        let desc = item.desc;
+        let newText = desc.split('\n').map((item, i) => {
+            return <p key={i} className="lato-400 ep-desc">{item}</p>;
+        });
         return (
           <div className="event-box ep-ex-box" key={i}>
             <span className="ep-heading pf-400">
               <Slide bottom>{item.name}</Slide>
             </span>
             <Slide>
-              <span className="lato-400 ep-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </span>
+              {/* <span > */}
+                {newText}
+              {/* </span> */}
               <span className="lato-400 ep-desc"> <b>Time: {item.time}</b></span>
               <span className="lato-400 ep-desc"> <b>Venue: {item.room}</b></span>
-              <button className="ep-register pf-400">Register now</button>
+              <a href={item.link} className="ep-register pf-400">Register now</a>
             </Slide>
           </div>
         )
@@ -49,13 +51,11 @@ export default class HubEvents extends Component {
             </span>
             <Slide>
               <span className="lato-400 ep-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                {eventsInfo[this.state.hub].events[0].desc}
               </span>
               <span className="lato-400 ep-desc"> <b>Time: {eventsInfo[this.state.hub].events[0].time}</b></span>
               <span className="lato-400 ep-desc"> <b>Venue: {eventsInfo[this.state.hub].events[0].room}</b></span>
-              <button className="ep-register pf-400">Register now</button>
+              <a href={eventsInfo[this.state.hub].events[0].link} className="ep-register pf-400">Register now</a>
             </Slide>
           </div>
         </div>

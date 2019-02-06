@@ -213,7 +213,7 @@ const eventsInfo = {
         desc: '',
         time: 'Whole Day',
         room: 'CL1 - CL2 - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/1fAamq3UnsvvPHfS1OUUczj9jefPRmB-oyhdd_b5RZtM/viewform'
       },
       {
         name: 'Code Creed',
@@ -258,7 +258,7 @@ const eventsInfo = {
         desc: '',
         time: 'Whole Day',
         room: 'JBS Atrium ( Left Side ) - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSerrbf6zmSJc7MBENnNHY1N11-1jR1ACUNIAtwbdRc2Q5sn4A/viewform'
       },
       {
         name: 'Robo Race',
@@ -358,25 +358,25 @@ const eventsInfo = {
     hubName: 'Thespian',
     events: [
       {
-        name: 'Nukkad Natak',
-        desc: '',
+        name: 'Chaupal',
+        desc: 'Efforts to bring about socio-political change have often swept through our country.What we, as the young generation, have at our disposal is our ‘voice’ and our ‘energy’. \n When our powerful voices come together, the voice reverberates through the air, the message goes all four directions and hence sets in motion - CHANGE.',
         time: '10:00 A.M - 01:00 P.M',
         room: 'D1 - Outside Annapurna',
-        link: ''
+        link: 'https://goo.gl/forms/aZWnqCvoPkrTEmnu1'
       },
       {
         name: 'Rangmanch',
-        desc: '',
+        desc: 'One of the greatest talents is being able to create stories and characters out of thin air and make the audience a part of your story - The Great Art of Storytelling. The theatre group of JIIT, The Thespian Circle presents - RANGMANCH: The stage play competition.\n A chance to make the audience witness your characters, your plot, to captivate your audience, make them laugh,make them cry and accompany them as they take on a journey visualised by your team!',
         time: '10:00 A.M - 01:00 P.M',
         room: 'D2 - Audi',
-        link: ''
+        link: 'https://goo.gl/forms/dkOLPoiGJvg47k7U2'
       },
       {
         name: 'Mono - Dono - Teeno',
-        desc: '',
+        desc: 'The one competition where you have the freedom to do anything and everything. \n This competition will test you on your acting, dialogue delivery, body language, expressions, voice Modulation and what not! What are you waiting for? The stage is yours. It\'s your time to shine. Registrations are open now.',
         time: '03:00 P.M - 05:00 P.M',
         room: 'D2 - LT 3',
-        link: ''
+        link: 'https://goo.gl/forms/14f2PRcG2JiQ7s092'
       }
     ]
   },

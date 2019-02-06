@@ -1025,6 +1025,12 @@ canvas {
 	align-self: center;
 	margin-top: 20px;
 	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	outline: none;
+	color: #131424;
 }
 
 /* Merchandise */
