@@ -47,13 +47,6 @@ const eventsInfo = {
   jpeg: {
     hubName: 'JPEG',
     events: [
-      // {
-      //   name: 'Mr. and miss Photogenic',
-      //   desc: '',
-      //   time: 'Whole Day',
-      //   room: 'Photo booth - Annapurna - D1 D2',
-      //   link: ''
-      // },
       {
         name: 'Piksel',
         desc: 'JPEG-The photography society of JIIT , is again back with its online photography competition Piksel. So what are you waiting for? Hold on your camera and send us your amazing shots to win exciting prizes.',
@@ -74,25 +67,25 @@ const eventsInfo = {
     hubName: 'CICE',
     events: [
       {
-        name: 'Jaypee innovation challenge',
-        desc: '',
-        time: '10:00 AM to 01:00 PM',
-        room: 'G12 D1',
-        link: ''
+        name: 'Zuletz Game',
+        desc: 'Event is all about innovation in field of electronics. In this we will have a theme based on which all will have to make a circuit to solve the problem hidden in the theme. Those who complete the challenge in minimum time and using minimum resources will be the winner.',
+        time: '',
+        room: '',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfCpf2EdrOZWAFOxXZlxgvZtKuGDIY1inGoeyPbCTE7KQ88hA/viewform'
       },
       {
-        name: 'Circuit hunt',
-        desc: '',
-        time: '11:00 A.M to 1:00 P.M.',
-        room: 'JBS atrium D1 D2 ( Right Side )',
-        link: ''
+        name: 'Schlag den Hitler',
+        desc: 'Schlag den Hitler is an event for the electronics enthusiasts out there! It will be having a qualifier quiz, followed by crossword and find the word! And the final and most fun round will be the Pictionary round! The game will provide equal winning opportunities for the different years’ teams participating as the difficulty level of the rounds will be according to the year of the teams',
+        time: '',
+        room: '',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSeJsaFc4hiFkr44-P_0WytN_ZFAZTkevoBQb6H3qw_74Aaj_A/viewform'
       },
       {
-        name: 'Electromania',
-        desc: '',
-        time: '02:00 P.M - 04:00 P.M',
-        room: 'LT5-D1 BEL1-D2',
-        link: ''
+        name: 'Ratsel',
+        desc: 'Ratsel is a fun and thrilling circuit building extravaganza which takes out all the geekiness out of the circuit building task. This event will not only test your circuit building skills but also your team player ship, your ability to find and locate things and also your running capabilities and how fast you can do things as there is going to be a time limit in every round',
+        time: '',
+        room: '',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScF-vTAisKwfICKkG8TL7A564JF3rEkOGeXL-iUEHvTX_Xd_w/viewform'
       }
     ]
   },
@@ -258,21 +251,21 @@ const eventsInfo = {
         desc: '',
         time: 'Whole Day',
         room: 'JMUN Registration Desk - D2',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScA9-8nmAffLshUNabLVXukJ_uK7pcoXIaVwKoeM6K7z9SgTQ/viewform'
       },
       {
-        name: 'Robo soccer',
+        name: 'Robo Soccer',
         desc: '',
         time: 'Whole Day',
         room: 'JMUN Registration Desk - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScSaRQvekgJmYZ6SotvzGH8sAmeMy6z5vf2AA2XV7EkRCimww/viewform'
       },
       {
         name: 'Build-A-Thon',
         desc: '',
         time: 'Whole Day',
         room: 'G14 - D1',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScjkyHfDEMsSKL_ZBKaBb6wsVyo9sLjC2nF3i43Q6GaW9sRLA/viewform'
       }
     ]
   },
@@ -280,11 +273,11 @@ const eventsInfo = {
     hubName: 'Game Development Hub',
     events: [
       {
-        name: 'Virtual Treasure Hunt',
-        desc: '',
-        time: '11:00 A.M - 02:00 P.M',
+        name: 'Conquer the Battlegrounds',
+        desc: 'This will be a team event comprising of 4 members. The players needs to create their own squad of trusted and efficient PUBG Mobile players having both technical and gameplay knowledge of the same as the players will be fighting not only to get “Winner Winner, Chicken dinner !“ but also to win the special technical quiz.',
+        time: '12:00 P.M - 2:00 PM',
         room: 'D1 - LT 3',
-        link: ''
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfJhwex_aYokibopyKIZTTrGd6gCZe2xUi5IaY0G7cuUlMEgQ/viewform'
       },
       {
         name: 'Tech Quiz and PUBg',
@@ -310,7 +303,7 @@ const eventsInfo = {
         desc: '',
         time: '05:30 onwards',
         room: 'OAT D1 with G1 G2 (04:00 / 05:00 onwards)',
-        link: ''
+        link: 'https://docs.google.com/forms/d/1XbtC-ZNhnsnE_kXowD1gk4sZ-m_GyGIpgFoxHPPzQi0/viewform'
       },
       {
         name: 'Jiit Ministars',
