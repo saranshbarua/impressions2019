@@ -1707,4 +1707,9 @@ canvas {
 		margin-top: 100px;
 		padding-left: 35px;
 	}
+
+	.new-artist {
+		transform: scaleX(0.98) scaleY(1);
+		padding-top: 0px !important;
+	}
 }

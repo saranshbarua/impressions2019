@@ -7,7 +7,7 @@ export default class Merc extends Component {
     return (
       <div className="merc-container" id="mercSection">
         <ParticlesDiv />
-        <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> MERCHANDISE</span>
+        <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>06</span> MERCHANDISE</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Wear the swag</span></Fade>
         <div className="merc-cont">
             <div className="tee-card" style={{zIndex: '5'}}>

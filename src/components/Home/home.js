@@ -10,6 +10,7 @@ import Navbar from '../Navbar/navbar'
 import LandingPage from '../LandingPage/landingPage'
 import AboutSection from '../AboutSection/aboutSection'
 import Artists from '../Artists/artists'
+import CurrentArtists from '../Artists/currentArtists'
 import EventSection from '../EventSection/eventSection'
 import Sponsors from '../Sponsors/sponsors'
 import Merc from '../Merchandise/merc'
@@ -54,6 +55,7 @@ export default class Home extends Component {
         <LandingPage />
         <AboutSection />
         <Artists />
+        <CurrentArtists />
         <EventSection />
         <Sponsors />
         <Merc />

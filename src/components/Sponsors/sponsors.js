@@ -42,7 +42,7 @@ const Sponsors = () => {
   return (
     <div className="sponsors-container" id="sponsorsSection">
        <ParticlesDiv />
-       <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>04</span> SPONSORS</span>
+       <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>05</span> SPONSORS</span>
         <Fade duration={700} top cascade><span className="pf-400 section-heading">Our Partners</span></Fade>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Powered by</span></Slide>
         <div className="spon-img">
