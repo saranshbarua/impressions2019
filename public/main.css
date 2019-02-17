@@ -1131,6 +1131,7 @@ canvas {
 .yt-video {
 	width: 100%;
 	height: 200px;
+	z-index: 7;
 }
 
 /* Beyond 600px */
