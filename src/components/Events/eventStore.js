@@ -304,20 +304,6 @@ const eventsInfo = {
         time: '05:30 onwards',
         room: 'OAT D1 with G1 G2 (04:00 / 05:00 onwards)',
         link: 'https://docs.google.com/forms/d/1XbtC-ZNhnsnE_kXowD1gk4sZ-m_GyGIpgFoxHPPzQi0/viewform'
-      },
-      {
-        name: 'Jiit Ministars',
-        desc: '',
-        time: '05:30 onwards',
-        room: 'OAT D1 with G1 G2 (04:00 / 05:00 onwards)',
-        link: ''
-      },
-      {
-        name: 'Mr. and miss Impressions',
-        desc: '',
-        time: '11:00 A.M - 01:00 P.M',
-        room: 'Auditorium with Green Rooms - D1',
-        link: ''
       }
     ]
   },

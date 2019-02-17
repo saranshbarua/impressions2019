@@ -969,7 +969,7 @@ canvas {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: center;
+	/* align-items: center; */
 	padding-top: 30px;
 	padding: 20px;
 	padding-bottom: 70px;
@@ -977,6 +977,9 @@ canvas {
 
 .ep-hub-name {
 	font-size: 40px;
+	display: block;
+	width: 100%;
+	text-align: center;
 }
 
 .ep-top {
@@ -1031,6 +1034,10 @@ canvas {
 	text-decoration: none;
 	outline: none;
 	color: #131424;
+}
+
+.more-events {
+	padding-left: 13px;
 }
 
 /* Merchandise */
@@ -1648,6 +1655,9 @@ canvas {
 
 	.ep-hub-name {
 		font-size: 60px;
+		width: 100%;
+		display: block;
+		text-align: center;
 	}
 
 	.ep-top {
@@ -1666,6 +1676,14 @@ canvas {
 		width: 68%;
 		margin: 0px;
 		height: 100%;
+	}
+
+	.ep-cont {
+		align-items: flex-start;
+	}
+
+	.ep-top {
+		padding-left: 37px;
 	}
 
 	.ep-heading {
