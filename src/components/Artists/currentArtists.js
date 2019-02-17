@@ -22,7 +22,7 @@ const CurrentArtists = () => {
             <i>#impressions2019 #feelthewanderlust #traveltales</i>
           </p>
           <div className="yt-video">
-            <iframe src="https://www.youtube.com/embed/UFpz-ubpKdk" width="100%" height="100%" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{border: '0px'}}></iframe>
+            <iframe title="artist-video-one" src="https://www.youtube.com/embed/UFpz-ubpKdk" width="100%" height="100%" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{border: '0px'}}></iframe>
           </div>
         </Slide>
       </div>
