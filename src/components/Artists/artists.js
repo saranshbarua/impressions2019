@@ -20,7 +20,7 @@ const Artists = () => {
             </p>
           </Slide>
           <br />
-          <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}></span> THIS YEAR GET ON A TRIP WITH</span>
+          <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '25px'}}></span> THIS YEAR GET ON A JOURNEY WITH ...</span>
       </div>
   )
 }

@@ -9,7 +9,7 @@ const Team = () => {
     <div className="team-section" id="teamSection">
     <ParticlesDiv />
     <div className="team-content">
-      <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>07</span> SQUAD</span>
+      <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>06</span> SQUAD</span>
       <Fade duration={700} top cascade><span className="pf-400 team-heading">Meet the team</span></Fade>
       <Slide bottom>
         <p className="lato-400 about">

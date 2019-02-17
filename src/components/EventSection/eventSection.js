@@ -9,7 +9,7 @@ const EventSection = () => {
     <div className="event-section" id="eventsSection">
       <ParticlesDiv />
       <div className="event-heading">
-         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>04</span> PARTICIPATE AND WIN</span>
+         <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>03</span> PARTICIPATE AND WIN</span>
          <Fade duration={700} top cascade><span className="pf-400 section-heading">Events</span></Fade>
         <Slide bottom>
           <p className="lato-400 about">

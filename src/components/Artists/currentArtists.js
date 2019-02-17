@@ -21,22 +21,9 @@ const CurrentArtists = () => {
             <br/>
             <i>#impressions2019 #feelthewanderlust #traveltales</i>
           </p>
-          {/* <p className="lato-400 about">
-          Impressions is that time of the year when the air around the vast campus is filled with exuberance and enthusiasm. 
-          It provides ample opportunities to the young students of today to experience and live their passions doing theme walks, fashions shows and at the same time express their talent and versatility through choreography and street plays.
-          With engaging events attracting a large amount of participants and featuring several widely renowned artists, Impressions will witness a crowd of around 9000 people.
-          </p> */}
           <div className="yt-video">
-            <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                    frameBorder='0'
-                    allow='autoplay; encrypted-media'
-                    allowFullScreen
-                    title='video'
-                    width ="100%"
-                    height="100%"
-            />
+            <iframe src="https://www.youtube.com/embed/UFpz-ubpKdk" width="100%" height="100%" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{border: '0px'}}></iframe>
           </div>
-
         </Slide>
       </div>
       <div className="about-image artist-image">
