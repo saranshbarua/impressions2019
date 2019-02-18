@@ -8,24 +8,25 @@ export default function Artist2() {
     <div className="about-section new-artist" id="artistSection">
     <ParticlesDiv />
       <div className="about-image artist-image ai-right">
-        <img src="./ritviz.jpg" alt="Top view"/>
+        <img src="./artist2.jpg" alt="Top view"/>
       </div>
       <div className="about-content ac-right">
         <Fade duration={700} top cascade><span className="pf-400 section-heading" style={{display: 'block', width: '100%', textAlign: 'center'}}>Guri</span></Fade>
         <div className="about-image artist-image-mob">
-            <img src="./ritviz.jpg" alt="Top view"/>
+            <img src="./artist2.jpg" alt="Top view"/>
         </div>
         <Slide bottom>
           <p className="lato-400 about">
-            Are you ready to sway to the pulsing beats of ‘Hum Toh Udd Gaye’ and ‘Barso’ this Impressions?
-            So sit tight as we’ll take you on a journey to nirvana with Ritviz. A young Pune-based DJ, singer and dance music producer, he makes bass heavy music reach in eastern sounds owing to his training in Hindustani classical music. His most famous works include ‘Udd Gaye’, ‘Jeet’, ‘Barso’ as well as his 4-track EP titled ‘YUV’ which crossed 100,000 streams in less than 10 months of release.
+            Will Impressions actually be Impressions without adding some 'Punjabi Tadka'? 
+            We know nothing can charge the crowd like Bhangra! Jump into a world of madness and  get ready to get each cell in your body electrified. 
+            IMPRESSIONS'19 is all set to welcome the Punjabi Sensation- GURI! 
+            Guri, born and brought up in Patiala has made a mark as a talented heartthrob as soon as he made his debut in the world of music. With hits like 'BILLIYAN BILLAYAN' and 'NIRA ISHQ', he is all set to sweep JIITians off their feet.
             <br/>
-            So, board your ticket to Impressions as more exciting reveals lie ahead.
-            <br/>
-            <i>#impressions2019 #feelthewanderlust #traveltales</i>
+              All the Punjabi Mundas and Kudis in the house, start prepping up to set the dance floor on fire! 
+              See you on the 23rd of February, 2019.
           </p>
           <div className="yt-video">
-            <iframe title="artist-video-one" src="https://www.youtube.com/embed/UFpz-ubpKdk" width="100%" height="100%" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{border: '0px'}}></iframe>
+            <iframe title="artist-video-one" src="https://www.youtube.com/embed/uyqUJEDVCyo" width="100%" height="100%" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{border: '0px'}}></iframe>
           </div>
         </Slide>
       </div>
