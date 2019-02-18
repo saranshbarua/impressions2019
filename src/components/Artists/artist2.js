@@ -3,12 +3,15 @@ import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 import ParticlesDiv from '../Particles/particles'
 
-const CurrentArtists = () => {
+export default function Artist2() {
   return (
     <div className="about-section new-artist" id="artistSection">
     <ParticlesDiv />
-      <div className="about-content">
-        <Fade duration={700} top cascade><span className="pf-400 section-heading" style={{display: 'block', width: '100%', textAlign: 'center'}}>Ritviz</span></Fade>
+      <div className="about-image artist-image ai-right">
+        <img src="./ritviz.jpg" alt="Top view"/>
+      </div>
+      <div className="about-content ac-right">
+        <Fade duration={700} top cascade><span className="pf-400 section-heading" style={{display: 'block', width: '100%', textAlign: 'center'}}>Guri</span></Fade>
         <div className="about-image artist-image-mob">
             <img src="./ritviz.jpg" alt="Top view"/>
         </div>
@@ -26,11 +29,6 @@ const CurrentArtists = () => {
           </div>
         </Slide>
       </div>
-      <div className="about-image artist-image">
-        <img src="./ritviz.jpg" alt="Top view"/>
-      </div>
     </div>
   )
 }
-
-export default CurrentArtists;
