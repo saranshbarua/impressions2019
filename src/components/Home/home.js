@@ -57,7 +57,7 @@ export default class Home extends Component {
         <AboutSection />
         <Artists />
         <CurrentArtists />
-        <Artist2 />
+        {/* <Artist2 /> */}
         <EventSection />
         <Sponsors />
         <Merc />
