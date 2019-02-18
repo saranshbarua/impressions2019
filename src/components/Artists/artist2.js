@@ -20,7 +20,7 @@ export default function Artist2() {
             Will Impressions actually be Impressions without adding some 'Punjabi Tadka'? 
             We know nothing can charge the crowd like Bhangra! Jump into a world of madness and  get ready to get each cell in your body electrified. 
             IMPRESSIONS'19 is all set to welcome the Punjabi Sensation- GURI! 
-            Guri, born and brought up in Patiala has made a mark as a talented heartthrob as soon as he made his debut in the world of music. With hits like 'BILLIYAN BILLAYAN' and 'NIRA ISHQ', he is all set to sweep JIITians off their feet.
+            Guri, born and brought up in Patiala has made a mark as a talented heartthrob as soon as he made his debut in the world of music. With hits like 'BILLIAN BILLIAN' and 'NIRA ISHQ', he is all set to sweep JIITians off their feet.
             <br/>
               All the Punjabi Mundas and Kudis in the house, start prepping up to set the dance floor on fire! 
               See you on the 23rd of February, 2019.
