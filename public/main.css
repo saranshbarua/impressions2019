@@ -840,6 +840,8 @@ canvas {
 	align-items: center;
 	margin: 5px;
 	z-index: 3;
+	border-radius: 7px;
+	overflow: hidden;
 }
 
 .spon-img > img {
@@ -895,6 +897,12 @@ canvas {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
+}
+
+.hub-img > img {
+	height: 90% !important;
+	width: auto !important;
 }
 
 .hub-content {
@@ -1005,6 +1013,8 @@ canvas {
 	align-items: center;
 	width: 300px;
 	height: 300px;
+	border-radius: 7px;
+	overflow: hidden;
 }
 
 .ep-heading {

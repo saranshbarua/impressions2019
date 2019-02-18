@@ -18,6 +18,14 @@ export default class HubEvents extends Component {
         let newText = desc.split('\n').map((item, i) => {
             return <span key={i} className="lato-400 ep-desc">{item}<br /></span>;
         });
+        let renderButton = () => {
+          if(item.link !== '') {
+            return <a href={item.link} className="ep-register pf-400">Register now</a>
+          }
+          else {
+            return <div></div>
+          }
+        }
         return (
           <div className="event-box ep-ex-box" key={i}>
             <span className="ep-heading pf-400">
@@ -29,7 +37,7 @@ export default class HubEvents extends Component {
               {/* </span> */}
               <span className="lato-400 ep-desc"> <b>Time: {item.time}</b></span>
               <span className="lato-400 ep-desc"> <b>Venue: {item.room}</b></span>
-              <a href={item.link} className="ep-register pf-400">Register now</a>
+              {renderButton()}
             </Slide>
           </div>
         )
@@ -43,7 +51,7 @@ export default class HubEvents extends Component {
         <span className="pf-400 ep-hub-name"><Slide top cascade>{eventsInfo[this.state.hub].hubName}</Slide></span>
         <div className="ep-top">
           <div className="ep-logo">
-            <img width="100%" src="https://media.licdn.com/dms/image/C4E0BAQExLsnLuNFZ8w/company-logo_200_200/0?e=2159024400&v=beta&t=_WDOcKLT02xVQmDxJ_F2r9rO0YMzYpfx0lBSA7sL6Tg" alt="hub logo" />
+            <img width="100%" src={eventsInfo[this.state.hub].logo} alt="hub logo" />
           </div>
           <div className="event-box">
             <span className="ep-heading pf-400">

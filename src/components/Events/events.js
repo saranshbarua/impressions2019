@@ -4,89 +4,94 @@ import { Link } from 'react-router-dom'
 
 const hubInfo = [
   {
-    name: 'Icreate',
-    eventCount: '2',
-    link: '/icreate'
-  },
-  {
     name: 'Jhankar',
-    eventCount: '4',
-    link: '/jhankar'
+    eventCount: '3',
+    link: '/jhankar',
+    logo: './jhanka.jpg'
   },
   {
     name: 'JPEG',
-    eventCount: '3',
-    link: '/jpeg'
+    eventCount: '2',
+    link: '/jpeg',
+    logo: './jpeg.png'
   },
   {
     name: 'CICE',
     eventCount: '3',
-    link: '/cice'
+    link: '/cice',
+    logo: './cice.png'
   },
   {
     name: 'Graphicas',
     eventCount: '1',
-    link: '/graphicas'
+    link: '/graphicas',
+    logo: './grafi.jpg'
   },
   {
     name: 'Cresendo',
     eventCount: '4',
-    link: '/cresendo'
+    link: '/cresendo',
+    logo: './cresendo.png'
   },
   {
     name: 'IOE',
     eventCount: '2',
-    link: '/ioe'
+    link: '/ioe',
+    logo: './ioe.png'
   },
   {
     name: 'Kalakriti',
     eventCount: '2',
-    link: '/kalakriti'
+    link: '/kalakriti',
+    logo: './kala.jpg'
   },
   {
     name: 'DSC',
     eventCount: '2',
-    link: '/dsc'
+    link: '/dsc',
+    logo: './dsc.png'
   },
   {
     name: 'Knuth',
     eventCount: '3',
-    link: '/knuth'
+    link: '/knuth',
+    logo: 'https://media.licdn.com/dms/image/C4E0BAQExLsnLuNFZ8w/company-logo_200_200/0?e=2159024400&v=beta&t=_WDOcKLT02xVQmDxJ_F2r9rO0YMzYpfx0lBSA7sL6Tg'
   },
   {
     name: 'Parola',
     eventCount: '2',
-    link: '/parola'
+    link: '/parola',
+    logo: './paro.jpg'
   },
   {
     name: 'UCR',
     eventCount: '4',
-    link: '/ucr'
+    link: '/ucr',
+    logo: './ucr.png'
   },
   {
     name: 'Game development hub',
-    eventCount: '3',
-    link: '/gdh'
+    eventCount: '1',
+    link: '/gdh',
+    logo: './gdh.png'
   },
   {
     name: 'Radiance',
-    eventCount: '3',
-    link: '/radiance'
+    eventCount: '1',
+    link: '/radiance',
+    logo: './radiance.jpg'
   },
   {
     name: 'Page turner society',
     eventCount: '2',
-    link: '/pts'
+    link: '/pts',
+    logo: './pts.jpg'
   },
   {
     name: 'Thespian',
     eventCount: '3',
-    link: '/thespian'
-  },
-  {
-    name: 'Adwitiya',
-    eventCount: '2',
-    link: '/adwitiya'
+    link: '/thespian',
+    logo: './thesp.png'
   }
 ];
 
@@ -101,9 +106,8 @@ const Events = () => {
               <Link style={{outline: 'none', textDecoration: 'none', color: 'white'}} to={`/eventlol${item.link}`} key={i}>
                 <div className="hub-card">
                   <div className="hub-img">
-                    <img src="https://media.licdn.com/dms/image/C4E0BAQExLsnLuNFZ8w/company-logo_200_200/0?e=2159024400&v=beta&t=_WDOcKLT02xVQmDxJ_F2r9rO0YMzYpfx0lBSA7sL6Tg"
+                    <img src={item.logo}
                     alt="logo"
-                    height="90%"
                     />
                   </div>
                   <div className="hub-content">

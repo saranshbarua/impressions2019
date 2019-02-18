@@ -121,13 +121,13 @@ const prDirector = [
     facebook: 'https://www.facebook.com/pv.ankur',
     instagram: 'https://instagram.com/ankur.jain98'
   },
-  {
-    avatar: 'dhruv.jpg',
-    name: 'Dhruv Gupta',
-    designation: 'Director',
-    facebook: 'https://www.facebook.com/dhruv.guptaa.7',
-    instagram: 'https://instagram.com/imdhruvgupta'
-  },
+  // {
+  //   avatar: 'dhruv.jpg',
+  //   name: 'Dhruv Gupta',
+  //   designation: 'Director',
+  //   facebook: 'https://www.facebook.com/dhruv.guptaa.7',
+  //   instagram: 'https://instagram.com/imdhruvgupta'
+  // },
   {
     avatar: 'himanish.jpg',
     name: 'Himanish Kaul',
