@@ -10,8 +10,8 @@ import HubEvents from './components/Events/hubEvents'
 const Routes = () => {
     return (
         <Switch>
-            <Route path="/eventlol/:hubId" component={HubEvents} />
-            <Route path="/eventlol" exact component={Events} />
+            <Route path="/events/:hubId" component={HubEvents} />
+            <Route path="/events" exact component={Events} />
             <Route path="/team" exact component={TeamPage} />
             <Route path="/" exact component={Home} />
         </Switch>

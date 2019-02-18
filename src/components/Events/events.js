@@ -103,7 +103,7 @@ const Events = () => {
       {
         hubInfo.map((item,i) => {
           return (
-              <Link style={{outline: 'none', textDecoration: 'none', color: 'white'}} to={`/eventlol${item.link}`} key={i}>
+              <Link style={{outline: 'none', textDecoration: 'none', color: 'white'}} to={`/events${item.link}`} key={i}>
                 <div className="hub-card">
                   <div className="hub-img">
                     <img src={item.logo}
