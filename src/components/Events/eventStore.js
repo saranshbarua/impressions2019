@@ -147,16 +147,16 @@ const eventsInfo = {
       {
         name: 'Bric-A-Brac',
         desc: 'This will be a team event,comprising of 2-3 members in each team . The event will be executed in steps . Total time will be of 2 hours. ',
-        time: 'Day 1, Whole Day',
+        time: 'Day 1, 10:00 A.M',
         room: 'Academic Block (Near Rajiv Gandhi statue)',
         link: 'https://docs.google.com/forms/d/1d-HVnOrAHdg0BkH7QcQS_9wEbjCvNmnMKNkmQlchnJY/viewform'
       },
       {
         name: 'Masquerade of venice',
         desc: 'This will be a team event,comprising of 1-2 members in each team. In this event, participants will make face masks out of colourful clays as per the culture of Venice.',
-        time: 'Day 2, Whole Day',
+        time: 'Day 1, 12:30 P.M',
         room: 'Academic Block (Near Rajiv Gandhi statue)',
-        link: ''
+        link: 'https://docs.google.com/forms/d/1-sTTVhpVmkufDek5MbTZ4iFQMBRyG0FY2XxusOL_hvo/'
       }
     ]
   },
