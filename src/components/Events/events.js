@@ -71,7 +71,7 @@ const hubInfo = [
   },
   {
     name: 'Game development hub',
-    eventCount: '1',
+    eventCount: '3',
     link: '/gdh',
     logo: './gdh.png'
   },

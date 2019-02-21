@@ -5,7 +5,7 @@ import ParticlesDiv from '../Particles/particles'
 
 const asso = ['./asso/pnb.jpg'];
 
-const eventPartners = ['./eventpartners/hariwell.jpg'];
+const eventPartners = ['./eventpartners/hariwell.jpg', './eventpartners/pulse.png'];
 
 const foodPartners = ['./foodpartners/top.jpg','./foodpartners/toc.jpg','./foodpartners/scooby.png'];
 
@@ -53,7 +53,7 @@ const Sponsors = () => {
         {MapSponsors(asso)}
         <br/><br/>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Event Partner</span></Slide>
-        {MapSponsors(eventPartners)}
+        {MapSponsors(eventPartners, 'simple-flex')}
         <br/> <br/>
         <Slide duration={700} bottom><span className="pf-400 section-heading section-subheading">Food Partners</span></Slide>
         {MapSponsors(foodPartners, 'simple-flex foodAdjust')}

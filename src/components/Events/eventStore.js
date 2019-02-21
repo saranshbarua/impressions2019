@@ -4,23 +4,23 @@ const eventsInfo = {
     logo: '../jhanka.jpg',
     events: [
       {
-        name: 'Dance Of Fame- Group Dance Competition',
+        name: 'Dance Of Fame- Group Dance Competition(Indian)',
         desc: 'Jhankaar introduces you to the Dance Of Fame- Group Dance competition, this year on February 23rd, where you can team up and unite to present your skills at dancing, group coordination and synchronization. There will be specific competition for western and folk dance. There will be only one round.',
-        time: 'Day 1, 01:00 P.M to 05:00 P.M',
+        time: 'Day 2, 01:00 P.M to 03:00 P.M',
         room: 'Auditorium',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfHTsDGLuymvv1Xi0QflAL4oioB9g0bIWMN0Uap0vAXGqcUKw/viewform'
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_kqr-U5TunaTP1rnDSy10ZE5CD6RyMoqoqoSXKunw0YErvw/viewform'
       },
       {
         name: 'Fire Groove-Solo Dance Competition 2019',
         desc: 'From contemporary to Hip Hop, all dance forms intrigue us in different ways and strike a chord in our hearts. Jhankaar presents to you the Fire Groove- Solo Dance competition, this year on February 24th, where you can portray your talents and show off your flair.',
-        time: 'Day 2, 01:00 P.M to 05:00 P.M',
+        time: 'Day 2, 03:00 P.M to 04:00 P.M',
         room: 'Auditorium',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSfDzFTiq6Jr3mtsFrrJODHhEaL7RhJWZ3cmmwFGEMjZHyULhA/viewform'
       },
       {
         name: 'Jhoom Le Zara- On The Spot Dance Competition',
         desc: 'Wanted to participate but didn’t get there time to prepare? No worries! Jhankaar brings to you Jhoom Le Jara- On The Spot competition, this year on February 24th, where you can register on spot and show off your dance skills.',
-        time: 'Day 2, 01:00 P.M to 05:00 P.M',
+        time: 'Day 2, 04:00 P.M to 05:00 P.M',
         room: 'Auditorium',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSc_K6tBAcDlu1ClXKOvAzJnCPnDPKTAJSPkjzH0EspYwPQ1uw/viewform'
       }
@@ -265,6 +265,20 @@ const eventsInfo = {
     hubName: 'Game Development Hub',
     logo: '../gdh.png',
     events: [
+      {
+        name: 'Treasure Hunt',
+        desc: 'The game development hub presents a Treasure Hunt unlike any other. In this treasure hunt not all the clues are going to be physical. To complete the Treasure Hunt you will have to download the Augmented Reality based app on your android phone .Complete the various levels in the game to get the clues (while sticking to the rules). Get ready for some fun, this Impressions!',
+        time: 'Day 1, 11:00 A.M to 2:00 P.M',
+        room: 'LT1',
+        link: 'https://goo.gl/forms/j4dWDFYqVXvafILy1' 
+      },
+      {
+        name: 'Exhibition',
+        desc: 'Game Development Hub brings to you another event which will give you a platform to showcast your game developing skills and also to present it to the whole audience.You need to develop your games based on any theme and present it in this competition. Ratings on your game from audience and technical team will help you win exciting PRIZES!!! \n Just THAT??......NO! \n Not only participants but the audience will also have great fun here playing games that will be developed by their friends and get themselves clicked at the photo booth and have some fun playing amazing games, we have for this exhibition. \n So dont miss it!!',
+        time: 'Day 2, 2:00 P.M to 5:00 P.M',
+        room: 'Outside Audi',
+        link: 'https://goo.gl/forms/7d5xYX8KD8OkHR4z2' 
+      },
       {
         name: 'Conquer the Battlegrounds',
         desc: 'This will be a team event comprising of 4 members. The players needs to create their own squad of trusted and efficient PUBG Mobile players having both technical and gameplay knowledge of the same as the players will be fighting not only to get “Winner Winner, Chicken dinner !“ but also to win the special technical quiz.',
