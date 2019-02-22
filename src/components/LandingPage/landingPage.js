@@ -84,7 +84,7 @@ export default class landingPage extends Component {
               <div className="timer">
                 <Clock deadline = {this.state.deadline} />
               </div>
-              <span style={{marginBottom: '-10px', marginTop: '10px'}} className="lato-400 small-lato">COMING SOON</span>
+              <span style={{marginBottom: '-10px', marginTop: '10px'}} className="lato-400 small-lato">THE WAIT IS OVER</span>
 
             </div>
           </div>          
