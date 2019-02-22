@@ -5,7 +5,7 @@ const eventsInfo = {
     events: [
       {
         name: 'Dance Of Fame- Group Dance Competition(Indian)',
-        desc: 'Jhankaar introduces you to the Dance Of Fame- Group Dance competition, this year on February 23rd, where you can team up and unite to present your skills at dancing, group coordination and synchronization. There will be specific competition for western and folk dance. There will be only one round.',
+        desc: 'Jhankaar introduces you to the Dance Of Fame- Group Dance competition, this year on February 24th, where you can team up and unite to present your skills at dancing, group coordination and synchronization. There will be specific competition for western and folk dance. There will be only one round.',
         time: 'Day 2, 01:00 P.M to 03:00 P.M',
         room: 'Auditorium',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_kqr-U5TunaTP1rnDSy10ZE5CD6RyMoqoqoSXKunw0YErvw/viewform'
