@@ -4,7 +4,7 @@ import Particles from 'react-particles-js'
 export default function ParticlesDiv() {
   return (
     <React.Fragment>
-      <Particles 
+      {/* <Particles 
          style={{
            zIndex: 1,
            position: 'fixed',
@@ -65,7 +65,7 @@ export default function ParticlesDiv() {
               "retina-detect": false
           }
       }}
-        />
+        /> */}
     </React.Fragment>
   )
 }
