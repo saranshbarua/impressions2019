@@ -10,18 +10,11 @@ const TeamPage = lazy(() => import('./components/Team/teamPage'));
 
 const Routes = () => {
     return (
-        <Suspense fallback={<div style={{
-          display: 'flex',
-          minHeight: '100vh',
-          width: '100%',
-          backgroundColor: 'red',
-          justifyContent: 'center',
-          alignItems: 'center'
-        }}>Loading.......</div>}>
+        <Suspense fallback={<div className="lds-wrapper"><div className="lds-ripple"><div></div><div></div></div></div>}>
             <Switch>
                 <Route path="/events/:hubId" component={HubEvents} />
                 <Route path="/events" exact component={Events} />
-                <Route path="/team" exact component={TeamPage} />
+                <Route path="/team" exact render={() => <TeamPage />} />
                 <Route path="/" exact component={Home} />
             </Switch>
         </Suspense>
