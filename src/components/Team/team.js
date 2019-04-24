@@ -21,7 +21,7 @@ const Team = () => {
     </div>
     <div className="team-image">
       <img src="./teamvec.svg" height="200px" alt=""/>
-     <Link to="/team" style={{outline: 'none', textDecoration: 'none'}}><button className="pf-400 team-button">View the team</button></Link>
+     <Link to="/" style={{outline: 'none', textDecoration: 'none'}}><button className="pf-400 team-button">View the team</button></Link>
     </div>
   </div>  
   )
